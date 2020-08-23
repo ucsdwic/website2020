@@ -1,2 +1,22 @@
 @import "./Typography.scss";
 @import "./Vars.scss";
+
+.darkest-background-section {
+  background-color: $color-purple-darkest;
+  color: $color-purple-lightest;
+}
+
+.mid-background-section {
+  background-color: $color-purple-mid;
+  color: $color-purple-lightest;
+}
+
+.white-background-section {
+  background-color: $color-white;
+  color: $color-purple-mid;
+}
+
+.lightest-background-section {
+  background-color: $color-purple-lightest;
+  color: $color-purple-mid;
+}
