@@ -8,6 +8,15 @@ $lg: 992px;
 $xl: 1200px;
 
 /*
+* MARGINS
+*/
+$spacer-base: 1rem;
+$spacer-one: $spacer-base * 2;
+$spacer-two: $spacer-one * 2;
+$spacer-three: $spacer-two * 2;
+$spacer-four: $spacer-base * 10;
+
+/*
 * COLORS
 */
 $color-white: #ffffff;
