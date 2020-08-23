@@ -1,0 +1,72 @@
+@import "./Reset.scss";
+@import "./Vars.scss";
+
+html {
+  @media screen and (min-width: $lg) {
+    font-size: 10px;
+  }
+
+  @media screen and (min-width: $sm) and (max-width: $lg) {
+    font-size: 8px;
+  }
+
+  @media screen and (max-width: $sm) {
+    font-size: 7px;
+  }
+}
+
+@font-face {
+  font-family: Kollektif, Arial, Helvetica, sans-serif;
+  src: url("./fonts/Kollektif.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: Kollektif-Bold, Arial, Helvetica, sans-serif;
+  src: url("./fonts/Kollektif-Bold.ttf") format("ttf");
+  font-weight: bold;
+}
+
+h1 {
+  font-family: Kollektif-Bold;
+  font-size: 7.2rem;
+  line-height: 7.2rem;
+  letter-spacing: 0.6rem;
+}
+
+h2 {
+  font-family: Kollektif-Bold;
+  font-size: 6.4rem;
+  line-height: 6.4rem;
+  letter-spacing: 0.4rem;
+}
+
+h3 {
+  font-family: Kollektif;
+  font-size: 4.8rem;
+  line-height: 4.8rem;
+}
+
+h4 {
+  font-family: Kollektif-Bold;
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+}
+
+h5 {
+  font-family: Kollektif;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+}
+
+h6 {
+  font-family: Kollektif-Bold;
+  font-size: 1.8rem;
+  line-height: 1.8rem;
+}
+
+p {
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  line-height: 2.8rem;
+}
