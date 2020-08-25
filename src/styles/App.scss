@@ -37,4 +37,29 @@
 
 #GetInvolvedNum{
   color: $color-purple-lightest-transparent;
+  font-family: Kollektif-Bold;
+  font-size: 20rem;
+  line-height: 14rem;
+}
+
+#ContactUsTitle{
+  margin-top: $spacer-four;
+  margin-bottom: $spacer-three;
+}
+
+#Trademark{
+  margin-top: $spacer-four;
+  margin-bottom: $spacer-two;
+  text-align: center;
+}
+
+#ContactUsText{
+  color: $color-purple-mid;
+  font-family: Kollektif;
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+}
+
+#TrademarkBold{
+  font-weight: bold;
 }

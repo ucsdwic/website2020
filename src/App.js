@@ -2,6 +2,7 @@ import React from "react";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import "./styles/App.scss";
 import GetInvolved from "./components/getInvolved.js";
+import ContactUs from "./components/contactUs.js";
 
 setConfiguration({ gutterWidth: 40 });
 
@@ -16,6 +17,7 @@ function App() {
       <h6> {"<h6> "}Hello World</h6>
       <p> {"<p> "}Hello World</p>
       <GetInvolved />;
+      <ContactUs />;
       <Container>
         <Row>
           <Col className="darkest-background-section" sm={6} md={4}>

@@ -6,7 +6,7 @@ import { setConfiguration, Row, Col, Container } from "react-grid-system";
 class GetInvolved extends React.Component{
     render(){
         const mentorTitle = "MENTOR-MENTEE";
-        const mentorDescrip = "its lily";
+        const mentorDescrip = "Click on me for more info!";
         const mentorNum = "1";
         const bpcTitle = "BEGINNERS PROGRAMMING COMPETITION";
         const bpcDescrip = "ITS BPC";
@@ -22,7 +22,7 @@ class GetInvolved extends React.Component{
             <Container>
                 <Row>
                     <Col id="GetInvolvedMargin" className="mid-background-section" md={12}> 
-                    <h2 className="mid-background-section">Get Involved</h2>
+                    <h1 className="mid-background-section">Get Involved</h1>
                     </Col>
                     <Col id="GetInvolvedMentorBPC" className="mid-background-section" md={6}> 
                     <GetInvolvedText title={mentorTitle} 

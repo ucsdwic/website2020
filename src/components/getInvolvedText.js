@@ -8,12 +8,12 @@ class GetInvolvedText extends React.Component{
         <div>
         <Container>
         <Row>
-          <Col id="GetInvolvedNum" className="mid-background-section" md={2}>
-            <h1> {this.props.number} </h1>
+          <Col id="GetInvolvedNum" className="mid-background-section" md={3}>
+            <div> {this.props.number} </div>
           </Col>
-          <Col className="mid-background-section" md={10}>
-            <h4 className="mid-background-section">{this.props.title}</h4>
-            <p className="mid-background-section">{this.props.description}</p>
+          <Col  md={9}>
+            <h4>{this.props.title}</h4>
+            <p>{this.props.description}</p>
             </Col>
         </Row>
         </Container>
