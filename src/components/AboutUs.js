@@ -1,5 +1,5 @@
 import React from 'react'
-import { setConfiguration, Row, Col, Container } from "react-grid-system";
+import { Row, Col, Container } from "react-grid-system";
 import "../styles/App.scss";
 import {FaMoneyCheckAlt} from 'react-icons/fa'
 import {RiComputerFill} from 'react-icons/ri'

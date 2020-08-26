@@ -1,5 +1,4 @@
 import React from 'react'
-import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import "../styles/App.scss";
 
 class AboutUsSection extends React.Component {
