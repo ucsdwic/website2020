@@ -20,3 +20,36 @@
   background-color: $color-purple-lightest;
   color: $color-purple-mid;
 }
+#about-us-title{
+  padding-left: $spacer-four;
+}
+
+#about-us-blurb{
+  padding-top:$spacer-three;
+  padding-left: $spacer-four;
+  padding-right: $spacer-four;
+}
+#about-us-icon{
+  font-size: 8rem;
+  text-align: center;
+}
+
+#about-us-container{
+  margin-left:$spacer-four;
+  padding-top: $spacer-three;
+}
+
+#about-us-page{
+  padding-top:$spacer-four;
+  padding-bottom:$spacer-four;
+}
+
+#about-us-icon-title{
+  text-align: center;
+  margin-bottom: $spacer-one;
+}
+
+#about-us-description{
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
