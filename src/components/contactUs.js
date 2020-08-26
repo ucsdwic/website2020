@@ -18,16 +18,25 @@ class ContactUs extends React.Component{
                     <h1 className="lightest-background-section">Contact Us</h1>
                     </Col>
                     <Col id="ContactUsText" className="lightest-background-section" md={6}> 
-                    <div> <MdMailOutline/> {email} </div>
+                    <div id="ContactUsParent"><div id="ContactUsMailFacebook"><MdMailOutline/></div> <div>{email}</div> </div>
                     </Col>
                     <Col id="ContactUsText" className="lightest-background-section" md={6}> 
-                    <a href={facebook}> <FaFacebookSquare/> Facebook</a>
+                    <div id="ContactUsParent">
+                        <div id="ContactUsMailFacebook"> <FaFacebookSquare/></div> 
+                        <div> <a href={facebook}> Facebook</a></div>
+                    </div>
                     </Col>
                     <Col id="ContactUsText" className="lightest-background-section" md={6}> 
-                    <a href={linkedIn}> <FaLinkedin/> LinkedIn</a>
+                    <div id="ContactUsParent">
+                        <div id="ContactUsLinkedInsta"> <FaLinkedin/></div>
+                        <div> <a href={linkedIn}> LinkedIn</a></div>
+                    </div>
                     </Col>
                     <Col id="ContactUsText" className="lightest-background-section" md={6}>
-                    <a href={insta}> <FaInstagram/> Instagram</a>
+                    <div id="ContactUsParent">
+                        <div id="ContactUsLinkedInsta"> <FaInstagram/></div>
+                        <div> <a href={insta}> Instagram</a></div>
+                    </div>
                     </Col>
                     <Col id="Trademark" className="lightest-background-section" md={12}>
                         <p> © Women in Computing at University of California, San Diego 2020 </p>

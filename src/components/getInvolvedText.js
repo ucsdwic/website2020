@@ -5,18 +5,14 @@ import { setConfiguration, Row, Col, Container } from "react-grid-system";
 class GetInvolvedText extends React.Component{
     render(){
         return (
-        <div>
-        <Container>
-        <Row>
-          <Col id="GetInvolvedNum" className="mid-background-section" md={3}>
+        <div id="ContactUsParent">
+          <div id="GetInvolvedNum" className="mid-background-section">
             <div> {this.props.number} </div>
-          </Col>
-          <Col  md={9}>
+          </div>
+          <div>
             <h4>{this.props.title}</h4>
             <p>{this.props.description}</p>
-            </Col>
-        </Row>
-        </Container>
+            </div>
         </div>
         );
     }

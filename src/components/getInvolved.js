@@ -12,7 +12,7 @@ class GetInvolved extends React.Component{
         const bpcDescrip = "ITS BPC";
         const bpcNum = "2";
         const edgeTitle = "EGDE";
-        const edgeDescrip = "its edge-y";
+        const edgeDescrip = "blah blah blah";
         const edgeNum = "3";
         const socialTitle = "SOCIALS";
         const socialDescrip = "this is the best not biased";
@@ -39,6 +39,8 @@ class GetInvolved extends React.Component{
                     <Col id="GetInvolvedEdgeSocials" className="mid-background-section" md={6}> 
                     <GetInvolvedText title={socialTitle} 
                         description={socialDescrip} number={socialNum}/>
+                    </Col>
+                    <Col id="GetInvolvedBottom" className="mid-background-section" md={12}>
                     </Col>
                 </Row>
             </Container>

@@ -70,3 +70,11 @@ p {
   font-size: 2.4rem;
   line-height: 2.8rem;
 }
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: $color-purple-mid;
+}

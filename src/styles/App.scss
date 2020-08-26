@@ -24,22 +24,26 @@
 #GetInvolvedMargin{
   margin-top: $spacer-four;
   margin-left: $spacer-three;
+  margin-bottom: $spacer-three;
 }
 
 #GetInvolvedMentorBPC{
-  margin-top: $spacer-three;
   margin-bottom: $spacer-two;
 }
 
 #GetInvolvedEdgeSocials{
-  margin-bottom: $spacer-four; 
+  margin-bottom: $spacer-two; 
+}
+
+#GetInvolvedBottom{
+  margin-top: $spacer-contactUs;
 }
 
 #GetInvolvedNum{
   color: $color-purple-lightest-transparent;
   font-family: Kollektif-Bold;
   font-size: 20rem;
-  line-height: 14rem;
+  line-height: 16rem;
 }
 
 #ContactUsTitle{
@@ -48,9 +52,23 @@
 }
 
 #Trademark{
-  margin-top: $spacer-four;
+  margin-top: $spacer-contactUs;
   margin-bottom: $spacer-two;
   text-align: center;
+}
+
+#ContactUsParent{
+  display: flex;
+}
+
+#ContactUsMailFacebook{
+  margin-right: $spacer-two;
+  margin-bottom: $spacer-two;
+}
+
+#ContactUsLinkedInsta{
+  margin-right: $spacer-two;
+  margin-bottom: $spacer-two;
 }
 
 #ContactUsText{
