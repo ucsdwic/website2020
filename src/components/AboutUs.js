@@ -10,9 +10,13 @@ class AboutUs extends React.Component {
     render(){
         return(
             <div className="mid-background-section" id="about-us-page">
-                <h1 id="about-us-title">About Us</h1>
-                <p id="about-us-blurb">We're coders and engineers - both women and men - who support the female presence in computing. We run events, from tech talks to socials, and provide opportunities for female engineers to connect and succeed.</p>
-                <Container id="about-us-container">
+                <Container>
+                    <Row>
+                        <Col>
+                            <h1>About Us</h1>
+                            <p id="about-us-blurb">We're coders and engineers - both women and men - who support the female presence in computing. We run events, from tech talks to socials, and provide opportunities for female engineers to connect and succeed.</p>
+                        </Col>
+                    </Row>
                     <Row>
                         <Col sm={12} md={3} lg={3}>
                             <AboutUsSection icon = {RiComputerFill} 

@@ -20,24 +20,16 @@
   background-color: $color-purple-lightest;
   color: $color-purple-mid;
 }
-#about-us-title{
-  padding-left: $spacer-four;
-}
 
 #about-us-blurb{
   padding-top:$spacer-three;
-  padding-left: $spacer-four;
-  padding-right: $spacer-four;
+  padding-bottom:$spacer-three;
 }
 #about-us-icon{
   font-size: 8rem;
   text-align: center;
 }
 
-#about-us-container{
-  margin-left:$spacer-four;
-  padding-top: $spacer-three;
-}
 
 #about-us-page{
   padding-top:$spacer-four;
