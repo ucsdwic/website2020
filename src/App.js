@@ -8,7 +8,7 @@ setConfiguration({ gutterWidth: 40 });
 function App() {
   return (
     <div>
-      <AboutUs></AboutUs>
+      <AboutUs/>
       <h1 className="darkest-background-section">{"<h1> "}Hello World</h1>
       <h2 className="mid-background-section">{"<h2> "}Hello World</h2>
       <h3 className="lightest-background-section"> {"<h3> "}Hello World</h3>
