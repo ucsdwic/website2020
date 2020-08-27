@@ -1,7 +1,6 @@
 import React from "react";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import "./styles/App.scss";
-import AboutUs from "./components/AboutUs"
 import JoinUs from "./components/JoinUs";
 
 setConfiguration({ gutterWidth: 40 });
@@ -9,7 +8,6 @@ setConfiguration({ gutterWidth: 40 });
 function App() {
   return (
     <div>
-      <AboutUs></AboutUs>
       <h1 className="darkest-background-section">{"<h1> "}Hello World</h1>
       <h2 className="mid-background-section">{"<h2> "}Hello World</h2>
       <h3 className="lightest-background-section"> {"<h3> "}Hello World</h3>
@@ -17,7 +15,7 @@ function App() {
       <h5> {"<h5> "}Hello World</h5>
       <h6> {"<h6> "}Hello World</h6>
       <p> {"<p> "}Hello World</p>
-      <JoinUs></JoinUs>
+      <JoinUs/>
       <Container>
         <Row>
           <Col className="darkest-background-section" sm={6} md={4}>
