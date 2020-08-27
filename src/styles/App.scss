@@ -51,17 +51,22 @@
   padding-bottom:$spacer-four;
 }
 
+#join-us-body {
+  text-align: center;
+}
+
 #join-us-quote-icon{
   padding-top:$spacer-three;
-  font-size: 5rem;
-  color: white;
-  text-align: center;
+  font-size: 8rem;
+  color: $color-white;
 }
 
 #join-us-quote{
   font-size: 4.5rem;
   line-height: 5.5rem;
+  color: $color-white;
 }
 #quote-bold{
-  font-weight:800;
+  font-weight: 700;
+  background: linear-gradient(to top, $color-purple-darkest 50%, transparent 50%);
 }
