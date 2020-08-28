@@ -5,7 +5,7 @@ class Member extends React.Component {
     render() {
         return (
             <div>
-                <img className="memberImage" src="./demoPic.jpg" width="100" height="100"></img>
+                <img className="memberImage" src={require("./demoPic.jpg")}></img>
                 <div className="teamImageBg"></div>
                 <div className = "teamInfo">
                     <h6 className = "teamName" > {this.props.name} </h6>

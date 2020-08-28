@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <MeetTheTeam/>
-      <h1 className="darkest-background-section">{"<h1> "}Hello World</h1>
+      {/* <h1 className="darkest-background-section">{"<h1> "}Hello World</h1>
       <h2 className="mid-background-section">{"<h2> "}Hello World</h2>
       <h3 className="lightest-background-section"> {"<h3> "}Hello World</h3>
       <h4 className="white-background-section"> {"<h4> "}Hello World</h4>
@@ -37,7 +37,7 @@ function App() {
             <h6> DEMO</h6>
           </Col>
         </Row>
-      </Container>
+      </Container> */}
     </div>
   );
 }
