@@ -7,7 +7,7 @@ import "../styles/App.scss";
 class MeetTheTeam extends React.Component {
     render() {
         return (
-            <div>
+            <div className="darkest-background-section">
                 <Container>
                     <Row>
                         <Col className="darkest-background-section" sm={12} md={12}>

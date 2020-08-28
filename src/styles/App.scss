@@ -30,10 +30,9 @@
   text-align: center;
 }
 
-.teamImageBg {
-  width: 100px;
-  height: 100px;
-  border: 3px solid $color-purple-lightest;
+.memberImage {
+  box-shadow:
+    10px 10px 0px -5px $color-purple-lightest,
 }
 
 .teamInfo {

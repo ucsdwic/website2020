@@ -5,8 +5,8 @@ class Member extends React.Component {
     render() {
         return (
             <div>
+                <img className="memberImage" src="./demoPic.jpg" width="100" height="100"></img>
                 <div className="teamImageBg"></div>
-                <img src="./demoPic.jpg" width="100" height="100"></img>
                 <div className = "teamInfo">
                     <h6 className = "teamName" > {this.props.name} </h6>
                     <p className = "teamPosition" > {this.props.position} </p>
