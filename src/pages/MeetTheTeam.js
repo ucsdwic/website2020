@@ -3,8 +3,30 @@ import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import Member from "../components/Member.js";
 import "../styles/App.scss";
 import { all_members } from "../components/AllMembers";
+import MemberPopup from "../components/MemberPopup";
 
 class MeetTheTeam extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      showModal: -1
+    };
+  }
+
+  getModal = value => {
+    console.log(document.getElementById("root"));
+    document.getElementById("root").style.backgroundColor = "black";
+    this.setState({
+      showModal: value
+    });
+  };
+
+  hideModal = value => {
+    this.setState({
+      showModal: -1
+    });
+  };
+
   render() {
     return (
       <div className="darkest-background-section">
@@ -17,11 +39,23 @@ class MeetTheTeam extends React.Component {
 
           <div className="members">
             <Row>
-              {all_members.map(member => {
+              {all_members.map((member, idx) => {
                 return (
-                  <Col sm={2}>
-                    <Member name={member.name} position={member.position} />
-                  </Col>
+                  <>
+                    <Col xs={6} sm={3} md={2}>
+                      <div onClick={() => this.getModal(idx)}>
+                        <Member name={member.name} position={member.position} />
+                      </div>
+                    </Col>
+                    <MemberPopup
+                      show={this.state.showModal === idx}
+                      onHide={() => {
+                        console.log("calling hide modal");
+                        this.hideModal(idx);
+                      }}
+                      index={idx}
+                    />
+                  </>
                 );
               })}
             </Row>

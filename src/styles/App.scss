@@ -26,15 +26,14 @@
   padding-bottom: 60px;
 }
 
-.members { 
+.members {
   text-align: center;
 }
 
 .memberImage {
-  box-shadow:
-    10px 10px 0px -5px $color-purple-lightest;
-  width : 100%;
-  height : 100%;
+  box-shadow: 10px 10px 0px -5px $color-purple-lightest;
+  width: 100%;
+  height: 100%;
 }
 
 .teamInfo {
@@ -49,4 +48,20 @@
   font-size: 1.4rem;
   line-height: 1.4rem;
   padding-bottom: 50px;
+}
+
+.member-popup {
+  z-index: 1000;
+  position: fixed;
+  top: 15%;
+  bottom: 15%;
+  left: 20%;
+  right: 20%;
+  border: 2px solid $color-purple-darkest;
+  background: $color-purple-lightest;
+  padding: $spacer-two;
+
+  img{
+    width : 100%;
+  }
 }
