@@ -1,19 +1,15 @@
 import React from "react";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import "./styles/App.scss";
-<<<<<<< HEAD
 import GetInvolved from "./components/getInvolved.js";
 import ContactUs from "./components/contactUs.js";
-=======
 import Button from "./components/Button";
->>>>>>> 2835c1aa89814ebf9d320c49bf6a40d4569eec3d
 
 setConfiguration({ gutterWidth: 40 });
 
 function App() {
   return (
     <div>
-<<<<<<< HEAD
       <h1 className="darkest-background-section">{"<h1> "}Hello World</h1>
       <h2 className="mid-background-section">{"<h2> "}Hello World</h2>
       <h3 className="lightest-background-section"> {"<h3> "}Hello World</h3>
@@ -45,10 +41,8 @@ function App() {
           </Col>
         </Row>
       </Container>
-=======
       <Button type="secondary" text = "Sponsor Us" toLink = "https://google.com"/>
       <Button type="primary" text = "Sponsor Us" toLink = "https://google.com" />
->>>>>>> 2835c1aa89814ebf9d320c49bf6a40d4569eec3d
     </div>
   );
 }
