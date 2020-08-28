@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <Button type="secondary" text = "Sponsor Us" toLink = "https://google.com"/>
-      <Button type="primary" text = "Sponsor Us" toLink = "https://google.com" style={{marginTop : "20px"}}/>
+      <Button type="primary" text = "Sponsor Us" toLink = "https://google.com" />
     </div>
   );
 }
