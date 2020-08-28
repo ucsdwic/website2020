@@ -21,6 +21,13 @@
   color: $color-purple-mid;
 }
 
+.transparent-background-section{
+   background-color: $color-purple-lightest-transparent;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
 #GetInvolvedMargin{
   margin-top: $spacer-four;
   margin-left: $spacer-three;
