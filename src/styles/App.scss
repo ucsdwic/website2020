@@ -26,9 +26,6 @@
   padding-bottom: 60px;
 }
 
-.members {
-  text-align: center;
-}
 
 .memberImage {
   box-shadow: 10px 10px 0px -5px $color-purple-lightest;
@@ -44,10 +41,10 @@
 }
 
 .teamPosition {
-  padding-top: 15px;
+  padding-top: 15%;
   font-size: 1.4rem;
   line-height: 1.4rem;
-  padding-bottom: 50px;
+  padding-bottom: 20%;
 }
 
 .member-popup {
@@ -62,6 +59,41 @@
   padding: $spacer-two;
 
   img{
-    width : 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width : 70%;
+
   }
+}
+
+.member-popup-info {
+  color: $color-purple-darkest;
+  text-align: left;
+}
+
+.member-popup-name {
+  font-weight: bold;
+}
+
+.member-popup-bio {
+  padding-top: 10%;
+}
+
+.member-popup-socials {
+  text-align: center;
+  padding: 70px 0;
+}
+
+.exitButton {
+  background-color: $color-purple-lightest;
+  border: none;
+  color: $color-purple-darkest;
+  display: inline-block;
+  font-size: 250%;
+  font-weight: bold;
+  cursor: pointer;
+  position: absolute;
+  top: 2%;
+  right: 2%;
 }

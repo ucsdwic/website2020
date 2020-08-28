@@ -4,7 +4,7 @@ import "../styles/App.scss";
 class Member extends React.Component {
     render() {
         return (
-            <div>
+            <div className="members">
                 <img className="memberImage" src={require("./demoPic.jpg")}></img>
                 <div className="teamImageBg"></div>
                 <div className = "teamInfo">

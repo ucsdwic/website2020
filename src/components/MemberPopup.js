@@ -17,14 +17,25 @@ class MemberPopup extends React.Component {
       <div className="lightest-background-section">
         {this.props.show && (
           <div className="member-popup">
+            <button className="exitButton" onClick={this.props.onHide}> X </button>
             <Row>
               <Col sm={6}>
                 <img src={require("./demoPic.jpg")} />
               </Col>
-              <Col sm={6}>
-                <h4>{index}</h4>
-                <h2>{all_members[index].name}</h2>
-                <button onClick={this.props.onHide}> Hide </button>
+                <Col className="member-popup-info" sm={6}>
+                  <div>
+                    <h3 className="member-popup-name">{all_members[index].name}</h3>
+                    <h3>{all_members[index].position}</h3>
+                    {/* <p>Grad Year: {all_members[index].year}</p> */}
+                  </div>
+                  <div className = "member-popup-bio">
+                    <p>{all_members[index].bio}</p>
+                  </div>
+                </Col>
+            </Row>
+            <Row>
+              <Col className="member-popup-socials" sm={12}>
+                <p>*Insert Social Media Icons Here*</p>
               </Col>
             </Row>
           </div>
