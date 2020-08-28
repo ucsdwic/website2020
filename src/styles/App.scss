@@ -1,5 +1,6 @@
 @import "./Typography.scss";
 @import "./Vars.scss";
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
 
 .darkest-background-section {
   background-color: $color-purple-darkest;
@@ -31,9 +32,9 @@
 }
 
 #join-us-quote-icon{
-  padding-top:$spacer-three;
   font-size: 8rem;
   color: $color-white;
+  padding-top: $spacer-two;
 }
 
 #join-us-quote{
@@ -44,4 +45,25 @@
 #quote-bold{
   font-weight: 700;
   background: linear-gradient(to top, $color-purple-darkest 50%, transparent 50%);
+}
+
+.sliderimg:hover{
+  filter:none;
+  -webkit-filter: grayscale(0%);
+   -moz-filter: grayscale(0%);
+   filter: grayscale(0%);
+}
+
+.sliderimg{
+  height: 13rem;
+  -webkit-filter: grayscale(100%);
+   -moz-filter: grayscale(100%);
+   filter: grayscale(100%);
+   transition: all 0.3s ease;
+
+}
+
+#photo-gallery {
+  padding-top: $spacer-three;
+  
 }
