@@ -12,6 +12,11 @@ import "../styles/App.scss";
 class PhotoGallery extends React.Component {
     render(){
         const handleOnDragStart = (e) => e.preventDefault()
+    
+        const imageNames = [image1, image2, image4, image6, image9, image10]
+        const images = imageNames.map(image => <div id="slider-img-container">
+                                                    <img src={image} id="slider-img" onDragStart={handleOnDragStart}  alt=""/>
+                                               </div>)
         const responsiveObject =  {
             0: { items:2 },
             450: { items:3 },
@@ -20,27 +25,8 @@ class PhotoGallery extends React.Component {
             1200: { items:6 }
         }
         return (
-            <AliceCarousel mouseTrackingEnabled buttonsDisabled={true} autoPlay={true} 
-                           responsive={responsiveObject} autoPlayInterval={1000}>
-                <div id="slider-img-container">
-                    <img src={image1} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
-                </div>
-                <div id="slider-img-container">
-                    <img src={image2} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
-                </div>
-                <div id="slider-img-container">
-                    <img src={image4} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
-                </div>
-                <div id="slider-img-container">
-                    <img src={image6} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
-                </div>
-                <div id="slider-img-container">
-                    <img src={image9} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
-                </div>
-                <div id="slider-img-container">
-                    <img src={image10} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
-                </div>
-            </AliceCarousel>
+            <AliceCarousel items={images} mouseTrackingEnabled buttonsDisabled={true} autoPlay={true} 
+                           responsive={responsiveObject} autoPlayInterval={1000}/>
             )
     }
 }
