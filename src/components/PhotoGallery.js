@@ -13,38 +13,33 @@ class PhotoGallery extends React.Component {
     render(){
         const handleOnDragStart = (e) => e.preventDefault()
         const responsiveObject =  {
-            0: {
-                items:2,
-            },
-
-            450: {
-                items:3,
-            },
-
-
-            768: {
-                items:4,
-            },
-
-            992: {
-                items:5,
-            },
-
-            1200: {
-                items:6,
-            }
-
+            0: { items:2 },
+            450: { items:3 },
+            768: { items:4 },
+            992: { items:5 },
+            1200: { items:6 }
         }
-
-
         return (
-            <AliceCarousel mouseTrackingEnabled buttonsDisabled={true} autoPlay={true} responsive={responsiveObject} autoPlayInterval={1000}>
-                <img src={image1} onDragStart={handleOnDragStart}  alt="" className="sliderimg"  />
-                <img src={image2} onDragStart={handleOnDragStart}  alt="" className="sliderimg"/>
-                <img src={image4} onDragStart={handleOnDragStart}  alt="" className="sliderimg"/>
-                <img src={image6} onDragStart={handleOnDragStart}  alt="" className="sliderimg"/>
-                <img src={image9} onDragStart={handleOnDragStart}  alt="" className="sliderimg"/>
-                <img src={image10} onDragStart={handleOnDragStart}  alt="" className="sliderimg"/>
+            <AliceCarousel mouseTrackingEnabled buttonsDisabled={true} autoPlay={true} 
+                           responsive={responsiveObject} autoPlayInterval={1000}>
+                <div id="slider-img-container">
+                    <img src={image1} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
+                </div>
+                <div id="slider-img-container">
+                    <img src={image2} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
+                </div>
+                <div id="slider-img-container">
+                    <img src={image4} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
+                </div>
+                <div id="slider-img-container">
+                    <img src={image6} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
+                </div>
+                <div id="slider-img-container">
+                    <img src={image9} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
+                </div>
+                <div id="slider-img-container">
+                    <img src={image10} onDragStart={handleOnDragStart}  alt="" className="slider-img"/>
+                </div>
             </AliceCarousel>
             )
     }

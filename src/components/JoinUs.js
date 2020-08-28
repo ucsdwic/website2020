@@ -24,12 +24,10 @@ class JoinUs extends React.Component{
                             </div>
                         </Col>
                     </Row>
-                    <Row id="photo-gallery">
-                        <Col>
-                            <PhotoGallery/>
-                        </Col>
-                    </Row>
                 </Container>
+                <div id="photo-gallery">
+                    <PhotoGallery />
+                </div>
             </div>
         )
     }

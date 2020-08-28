@@ -32,7 +32,7 @@
 }
 
 #join-us-quote-icon{
-  font-size: 8rem;
+  font-size: 5rem;
   color: $color-white;
   padding-top: $spacer-two;
 }
@@ -47,23 +47,25 @@
   background: linear-gradient(to top, $color-purple-darkest 50%, transparent 50%);
 }
 
-.sliderimg:hover{
+.slider-img:hover{
   filter:none;
   -webkit-filter: grayscale(0%);
-   -moz-filter: grayscale(0%);
-   filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
 }
 
-.sliderimg{
-  height: 13rem;
+.slider-img{
+  height: 15rem;
   -webkit-filter: grayscale(100%);
-   -moz-filter: grayscale(100%);
-   filter: grayscale(100%);
-   transition: all 0.3s ease;
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
 
+#slider-img-container{
+  text-align: center;
 }
 
 #photo-gallery {
   padding-top: $spacer-three;
-  
 }
