@@ -23,6 +23,7 @@
 
 .primary {
   position: relative;
+  margin-top: 20px;
 
   .front-button {
     height: 5rem;
@@ -67,7 +68,7 @@
   }
 
   .front-button:hover {
-    transform: translate(5px, 5px);
+    transform: translate(6px, 4px);
   }
 
   .back-button {
