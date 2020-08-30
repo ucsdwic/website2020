@@ -2,7 +2,11 @@ import React from "react";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import "./styles/App.scss";
 import AboutUs from "./components/AboutUs"
+import GetInvolved from "./components/getInvolved.js";
+import ContactUs from "./components/contactUs.js";
+import Home from "./components/home.js";
 import Button from "./components/Button";
+import Sponsors from "./components/sponsors";
 
 setConfiguration({ gutterWidth: 40 });
 
@@ -17,6 +21,10 @@ function App() {
       <h5> {"<h5> "}Hello World</h5>
       <h6> {"<h6> "}Hello World</h6>
       <p> {"<p> "}Hello World</p>
+      <Home/>;
+      <GetInvolved />
+      <Sponsors/>
+      <ContactUs />
       <Container>
         <Row>
           <Col className="darkest-background-section" sm={6} md={4}>

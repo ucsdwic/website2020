@@ -71,6 +71,10 @@ p {
   line-height: 2.8rem;
 }
 
-a{
+a {
   text-decoration: none;
+}
+
+a:visited {
+  color: $color-purple-mid;
 }

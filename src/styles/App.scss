@@ -21,7 +21,6 @@
   color: $color-purple-mid;
 }
 
-
 #about-us-blurb{
   padding-top:$spacer-three;
   padding-bottom:$spacer-three;
@@ -44,7 +43,75 @@
 #about-us-description{
   font-size: 1.6rem;
   line-height: 1.8rem;
-  
+ 
+.transparent-background-section{
+   background-color: $color-purple-lightest-transparent;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#GetInvolvedMargin{
+  margin-top: $spacer-four;
+  margin-left: $spacer-three;
+  margin-bottom: $spacer-three;
+}
+
+#GetInvolvedMentorBPC{
+  margin-bottom: $spacer-two;
+}
+
+#GetInvolvedEdgeSocials{
+  margin-bottom: $spacer-two; 
+}
+
+#GetInvolvedBottom{
+  margin-top: $spacer-contactUs;
+}
+
+#GetInvolvedNum{
+  color: $color-purple-lightest-transparent;
+  font-family: Kollektif-Bold;
+  font-size: 20rem;
+  line-height: 16rem;
+}
+
+#ContactUsTitle{
+  margin-top: $spacer-four;
+  margin-bottom: $spacer-three;
+}
+
+#Trademark{
+  margin-top: $spacer-contactUs;
+  margin-bottom: $spacer-two;
+  text-align: center;
+}
+
+#ContactUsParent{
+  display: flex;
+}
+
+#ContactUsMailFacebook{
+  margin-right: $spacer-two;
+  margin-bottom: $spacer-two;
+}
+
+#ContactUsLinkedInsta{
+  margin-right: $spacer-two;
+  margin-bottom: $spacer-two;
+}
+
+#ContactUsText{
+  color: $color-purple-mid;
+  font-family: Kollektif;
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+}
+
+#TrademarkBold{
+  font-weight: bold;
+}
+
 .primary {
   position: relative;
 
