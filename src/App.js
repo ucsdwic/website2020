@@ -2,6 +2,7 @@ import React from "react";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import "./styles/App.scss";
 import JoinUs from "./components/JoinUs";
+import Button from "./components/Button";
 
 setConfiguration({ gutterWidth: 40 });
 
@@ -38,6 +39,8 @@ function App() {
           </Col>
         </Row>
       </Container>
+      <Button type="secondary" text = "Sponsor Us" toLink = "https://google.com"/>
+      <Button type="primary" text = "Sponsor Us" toLink = "https://google.com" />
     </div>
   );
 }
