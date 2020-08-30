@@ -1,5 +1,6 @@
 @import "./Typography.scss";
 @import "./Vars.scss";
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
 
 .darkest-background-section {
   background-color: $color-purple-darkest;
@@ -35,6 +36,48 @@
   padding-bottom:$spacer-four;
 }
 
+#join-us-body {
+  text-align: center;
+}
+
+#join-us-quote-icon{
+  font-size: 5rem;
+  color: $color-white;
+  padding-top: $spacer-two;
+}
+
+#join-us-quote{
+  font-size: 4.5rem;
+  line-height: 5.5rem;
+  color: $color-white;
+}
+#quote-bold{
+  font-weight: 700;
+  background: linear-gradient(to top, $color-purple-darkest 50%, transparent 50%);
+}
+
+#slider-img:hover{
+  filter:none;
+  -webkit-filter: grayscale(0%);
+  -moz-filter: grayscale(0%);
+  filter: grayscale(0%);
+}
+
+#slider-img{
+  height: 15rem;
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  filter: grayscale(100%);
+  transition: all 0.3s ease;
+}
+
+#slider-img-container{
+  text-align: center;
+}
+
+#photo-gallery {
+  padding-top: $spacer-three;
+  
 #about-us-icon-title{
   text-align: center;
   margin-bottom: $spacer-one;
@@ -48,7 +91,6 @@
   padding-top: $spacer-four;
   padding-bottom: $spacer-three;
 }
-
 
 .memberImage {
   box-shadow: 10px 10px 0px -5px $color-purple-lightest;
@@ -183,6 +225,7 @@
 
 #TrademarkBold{
   font-weight: bold;
+
 }
 
 .primary {
