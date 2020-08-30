@@ -22,8 +22,8 @@
 }
 
 .teamTitle {
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: $spacer-four;
+  padding-bottom: $spacer-three;
 }
 
 
@@ -41,6 +41,7 @@
 
 .teamPosition {
   padding-top: $spacer-one;
+  margin-bottom: $spacer-two;
 }
 
 .member-popup {

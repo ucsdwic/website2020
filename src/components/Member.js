@@ -8,7 +8,7 @@ class Member extends React.Component {
                 <img className="memberImage" src={require("./demoPic.jpg")}></img>
                 <div className="teamImageBg"></div>
                 <div className = "teamInfo">
-                    <h6 className = "teamName" > {this.props.name} </h6>
+                    <h4 className = "teamName" > {this.props.name} </h4>
                     <p className = "teamPosition" > {this.props.position} </p>
                 </div>
             </div>
