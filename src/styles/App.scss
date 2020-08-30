@@ -93,4 +93,135 @@
   position: absolute;
   top: 2%;
   right: 2%;
+
+.transparent-background-section{
+   background-color: $color-purple-lightest-transparent;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+
+#GetInvolvedMargin{
+  margin-top: $spacer-four;
+  margin-left: $spacer-three;
+  margin-bottom: $spacer-three;
+}
+
+#GetInvolvedMentorBPC{
+  margin-bottom: $spacer-two;
+}
+
+#GetInvolvedEdgeSocials{
+  margin-bottom: $spacer-two; 
+}
+
+#GetInvolvedBottom{
+  margin-top: $spacer-contactUs;
+}
+
+#GetInvolvedNum{
+  color: $color-purple-lightest-transparent;
+  font-family: Kollektif-Bold;
+  font-size: 20rem;
+  line-height: 16rem;
+}
+
+#ContactUsTitle{
+  margin-top: $spacer-four;
+  margin-bottom: $spacer-three;
+}
+
+#Trademark{
+  margin-top: $spacer-contactUs;
+  margin-bottom: $spacer-two;
+  text-align: center;
+}
+
+#ContactUsParent{
+  display: flex;
+}
+
+#ContactUsMailFacebook{
+  margin-right: $spacer-two;
+  margin-bottom: $spacer-two;
+}
+
+#ContactUsLinkedInsta{
+  margin-right: $spacer-two;
+  margin-bottom: $spacer-two;
+}
+
+#ContactUsText{
+  color: $color-purple-mid;
+  font-family: Kollektif;
+  font-size: 3.6rem;
+  line-height: 3.6rem;
+}
+
+#TrademarkBold{
+  font-weight: bold;
+}
+
+.primary {
+  position: relative;
+
+  .front-button {
+    height: 5rem;
+    padding: 0 5rem;
+    color: $color-purple-mid;
+    background-color: $color-white;
+    border: 2px solid $color-purple-mid;
+    transition: 0.5s all;
+    z-index: 100;
+  }
+
+  .front-button:hover {
+    transform: translate(5px, 5px);
+  }
+
+  .back-button {
+    position: absolute;
+    top: 5px;
+    left: 9px;
+    height: 5rem;
+    padding: 0 5rem;
+    background-color: $color-purple-mid;
+    z-index: -100;
+
+    h5 {
+      opacity: 0;
+    }
+  }
+}
+
+.secondary {
+  position: relative;
+
+  .front-button {
+    height: 5rem;
+    padding: 0 5rem;
+    color: $color-purple-mid;
+    background-color: $color-purple-lightest;
+    border: 2px solid $color-purple-lightest;
+    transition: 0.5s all;
+    z-index: 100;
+  }
+
+  .front-button:hover {
+    transform: translate(6px, 4px);
+  }
+
+  .back-button {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    height: 5rem;
+    padding: 0 5rem;
+    z-index: -100;
+    border: 2px solid $color-purple-lightest;
+
+    h5 {
+      opacity: 0;
+    }
+  }
 }

@@ -10,6 +10,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-grid-system": "^7.0.3",
+    "react-icons": "^3.11.0",
     "react-scripts": "3.4.3",
     "sass-resources-loader": "^2.1.0"
   },
