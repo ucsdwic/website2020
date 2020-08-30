@@ -10,7 +10,7 @@ class GetInvolvedText extends React.Component{
             <div> {this.props.number} </div>
           </div>
           <div>
-            <h4>{this.props.title}</h4>
+            <h3 className="involve-title">{this.props.title}</h3>
             <p>{this.props.description}</p>
             </div>
         </div>

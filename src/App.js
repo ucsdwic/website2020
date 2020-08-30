@@ -10,12 +10,11 @@ import Home from "./components/home.js";
 import Button from "./components/Button";
 import Sponsors from "./components/sponsors";
 
-setConfiguration({ gutterWidth: 40 });
+setConfiguration({ gutterWidth: 80 });
 
 function App() {
   return (
     <div>
-      <Home/>
       <AboutUs/>
       <MeetTheTeam/>
       <GetInvolved />

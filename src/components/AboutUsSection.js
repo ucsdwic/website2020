@@ -9,8 +9,7 @@ class AboutUsSection extends React.Component {
                 <div id = "about-us-icon">
                     <PropIcon/>
                 </div>
-                <h6 id="about-us-icon-title">{this.props.title}</h6>
-                <p id="about-us-description">{this.props.description}</p>
+                <h4 id="about-us-icon-title">{this.props.title}</h4>
             </div>
         )
 

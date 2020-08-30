@@ -21,7 +21,7 @@ export const all_members = [
   },
   {
     name: "Grace Carlson",
-    position: "Vice President Externa",
+    position: "Vice President External",
     year: "",
     linkedin: "https://www.linkedin.com/in/grace-carlson-ucsd-2021",
     facebook: "",

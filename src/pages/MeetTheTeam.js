@@ -42,7 +42,7 @@ class MeetTheTeam extends React.Component {
               {all_members.map((member, idx) => {
                 return (
                   <>
-                    <Col xs={6} sm={3} md={2}>
+                    <Col xs={6} sm={4} md={3}>
                       <div onClick={() => this.getModal(idx)}>
                         <Member name={member.name} position={member.position} />
                       </div>
