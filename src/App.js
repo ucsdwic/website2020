@@ -1,6 +1,7 @@
 import React from "react";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import "./styles/App.scss";
+import AboutUs from "./components/AboutUs"
 import MeetTheTeam from "./pages/MeetTheTeam";
 import GetInvolved from "./components/getInvolved.js";
 import ContactUs from "./components/contactUs.js";
@@ -13,7 +14,12 @@ setConfiguration({ gutterWidth: 40 });
 function App() {
   return (
     <div>
+      <Home/>
+      <AboutUs/>
       <MeetTheTeam/>
+      <GetInvolved />
+      <Sponsors/>
+      <ContactUs/>
       <Button type="secondary" text = "Sponsor Us" toLink = "https://google.com"/>
       <Button type="primary" text = "Sponsor Us" toLink = "https://google.com" />
     </div>
