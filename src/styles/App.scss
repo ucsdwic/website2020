@@ -312,3 +312,26 @@
     }
   }
 }
+
+#sponsorsTitleMargin{
+  margin-top: $spacer-four;
+}
+#logoMargin{
+  margin-top: $spacer-three;
+}
+
+#learnMoreButton{
+  margin-top: $spacer-three;
+  margin-bottom: $spacer-four;
+
+}
+#sponsorUsButton{
+  margin-top: $spacer-three;
+  margin-bottom: $spacer-four;
+  
+}
+#centerButtons{
+  // display: flex;
+  justify-content: center;  
+}
+
