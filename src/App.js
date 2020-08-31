@@ -9,6 +9,7 @@ import ContactUs from "./components/contactUs.js";
 import Home from "./components/home.js";
 import Button from "./components/Button";
 import Sponsors from "./components/sponsors";
+import Resources from "./components/Resources";
 
 setConfiguration({ gutterWidth: 80 });
 
@@ -19,6 +20,7 @@ function App() {
       <MeetTheTeam/>
       <GetInvolved />
       <Sponsors/>
+      <Resources/>
       <JoinUs/>
       <ContactUs/>
       <Button type="secondary" text = "Sponsor Us" toLink = "https://google.com"/>

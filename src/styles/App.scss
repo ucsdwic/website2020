@@ -312,3 +312,46 @@
     }
   }
 }
+
+/* Style the tab */
+.toggle-tab {
+  overflow: hidden;
+  background-color: $color-purple-darkest;
+  position: fixed;
+  right: 20%;
+  left: 20%;
+
+  /* Style the buttons that are used to open the tab content */
+  button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2% 4%;
+    transition: 0.3s;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: $color-purple-lightest;
+  }
+
+  /* Change background color of buttons on hover */
+  button:hover {
+    background-color: $color-purple-lightest;
+    color: $color-purple-darkest;
+  }
+
+  /* Create an active/current tablink class */
+  button.active {
+    background-color: $color-purple-lightest;
+  }
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
