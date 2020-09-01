@@ -313,6 +313,65 @@
   }
 }
 
+.homeButtons{
+  position: relative;
+
+  .front-button {
+    height: 5rem;
+    padding: 0 5rem;
+    color: $color-purple-lightest;
+    background-color: $color-purple-mid;
+    border: 2px solid $color-purple-mid;
+    transition: 0.5s all;
+    z-index: 100;
+  }
+
+  .front-button:hover {
+    transform: translate(6px, 4px);
+  }
+
+  .back-button {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    height: 5rem;
+    padding: 0 5rem;
+    z-index: -100;
+    border: 2px solid $color-purple-mid;
+    background-color: $color-purple-lightest;
+
+    h5 {
+      opacity: 0;
+    }
+  }
+}
+
+#homeCenterButton{
+  text-align: center;
+}
+
+#homeImage{
+  background-image: url("../static/homeOverlay.png");
+  background-repeat: no-repeat;
+}
+
+#homeCenterText{
+  text-align: center;
+  color: $color-purple-mid;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  margin-top: $spacer-one;
+  margin-bottom: $spacer-two;
+}
+
+#homeCenterLogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
 #sponsorsTitleMargin{
   margin-top: $spacer-four;
 }

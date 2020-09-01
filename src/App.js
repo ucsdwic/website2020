@@ -6,7 +6,7 @@ import AboutUs from "./components/AboutUs"
 import MeetTheTeam from "./pages/MeetTheTeam";
 import GetInvolved from "./components/getInvolved.js";
 import ContactUs from "./components/contactUs.js";
-import Home from "./components/home.js";
+import Home from "./pages/home.js";
 import Button from "./components/Button";
 import Sponsors from "./pages/sponsors";
 
@@ -15,6 +15,7 @@ setConfiguration({ gutterWidth: 80 });
 function App() {
   return (
     <div>
+      <Home/>
       <AboutUs/>
       <MeetTheTeam/>
       <GetInvolved />
