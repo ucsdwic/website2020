@@ -7,6 +7,7 @@ import MeetTheTeam from "./pages/MeetTheTeam";
 import GetInvolved from "./components/getInvolved.js";
 import ContactUs from "./components/contactUs.js";
 import Home from "./components/home.js";
+import Events from './pages/Events.js';
 import Button from "./components/Button";
 import Sponsors from "./components/sponsors";
 
@@ -17,6 +18,7 @@ function App() {
     <div>
       <AboutUs/>
       <MeetTheTeam/>
+      <Events/>
       <GetInvolved />
       <Sponsors/>
       <JoinUs/>

@@ -9,7 +9,7 @@ class JoinUs extends React.Component{
         return(
             <div className="mid-background-section" id="join-us-page">
                 <Container>
-                    <Row>
+                    <Row id="join-us-title">
                         <Col>
                             <h1>Join Us</h1>
                         </Col>
