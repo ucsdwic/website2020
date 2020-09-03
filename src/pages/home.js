@@ -11,8 +11,8 @@ class Home extends React.Component{
         <div id="homeImage">
             {/* <img src={GroupPic} alt="GroupPicture"/> */}
 
-            <Container >
-                <Row>
+            <Container id="homeCenterContainer">
+                <Row >
                     <Col id="homeCenterLogo" md={12}>
                         <img src={LogoCenter} alt="Wic Logo"/>
                     </Col>

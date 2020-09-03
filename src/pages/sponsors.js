@@ -98,8 +98,6 @@ class Sponsors extends React.Component{
                     </Col>
                    
                 </Row>
-            </Container>
-            <Container id="centerButtons">
                 <Row>
                     <Col id="learnMoreButton" md={6}>
                         <Button type="primary" text = "Learn More" toLink = "https://google.com" />
