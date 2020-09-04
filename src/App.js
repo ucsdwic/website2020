@@ -9,15 +9,17 @@ import ContactUs from "./components/contactUs.js";
 import Home from "./components/home.js";
 import Button from "./components/Button";
 import Sponsors from "./components/sponsors";
+import Navbar from "./components/Navbar";
 
 setConfiguration({ gutterWidth: 80 });
 
 function App() {
   return (
     <div>
+      <Navbar/>
       <AboutUs/>
       <MeetTheTeam/>
-      <GetInvolved />
+      <GetInvolved/>
       <Sponsors/>
       <JoinUs/>
       <ContactUs/>

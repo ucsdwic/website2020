@@ -312,3 +312,51 @@
     }
   }
 }
+
+#navbar-sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8rem;
+  margin-top: -8rem;
+  padding-left: $spacer-two;
+  padding-right: $spacer-two;
+  // background-color: $color-white;
+  // opacity: 0.5;
+  z-index: 100;
+
+  h6 {
+    font-family: Kollektif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: white;
+    cursor: pointer;
+  }
+
+  a {
+    color: white;
+  }
+}
+
+#navbar-container {
+  padding-top: $spacer-one;
+  padding-bottom: $spacer-one;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-wic-logo {
+  height: 4rem;
+}
+
+#img-container {
+  width: 50%;
+}
+
+.active {
+  font-family: Kollektif-Bold;
+  border-bottom: 4px solid white;
+  cursor: pointer; 
+}
