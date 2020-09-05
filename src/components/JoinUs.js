@@ -3,6 +3,7 @@ import { Row, Col, Container } from "react-grid-system";
 import "../styles/App.scss";
 import {ImQuotesLeft} from 'react-icons/im'
 import PhotoGallery from './PhotoGallery.js'
+import Button from "../components/Button";
 
 class JoinUs extends React.Component{
     render(){
@@ -28,6 +29,24 @@ class JoinUs extends React.Component{
                 <div id="photo-gallery">
                     <PhotoGallery />
                 </div>
+                <Container>
+                    <Row justify="center" align="center">
+                        <Col xs={12} sm={6} md={4}>
+                            <Button
+                                type="secondary"
+                                text="Become an active member"
+                                toLink="https://google.com"
+                            />
+                        </Col>
+                        <Col xs={12} sm={6} md={4}>
+                            <Button
+                                type="secondary"
+                                text="Join our mailing list"
+                                toLink="https://google.com"
+                            />
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         )
     }

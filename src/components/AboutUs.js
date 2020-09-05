@@ -6,6 +6,7 @@ import { RiComputerFill } from "react-icons/ri";
 import { GiGraduateCap } from "react-icons/gi";
 import { AiFillTrophy } from "react-icons/ai";
 import AboutUsSection from "./AboutUsSection";
+import Button from "./Button";
 class AboutUs extends React.Component {
   render() {
     return (
