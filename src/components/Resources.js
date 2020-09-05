@@ -1,14 +1,42 @@
 import React from "react";
-import { setConfiguration, Row, Col, Container } from "react-grid-system";
+import { Row, Col, Container } from "react-grid-system";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
 import "../styles/App.scss";
 
 class Resources extends React.Component {
-
   render() {
     return (
-        <div className="darkest-background-section">
-            <Container>
-                <Row>
+      <div className="darkest-background-section resources-section">
+        <Container>
+          <h1>Resources</h1>
+          <Tabs>
+            <TabList>
+              <Tab>
+                <h6>Newsletter</h6>
+              </Tab>
+              <Tab>
+                <h6>Scholarships</h6>
+              </Tab>
+              <Tab>
+                <h6>Conferences</h6>
+              </Tab>
+              <Tab>
+                <h6>Our Alumni</h6>
+              </Tab>
+              <Tab>
+                <h6>Similar Orgs</h6>
+              </Tab>
+            </TabList>
+
+            <TabPanel>
+              <h2>Any content 1</h2>
+            </TabPanel>
+            <TabPanel>
+              <h2>Any content 2</h2>
+            </TabPanel>
+          </Tabs>
+          {/* <Row>
                     <Col sm={12} md={12}>
                         <h1 className="teamTitle">Resources</h1>
                     </Col>
@@ -21,13 +49,11 @@ class Resources extends React.Component {
                         <button class="tablinks" onclick="openResource(event, 'Our Alumni')">Our Alumni</button>
                         <button class="tablinks" onclick="openResource(event, 'Similar Orgs')">Similar Orgs</button>
                     </Col>
-                </Row>
-            </Container>
-        </div>
-
+                </Row> */}
+        </Container>
+      </div>
     );
   }
-  
 }
 
 export default Resources;

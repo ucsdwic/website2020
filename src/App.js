@@ -11,7 +11,7 @@ import Button from "./components/Button";
 import Sponsors from "./components/sponsors";
 import Resources from "./components/Resources";
 
-setConfiguration({ gutterWidth: 80 });
+setConfiguration({ gutterWidth: 60 });
 
 function App() {
   return (

@@ -370,3 +370,50 @@
   border: 1px solid #ccc;
   border-top: none;
 }
+
+.resources-section {
+  padding: $spacer-four 0;
+
+  h1 {
+    margin-bottom: $spacer-three;
+  }
+
+  h6 {
+    // margin: $spacer-base $spacer-one;
+  }
+}
+
+.react-tabs__tab {
+  border: none;
+  background: $color-purple-darkest;
+  padding: $spacer-two;
+  color: $color-purple-lightest;
+}
+
+.react-tabs__tab--selected {
+  background: $color-purple-lightest !important;
+  border-radius: 0 !important;
+  border: none !important;
+  color: $color-purple-darkest !important;
+  font-weight: bo;
+}
+
+.react-tabs__tab-list {
+  border: none !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.react-tabs__tab-panel--selected {
+  background: $color-purple-lightest !important;
+  color: $color-purple-darkest;
+  padding: $spacer-two;
+}
+
+@media screen and (max-width: $sm) {
+  .react-tabs__tab-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
