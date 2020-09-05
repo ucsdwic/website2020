@@ -373,14 +373,20 @@
 
 .resources-section {
   padding: $spacer-four 0;
+  color: $color-purple-darkest;
 
   h1 {
     margin-bottom: $spacer-three;
+    color: $color-purple-lightest;
   }
 
   h6 {
-    text-align: center;
     margin: $spacer-base 0;
+    text-align: center;
+  }
+
+  p{
+    margin-top: $spacer-one;
   }
 }
 
