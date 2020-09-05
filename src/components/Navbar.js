@@ -6,13 +6,40 @@ import wic_white from "../static/wic_logo_white.png"
 import { Link, animateScroll as scroll } from "react-scroll";
 
 class Navbar extends React.Component {
+
+	constructor(props) {
+		super(props);
+		this.state = {
+		  scrolled: false
+		};
+		this.setNavBarColor = this.setNavBarColor.bind(this);
+	  }
+
 	scrollToTop = () => {
 		scroll.scrollToTop();
 	  };
+
+	  componentDidMount() {
+		window.addEventListener('scroll', this.setNavBarColor);
+	  }
+	  componentWillUnmount() {
+		window.removeEventListener('scroll', this.setNavBarColor);
+	  }
+
+	  setNavBarColor(){
+		const classOnScroll = window.scrollY > 200
+		console.log(window.scrollY);
+		
+		this.setState({
+			scrolled: classOnScroll
+		  });
+
+	  }
+
 	render () {
 		return (
-			<div id="navbar-sticky">
-				<div id="navbar-container">
+			<div className={this.state.scrolled ? "opaque-navbar" : "transparent-navbar"} style={{ transition: '1s ease' }} id="navbar-sticky" onScroll={this.setNavBarColor}>
+				<div id="navbar-container" >
 						<div id="img-container">
 							<img class="navbar-wic-logo" src={wic_white} onClick={this.scrollToTop}></img>
 						</div>
@@ -40,6 +67,7 @@ class Navbar extends React.Component {
 						<h6>
 							<Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={1000}>Contact</Link>
 						</h6>
+						
 				</div>
 			</div>
 		)

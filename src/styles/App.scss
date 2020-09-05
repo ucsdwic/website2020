@@ -318,12 +318,10 @@
   top: 0;
   left: 0;
   right: 0;
-  height: 8rem;
-  margin-top: -8rem;
+  height: 9rem;
+  margin-top: -9rem;
   padding-left: $spacer-two;
   padding-right: $spacer-two;
-  // background-color: $color-white;
-  // opacity: 0.5;
   z-index: 100;
 
   h6 {
@@ -359,4 +357,12 @@
   font-family: Kollektif-Bold;
   border-bottom: 4px solid white;
   cursor: pointer; 
+}
+
+.transparent-navbar{
+  background-color: "transparent";
+}
+
+.opaque-navbar{
+  background-color: $color-purple-darkest;
 }

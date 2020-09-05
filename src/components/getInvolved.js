@@ -21,7 +21,7 @@ class GetInvolved extends React.Component {
     const socialDescrip = "this is the best not biased";
     const socialNum = "4";
     return (
-      <div className="mid-background-section">
+      <div className="mid-background-section" id="involvement">
         <Container>
           <Row>
             <Col
