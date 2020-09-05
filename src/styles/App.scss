@@ -249,17 +249,29 @@
   font-weight: bold;
 }
 
-.primary {
+.common-button {
+  height: 5rem;
   position: relative;
+  white-space: nowrap;
+  margin: $spacer-two 0;
+  left: 50%;
+  width: max-content;
+}
+
+.primary {
+  @extend .common-button;
 
   .front-button {
+    position: absolute;
+    left: auto;
+    right: auto;
     height: 5rem;
     padding: 0 5rem;
     color: $color-purple-mid;
-    background-color: $color-white;
     border: 2px solid $color-purple-mid;
     transition: 0.5s all;
     z-index: 100;
+    text-align: center;
   }
 
   .front-button:hover {
@@ -273,7 +285,8 @@
     height: 5rem;
     padding: 0 5rem;
     background-color: $color-purple-mid;
-    z-index: -100;
+    z-index: 10;
+    pointer-events: none;
 
     h5 {
       opacity: 0;
@@ -282,9 +295,10 @@
 }
 
 .secondary {
-  position: relative;
+  @extend .common-button;
 
   .front-button {
+    position: absolute;
     height: 5rem;
     padding: 0 5rem;
     color: $color-purple-mid;
@@ -304,7 +318,8 @@
     left: 6px;
     height: 5rem;
     padding: 0 5rem;
-    z-index: -100;
+    z-index: 10;
+    pointer-events: none;
     border: 2px solid $color-purple-lightest;
 
     h5 {
@@ -312,3 +327,12 @@
     }
   }
 }
+
+// #main-button {
+//   margin-top: $spacer-two;
+//   margin-bottom: $spacer-two;
+//   position: relative;
+//   left: 50%;
+//   width: 0;
+//   height: 5rem;
+// }
