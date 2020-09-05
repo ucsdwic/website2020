@@ -107,13 +107,6 @@
   padding-bottom: $spacer-three;
 }
 
-.memberImage {
-  box-shadow: 10px 10px 0px -5px $color-purple-lightest;
-  width: 100%;
-  height: 100%;
-  cursor: pointer;
-}
-
 .teamInfo {
   color: $color-white;
   padding-top: $spacer-two;
@@ -133,10 +126,9 @@
 }
 
 .member-popup {
-  z-index: 1000;
+  z-index: 10000;
   position: fixed;
   top: $spacer-three;
-  bottom: $spacer-three;
   left: 20vh;
   right: 20vh;
   border: 2px solid $color-purple-darkest;
@@ -157,6 +149,51 @@
 
   p {
     margin-top: $spacer-one;
+  }
+
+  @media screen and (max-width: $xl) and (min-width: $sm) {
+    left: $spacer-three;
+    right: $spacer-three;
+    top: 20rem;
+  }
+
+  @media screen and (max-width: $sm) {
+    left: $spacer-two;
+    right: $spacer-two;
+    bottom: $spacer-three;
+  }
+}
+
+.members {
+  .img-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    z-index: 10;
+    border: 2px solid $color-purple-lightest;
+    pointer-events: none;
+  }
+
+  .member-wrapper {
+    width: 100%;
+    position: relative;
+    .memberImage {
+      // box-shadow: 10px 10px 0px -5px $color-purple-lightest;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+      position: relative;
+      top: 0;
+      left: 0;
+      // position: relative;
+      cursor: pointer;
+      transition: 0.6s all;
+      &:hover {
+        transform: translate(7px, 7px);
+      }
+    }
   }
 }
 
@@ -186,20 +223,9 @@
       transform: scale(0.8);
     }
   }
-
-  @media screen and (max-width: $lg) and (min-width: $sm) {
-    left: $spacer-three;
-    right: $spacer-three;
-  }
-
   @media screen and (max-width: $sm) {
-    left: $spacer-two;
-    right: $spacer-two;
-
-    .member-popup-socials {
-      svg {
-        margin: $spacer-one;
-      }
+    svg {
+      margin: $spacer-one;
     }
   }
 }
@@ -473,7 +499,7 @@
 }
 
 #opaque-filler {
-  z-index: 100;
+  z-index: 9999;
   position: fixed;
   top: 0;
   left: 0;
