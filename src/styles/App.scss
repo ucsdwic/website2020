@@ -379,7 +379,8 @@
   }
 
   h6 {
-    // margin: $spacer-base $spacer-one;
+    text-align: center;
+    margin: $spacer-base 0;
   }
 }
 
@@ -395,7 +396,6 @@
   border-radius: 0 !important;
   border: none !important;
   color: $color-purple-darkest !important;
-  font-weight: bo;
 }
 
 .react-tabs__tab-list {
@@ -415,5 +415,11 @@
   .react-tabs__tab-list {
     display: flex;
     flex-direction: column;
+  }
+}
+
+@media screen and (min-width: $sm) {
+  .react-tabs__tab {
+    width: 100%;
   }
 }
