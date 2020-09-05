@@ -1,8 +1,8 @@
 import React from "react";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import "./styles/App.scss";
-import JoinUs from "./components/JoinUs";
-import AboutUs from "./components/AboutUs";
+import JoinUs from "./pages/JoinUs";
+import AboutUs from "./pages/AboutUs";
 import MeetTheTeam from "./pages/MeetTheTeam";
 import GetInvolved from "./components/getInvolved.js";
 import ContactUs from "./components/contactUs.js";

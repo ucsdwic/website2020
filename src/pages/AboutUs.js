@@ -5,8 +5,8 @@ import { FaMoneyCheckAlt } from "react-icons/fa";
 import { RiComputerFill } from "react-icons/ri";
 import { GiGraduateCap } from "react-icons/gi";
 import { AiFillTrophy } from "react-icons/ai";
-import AboutUsSection from "./AboutUsSection";
-import Button from "./Button";
+import AboutUsSection from "../components/AboutUsSection";
+
 class AboutUs extends React.Component {
   render() {
     return (
