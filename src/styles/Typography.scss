@@ -17,13 +17,23 @@ html {
 
 @font-face {
   font-family: Kollektif, Arial, Helvetica, sans-serif;
-  src: url("./fonts/Kollektif.ttf") format("ttf");
+  src: url("./fonts/Kollektif.eot");
+  src: url("./fonts/Kollektif.ttf") format("truetype"),
+    url("./fonts/Kollektif.svg") format("svg"),
+    url("./fonts/Kollektif.otf") format("otf"),
+    url("./fonts/Kollektif.woff") format("woff"),
+    url("./fonts/Kollektif.woff2") format("woff2");
   font-weight: normal;
 }
 
 @font-face {
   font-family: Kollektif-Bold, Arial, Helvetica, sans-serif;
-  src: url("./fonts/Kollektif-Bold.ttf") format("ttf");
+  src: url("./fonts/Kollektif-Bold.eot");
+  src: url("./fonts/Kollektif-Bold.ttf") format("ttf"),
+    url("./fonts/Kollektif-Bold.svg") format("svg"),
+    url("./fonts/Kollektif-Bold.otf") format("otf"),
+    url("./fonts/Kollektif-Bold.woff") format("woff"),
+    url("./fonts/Kollektif-Bold.woff2") format("woff2");
   font-weight: bold;
 }
 
