@@ -10,64 +10,66 @@ class Navbar extends React.Component {
 	constructor(props) {
 		super(props);
 		this.state = {
-		  scrolled: false
+			scrolled: false,
+			navbarBackground: "navbar-transparent",
+			navbarHeading: "navbar-white-heading",
+			wicLogo: wic_purple
 		};
 		this.setNavBarColor = this.setNavBarColor.bind(this);
-	  }
+	}
 
 	scrollToTop = () => {
 		scroll.scrollToTop();
-	  };
+	};
 
-	  componentDidMount() {
-		window.addEventListener('scroll', this.setNavBarColor);
-	  }
-	  componentWillUnmount() {
-		window.removeEventListener('scroll', this.setNavBarColor);
-	  }
+	componentDidMount() {
+	window.addEventListener('scroll', this.setNavBarColor);
+	}
+	componentWillUnmount() {
+	window.removeEventListener('scroll', this.setNavBarColor);
+	}
 
-	  setNavBarColor(){
-		const classOnScroll = window.scrollY > 200
-		console.log(window.scrollY);
-		
+	setNavBarColor(){	
+		var scrolled = window.scrollY > 200
 		this.setState({
-			scrolled: classOnScroll
-		  });
+			navbarBackground: scrolled ? "navbar-opaque" : "navbar-transparent",
+			navbarHeading: scrolled ? "navbar-white-heading": "navbar-purple-heading",
+			wicLogo: scrolled ? wic_white : wic_purple
+		});
+	}
 
-	  }
-
+	// TODO: Dynamically render the Links Section
 	render () {
 		return (
-			<div className={this.state.scrolled ? "opaque-navbar" : "transparent-navbar"} style={{ transition: '1s ease' }} id="navbar-sticky" onScroll={this.setNavBarColor}>
-				<div id="navbar-container" >
+			<div className={this.state.navbarBackground} style={{ transition: '1s ease' }} id="navbar-sticky" onScroll={this.setNavBarColor}>
+				<div id="navbar-container">
 						<div id="img-container">
-							<img class="navbar-wic-logo" src={wic_white} onClick={this.scrollToTop}></img>
+							<img class="navbar-wic-logo" src={this.state.wicLogo} onClick={this.scrollToTop}></img>
 						</div>
-						<h6>
-							<Link activeClass="active" to="about-us-page" spy={true} smooth={true} offset={-70} duration={1000}>About</Link>
+						<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
+							<Link activeClass="navbar-active" to="about-us-page" spy={true} smooth={true} offset={-70} duration={1000}>About</Link>
 						</h6>
-						<h6>
-							<Link activeClass="active" to="events" spy={true} smooth={true} offset={-70} duration={1000}>Events</Link>
+						<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
+							<Link activeClass="navbar-active" to="events" spy={true} smooth={true} offset={-70} duration={1000}>Events</Link>
 						</h6>
-						<h6>
-							<Link activeClass="active" to="meet-the-team-page" spy={true} smooth={true} offset={-70} duration={1000}>Team</Link>
+						<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
+							<Link activeClass="navbar-active" to="meet-the-team-page" spy={true} smooth={true} offset={-70} duration={1000}>Team</Link>
 						</h6>
-						<h6>
-							<Link activeClass="active" to="involvement" spy={true} smooth={true} offset={-70} duration={1000}>Involvement</Link>
+						<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
+							<Link activeClass="navbar-active" to="involvement" spy={true} smooth={true} offset={-70} duration={1000}>Involvement</Link>
 						</h6>
-						<h6>
-							<Link activeClass="active" to="sponsors" spy={true} smooth={true} offset={-70} duration={1000}>Sponsors</Link>
+						<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
+							<Link activeClass="navbar-active" to="sponsors" spy={true} smooth={true} offset={-70} duration={1000}>Sponsors</Link>
 						</h6>
-						<h6>
-							<Link activeClass="active" to="resources" spy={true} smooth={true} offset={-70} duration={1000}>Resources</Link>
+						<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
+							<Link activeClass="navbar-active" to="resources" spy={true} smooth={true} offset={-70} duration={1000}>Resources</Link>
 						</h6>
-						<h6>
-							<Link activeClass="active" to="join-us-page" spy={true} smooth={true} offset={-70} duration={1000}>Join Us</Link>
+						<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
+							<Link activeClass="navbar-active" to="join-us-page" spy={true} smooth={true} offset={-70} duration={1000}>Join Us</Link>
 						</h6>
-						<h6>
-							<Link activeClass="active" to="contact" spy={true} smooth={true} offset={-70} duration={1000}>Contact</Link>
+						<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
+							<Link activeClass="navbar-active" to="contact" spy={true} smooth={true} offset={-70} duration={1000}>Contact</Link>
 						</h6>
-						
 				</div>
 			</div>
 		)
