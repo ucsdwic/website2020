@@ -8,9 +8,10 @@ import GetInvolved from "./components/getInvolved.js";
 import ContactUs from "./components/contactUs.js";
 import Home from "./pages/home.js";
 import Button from "./components/Button";
+import Resources from "./components/Resources";
 import Sponsors from "./pages/sponsors";
 
-setConfiguration({ gutterWidth: 80 });
+setConfiguration({ gutterWidth: 60 });
 
 function App() {
   return (
@@ -20,10 +21,10 @@ function App() {
       <AboutUs/>
       <MeetTheTeam/>
       <GetInvolved />
-      <Sponsors/>
-      <JoinUs/>
-      <ContactUs/>
-     
+      <Sponsors />
+      <Resources />
+      <JoinUs />
+      <ContactUs />
 
     </div>
   );

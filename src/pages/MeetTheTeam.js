@@ -14,14 +14,14 @@ class MeetTheTeam extends React.Component {
   }
 
   getModal = value => {
-    console.log(document.getElementById("root"));
-    document.getElementById("root").style.backgroundColor = "black";
+    document.getElementById("opaque-filler").style.display = "block";
     this.setState({
       showModal: value
     });
   };
 
   hideModal = value => {
+    document.getElementById("opaque-filler").style.display = "none";
     this.setState({
       showModal: -1
     });
@@ -29,106 +29,44 @@ class MeetTheTeam extends React.Component {
 
   render() {
     return (
-      <div className="darkest-background-section">
-        <Container>
-          <Row>
-            <Col className="darkest-background-section" sm={12} md={12}>
-              <h1 className="teamTitle">Meet The Team</h1>
-            </Col>
-          </Row>
-
-          <div className="members">
+      <>
+        <div id="opaque-filler"></div>
+        <div className="darkest-background-section">
+          <Container>
             <Row>
-              {all_members.map((member, idx) => {
-                return (
-                  <>
-                    <Col xs={6} sm={4} md={3}>
-                      <div onClick={() => this.getModal(idx)}>
-                        <Member name={member.name} position={member.position} />
-                      </div>
-                    </Col>
-                    <MemberPopup
-                      show={this.state.showModal === idx}
-                      onHide={() => {
-                        console.log("calling hide modal");
-                        this.hideModal(idx);
-                      }}
-                      index={idx}
-                    />
-                  </>
-                );
-              })}
+              <Col className="darkest-background-section" sm={12} md={12}>
+                <h1 className="teamTitle">Meet The Team</h1>
+              </Col>
             </Row>
-            {/* <Container>
-                        <Row>
-                            <Col className="darkest-background-section" sm={4} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={4} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={4} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={4} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={4} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col className="darkest-background-section" sm={6} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col className="darkest-background-section" sm={6} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={2.4}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                        </Row>
-                        <Row>
-                            <Col className="darkest-background-section" sm={6} md={3}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={3}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={3}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                            <Col className="darkest-background-section" sm={6} md={3}>
-                                <Member name = "Jaida" position = "Web-Development" />
-                            </Col>
-                        </Row>
-                    </Container> */}
-          </div>
-        </Container>
-      </div>
+
+            <div className="members">
+              <Row>
+                {all_members.map((member, idx) => {
+                  return (
+                    <>
+                      <Col xs={6} sm={4} md={3}>
+                        <div onClick={() => this.getModal(idx)}>
+                          <Member
+                            name={member.name}
+                            position={member.position}
+                          />
+                        </div>
+                      </Col>
+                      <MemberPopup
+                        show={this.state.showModal === idx}
+                        onHide={() => {
+                          this.hideModal(idx);
+                        }}
+                        index={idx}
+                      />
+                    </>
+                  );
+                })}
+              </Row>
+            </div>
+          </Container>
+        </div>
+      </>
     );
   }
 }
