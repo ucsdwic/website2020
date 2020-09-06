@@ -6,21 +6,23 @@ import AboutUs from "./pages/AboutUs";
 import MeetTheTeam from "./pages/MeetTheTeam";
 import GetInvolved from "./components/getInvolved.js";
 import ContactUs from "./components/contactUs.js";
-import Home from "./components/home.js";
 import Events from './pages/Events.js';
-import Button from "./components/Button";
-import Sponsors from "./components/sponsors";
+import Home from "./pages/home.js";
+import Resources from "./components/Resources";
+import Sponsors from "./pages/sponsors";
 
-setConfiguration({ gutterWidth: 80 });
+setConfiguration({ gutterWidth: 60 });
 
 function App() {
   return (
     <div>
-      <AboutUs />
-      <MeetTheTeam />
+      <Home/>
+      <AboutUs/>
       <Events/>
+      <MeetTheTeam/>
       <GetInvolved />
       <Sponsors />
+      <Resources />
       <JoinUs />
       <ContactUs />
     </div>

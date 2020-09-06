@@ -110,12 +110,6 @@
   padding-bottom: $spacer-three;
 }
 
-.memberImage {
-  box-shadow: 10px 10px 0px -5px $color-purple-lightest;
-  width: 100%;
-  height: 100%;
-}
-
 .teamInfo {
   color: $color-white;
   padding-top: $spacer-two;
@@ -135,21 +129,74 @@
 }
 
 .member-popup {
-  z-index: 1000;
+  z-index: 10000;
   position: fixed;
-  top: 15%;
-  bottom: 15%;
-  left: 20%;
-  right: 20%;
+  top: $spacer-three;
+  left: 20vh;
+  right: 20vh;
   border: 2px solid $color-purple-darkest;
   background: $color-purple-lightest;
   padding: $spacer-two;
+  max-height: 100%;
+  overflow-y: scroll;
 
   img {
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 70%;
+    margin-top: $spacer-two;
+    width: 100%;
+  }
+
+  h2 {
+    margin-top: $spacer-two;
+  }
+
+  p {
+    margin-top: $spacer-one;
+  }
+
+  @media screen and (max-width: $xl) and (min-width: $sm) {
+    left: $spacer-three;
+    right: $spacer-three;
+    top: 20rem;
+  }
+
+  @media screen and (max-width: $sm) {
+    left: $spacer-two;
+    right: $spacer-two;
+    bottom: $spacer-three;
+  }
+}
+
+.members {
+  .img-background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    z-index: 10;
+    border: 2px solid $color-purple-lightest;
+    pointer-events: none;
+  }
+
+  .member-wrapper {
+    width: 100%;
+    position: relative;
+    .memberImage {
+      // box-shadow: 10px 10px 0px -5px $color-purple-lightest;
+      width: 100%;
+      height: 100%;
+      z-index: 1000;
+      position: relative;
+      top: 0;
+      left: 0;
+      // position: relative;
+      cursor: pointer;
+      transition: 0.6s all;
+      &:hover {
+        transform: translate(7px, 7px);
+      }
+    }
   }
 }
 
@@ -167,8 +214,23 @@
 }
 
 .member-popup-socials {
+  margin-top: $spacer-two;
   text-align: center;
-  padding: 70px 0;
+  font-size: 4.8rem;
+
+  svg {
+    margin: $spacer-two;
+    transition: 0.6s all;
+
+    &:hover {
+      transform: scale(0.8);
+    }
+  }
+  @media screen and (max-width: $sm) {
+    svg {
+      margin: $spacer-one;
+    }
+  }
 }
 
 .exitButton {
@@ -182,6 +244,12 @@
   position: absolute;
   top: 2%;
   right: 2%;
+  cursor: pointer;
+  transition: 0.6s all;
+
+  &:hover {
+    transform: scale(0.8);
+  }
 }
 
 .transparent-background-section {
@@ -381,4 +449,206 @@
 .fc .fc-event {
   border: $color-purple-mid !important;
   background: $color-purple-mid !important;
+
+  /* Style the tab */
+.toggle-tab {
+  overflow: hidden;
+  background-color: $color-purple-darkest;
+  position: fixed;
+  right: 20%;
+  left: 20%;
+
+  /* Style the buttons that are used to open the tab content */
+  button {
+    background-color: inherit;
+    float: center;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 2% 4%;
+    transition: 0.3s;
+    font-family: Poppins, Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    line-height: 2.4rem;
+    color: $color-purple-lightest;
+  }
+
+  /* Change background color of buttons on hover */
+  button:hover {
+    background-color: $color-purple-lightest;
+    color: $color-purple-darkest;
+  }
+
+  /* Create an active/current tablink class */
+  button.active {
+    background-color: $color-purple-lightest;
+  }
+}
+
+/* Style the tab content */
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+  border: 1px solid #ccc;
+  border-top: none;
+}
+
+.resources-section {
+  padding: $spacer-four 0;
+  color: $color-purple-darkest;
+
+  h1 {
+    margin-bottom: $spacer-three;
+    color: $color-purple-lightest;
+  }
+
+  h6 {
+    margin: $spacer-base 0;
+    text-align: center;
+  }
+
+  p {
+    margin-top: $spacer-one;
+  }
+}
+
+.react-tabs__tab {
+  border: none;
+  background: $color-purple-darkest;
+  padding: $spacer-two;
+  color: $color-purple-lightest;
+}
+
+.react-tabs__tab--selected {
+  background: $color-purple-lightest !important;
+  border-radius: 0 !important;
+  border: none !important;
+  color: $color-purple-darkest !important;
+}
+
+.react-tabs__tab-list {
+  border: none !important;
+  margin: 0 !important;
+  display: flex;
+  flex-direction: row;
+}
+
+.react-tabs__tab-panel--selected {
+  background: $color-purple-lightest !important;
+  color: $color-purple-darkest;
+  padding: $spacer-two;
+}
+
+@media screen and (max-width: $sm) {
+  .react-tabs__tab-list {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: $sm) {
+  .react-tabs__tab {
+    width: 100%;
+  }
+}
+
+#opaque-filler {
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: $color-black-transparent;
+  pointer-events: none;
+  display: none;
+}
+
+.homeButtons{
+  position: relative;
+
+  .front-button {
+    height: 5rem;
+    padding: 0 5rem;
+    color: $color-purple-lightest;
+    background-color: $color-purple-mid;
+    border: 2px solid $color-purple-mid;
+    transition: 0.5s all;
+    z-index: 100;
+  }
+
+  .front-button:hover {
+    transform: translate(6px, 4px);
+  }
+
+  .back-button {
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    height: 5rem;
+    padding: 0 5rem;
+    z-index: -100;
+    border: 2px solid $color-purple-mid;
+    background-color: $color-purple-lightest;
+
+    h5 {
+      opacity: 0;
+    }
+  }
+}
+
+#homeCenterButton{
+  text-align: center;
+}
+
+#homeImage{
+  background-image: url("../static/homeOverlay.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  background-position: center;
+}
+
+#homeCenterText{
+  text-align: center;
+  color: $color-purple-mid;
+  font-family: Poppins, Arial, Helvetica, sans-serif;
+  font-size: 2.4rem;
+  line-height: 2.4rem;
+  margin-top: $spacer-one;
+  margin-bottom: $spacer-two;
+}
+
+#homeCenterLogo{
+  text-align: center;
+  margin-top: 22%;
+}
+
+#homeCenterContainer{
+  position: relative;
+}
+
+img{
+  max-width: 100%;
+}
+
+#sponsorsTitleMargin{
+  margin-top: $spacer-four;
+}
+#logoMargin{
+  margin-top: $spacer-three;
+}
+
+#learnMoreButton{
+  margin-top: $spacer-three;
+  margin-bottom: $spacer-four;
+
+}
+#sponsorUsButton{
+  margin-top: $spacer-three;
+  margin-bottom: $spacer-four;
+  
+}
+#centerButtons{
+  justify-content: center;  
 }
