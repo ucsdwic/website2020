@@ -419,3 +419,60 @@ img{
 }
 
 
+#navbar-container {
+  padding-top: $spacer-one;
+  padding-bottom: $spacer-one;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#navbar-sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 8rem;
+  margin-top: -8rem;
+  padding-left: $spacer-two;
+  padding-right: $spacer-two;
+  z-index: 100;
+
+  h6 {
+    font-family: Kollektif;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    cursor: pointer;
+  }
+
+}
+
+.navbar-wic-logo {
+  height: 4rem;
+}
+
+#img-container {
+  width: 50%;
+}
+
+.navbar-active {
+  font-family: Kollektif-Bold;
+  border-bottom: 4px solid white;
+  cursor: pointer; 
+}
+
+.navbar-transparent{
+  background-color: "transparent";
+}
+
+.navbar-opaque{
+  background-color: $color-purple-darkest;
+}
+
+.navbar-purple-heading {
+  color: $color-purple-mid;
+}
+
+.navbar-white-heading {
+  color: white;
+}

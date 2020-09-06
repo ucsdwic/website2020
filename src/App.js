@@ -9,22 +9,21 @@ import ContactUs from "./components/contactUs.js";
 import Home from "./pages/home.js";
 import Button from "./components/Button";
 import Sponsors from "./pages/sponsors";
+import Navbar from "./components/Navbar";
 
 setConfiguration({ gutterWidth: 80 });
 
 function App() {
   return (
     <div>
-
-      <Home/>
-      <AboutUs/>
-      <MeetTheTeam/>
+      <Navbar />
+      <Home />
+      <AboutUs />
+      <MeetTheTeam />
       <GetInvolved />
-      <Sponsors/>
-      <JoinUs/>
-      <ContactUs/>
-     
-
+      <Sponsors />
+      <JoinUs />
+      <ContactUs />
     </div>
   );
 }
