@@ -31,7 +31,7 @@ class MeetTheTeam extends React.Component {
     return (
       <>
         <div id="opaque-filler"></div>
-        <div className="darkest-background-section">
+        <div className="darkest-background-section" id="meet-the-team-page">
           <Container>
             <Row>
               <Col className="darkest-background-section" sm={12} md={12}>

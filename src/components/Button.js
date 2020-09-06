@@ -29,7 +29,7 @@ export default class Button extends React.Component {
   render() {
     return (
       <div className={this.props.type}>
-        <a href={this.props.toLink}>
+        <a href={this.props.toLink} target="_blank">
           <button className="front-button">
             <h5>{this.props.text}</h5>
           </button>
