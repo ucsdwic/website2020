@@ -1,6 +1,6 @@
 import React from 'react'
 import { Row, Col, Container } from "react-grid-system";
-import "../styles/App.scss";
+import "../styles/JoinUs.scss";
 import {ImQuotesLeft} from 'react-icons/im'
 import PhotoGallery from '../components/PhotoGallery.js'
 import Button from "../components/Button";

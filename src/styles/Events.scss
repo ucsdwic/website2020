@@ -1,0 +1,61 @@
+@import "./Vars.scss";
+@import "./Typography.scss";
+
+#events-container {
+	padding-top: $spacer-four;
+	padding-bottom: $spacer-four;
+}
+
+#events-page {
+	padding-top: $spacer-four;
+	padding-bottom: $spacer-four;
+}
+
+#events-title {
+	padding-bottom: $spacer-three;
+	color: $color-purple-mid;
+}
+
+
+.fc {
+	font-family: Poppins;
+  }
+  
+  .fc .fc-daygrid-day-number {
+	color: $color-purple-mid !important;
+	font-size: 1.4rem !important;
+  }
+  
+  .fc .fc-state-default {
+	background-image: none !important;
+	box-shadow: none !important;
+	border: none !important;
+	text-shadow: none !important;
+  }
+  
+  .fc .fc-day-grid-event .fc-content {
+	white-space: normal !important;
+	padding: 10px 0 !important;
+	color: $color-white !important;
+  }
+  
+  .fc h2 {
+	color: $color-purple-mid !important;
+	font-size: 3.2rem !important;
+  }
+  
+  .fc .fc-event-time {
+	color: $color-white !important;
+	font-size: 1rem !important;
+  }
+  
+  .fc .fc-event-title {
+	color: $color-white !important;
+	font-size: 1rem !important;
+	overflow-wrap: normal !important;
+  }
+  
+  .fc .fc-event {
+	border: $color-purple-mid !important;
+	background: $color-purple-mid !important;
+  }

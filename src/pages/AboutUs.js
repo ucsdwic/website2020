@@ -1,6 +1,6 @@
 import React from "react";
 import { Row, Col, Container } from "react-grid-system";
-import "../styles/App.scss";
+import "../styles/AboutUs.scss";
 import { FaMoneyCheckAlt } from "react-icons/fa";
 import { RiComputerFill } from "react-icons/ri";
 import { GiGraduateCap } from "react-icons/gi";

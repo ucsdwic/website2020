@@ -21,7 +21,7 @@ class Sponsors extends React.Component{
     render(){
         return (
             <div>
-                <Container className="white-background-section">
+                <Container className="white-background-section" id="sponsors-page">
                 <Row>
                     <Col id="sponsorsTitleMargin" md={12}> 
                     <h1 className="white-background-section">Sponsors</h1>

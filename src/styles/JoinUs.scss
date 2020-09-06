@@ -1,0 +1,58 @@
+@import "./Vars.scss";
+@import "./Typography.scss";
+
+#join-us-body {
+	text-align: center;
+  }
+  
+  #join-us-title {
+	padding-bottom: $spacer-two;
+  }
+  
+  #join-us-quote-icon {
+	font-size: 5rem;
+	color: $color-white;
+  }
+  
+  #join-us-quote {
+	font-size: 4.5rem;
+	line-height: 5.5rem;
+	color: $color-white;
+  }
+  
+  #join-us-page {
+	padding-top: $spacer-four;
+	padding-bottom: $spacer-four;
+  }
+  
+  #quote-bold {
+	font-weight: 700;
+	background: linear-gradient(
+	  to top,
+	  $color-purple-darkest 50%,
+	  transparent 50%
+	);
+  }
+  
+  #slider-img:hover {
+	filter: none;
+	-webkit-filter: grayscale(0%);
+	-moz-filter: grayscale(0%);
+	filter: grayscale(0%);
+  }
+  
+  #slider-img {
+	height: 15rem;
+	-webkit-filter: grayscale(100%);
+	-moz-filter: grayscale(100%);
+	filter: grayscale(100%);
+	transition: all 0.3s ease;
+  }
+  
+  #slider-img-container {
+	text-align: center;
+  }
+  
+  #photo-gallery {
+	padding-top: $spacer-three;
+  }

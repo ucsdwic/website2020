@@ -22,89 +22,6 @@
   color: $color-purple-mid;
 }
 
-#about-us-blurb {
-  padding-top: $spacer-three;
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-}
-
-#about-us-icon {
-  font-size: 8rem;
-  text-align: center;
-  margin-top: $spacer-two;
-}
-
-#about-us-page {
-  padding-top: $spacer-four;
-  padding-bottom: $spacer-four;
-}
-
-#join-us-body {
-  text-align: center;
-}
-
-#join-us-title {
-  padding-bottom: $spacer-two;
-}
-
-#join-us-quote-icon {
-  font-size: 5rem;
-  color: $color-white;
-}
-
-#join-us-quote {
-  font-size: 4.5rem;
-  line-height: 5.5rem;
-  color: $color-white;
-}
-
-#join-us-page {
-  padding-top: $spacer-four;
-  padding-bottom: $spacer-four;
-}
-
-#quote-bold {
-  font-weight: 700;
-  background: linear-gradient(
-    to top,
-    $color-purple-darkest 50%,
-    transparent 50%
-  );
-}
-
-#slider-img:hover {
-  filter: none;
-  -webkit-filter: grayscale(0%);
-  -moz-filter: grayscale(0%);
-  filter: grayscale(0%);
-}
-
-#slider-img {
-  height: 15rem;
-  -webkit-filter: grayscale(100%);
-  -moz-filter: grayscale(100%);
-  filter: grayscale(100%);
-  transition: all 0.3s ease;
-}
-
-#slider-img-container {
-  text-align: center;
-}
-
-#photo-gallery {
-  padding-top: $spacer-three;
-}
-
-#about-us-icon-title {
-  text-align: center;
-  margin-bottom: $spacer-one;
-}
-
-#about-us-description {
-  font-size: 1.6rem;
-  line-height: 1.8rem;
-}
-
 .teamTitle {
   padding-top: $spacer-four;
   padding-bottom: $spacer-three;
@@ -446,71 +363,7 @@
 //   }
 // }
 
-#navbar-container {
-  padding-top: $spacer-one;
-  padding-bottom: $spacer-one;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
 
-#navbar-sticky {
-  position: sticky;
-  top: 0;
-  left: 0;
-  right: 0;
-  height: 8rem;
-  margin-top: -8rem;
-  padding-left: $spacer-two;
-  padding-right: $spacer-two;
-  z-index: 100;
-
-  h6 {
-    font-family: Kollektif;
-    font-size: 1.6rem;
-    line-height: 1.6rem;
-    cursor: pointer;
-  }
-}
-
-.navbar-wic-logo {
-  height: 4rem;
-}
-
-#img-container {
-  width: 50%;
-}
-
-.navbar-active {
-  font-family: Kollektif-Bold;
-  border-bottom: 4px solid white;
-  cursor: pointer;
-}
-
-.navbar-transparent {
-  background-color: "transparent";
-}
-
-.navbar-opaque {
-  background-color: $color-purple-darkest;
-}
-
-.navbar-purple-heading {
-  color: $color-purple-mid;
-}
-
-.navbar-white-heading {
-  color: white;
-}
-
-#events-container {
-  padding-top: $spacer-four;
-  padding-bottom: $spacer-four;
-}
-#events-title {
-  padding-bottom: $spacer-three;
-  color: $color-purple-mid;
-}
 
 #homeCenterButton {
   text-align: center;
@@ -566,14 +419,6 @@ img {
   justify-content: center;
 }
 
-#navbar-container {
-  padding-top: $spacer-one;
-  padding-bottom: $spacer-one;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
 .resources-section {
   padding: $spacer-four 0;
   color: $color-purple-darkest;
@@ -607,20 +452,6 @@ img {
   color: $color-purple-darkest !important;
 }
 
-.navbar-active {
-  font-family: Kollektif-Bold;
-  border-bottom: 4px solid white;
-  cursor: pointer;
-}
-
-.navbar-transparent {
-  background-color: "transparent";
-}
-
-.navbar-opaque {
-  background-color: $color-purple-darkest;
-}
-
 .react-tabs__tab-list {
   border: none !important;
   margin: 0 !important;
@@ -647,14 +478,6 @@ img {
   }
 }
 
-.navbar-white-heading {
-  color: white;
-}
-
-#events-container {
-  padding-top: $spacer-four;
-  padding-bottom: $spacer-four;
-}
 
 #opaque-filler {
   z-index: 9999;
@@ -668,53 +491,7 @@ img {
   display: none;
 }
 
-#events-title {
-  padding-bottom: $spacer-three;
-  color: $color-purple-mid;
-}
 
-.fc {
-  font-family: Poppins;
-}
-
-.fc .fc-daygrid-day-number {
-  color: $color-purple-mid !important;
-  font-size: 1.4rem !important;
-}
-
-.fc .fc-state-default {
-  background-image: none !important;
-  box-shadow: none !important;
-  border: none !important;
-  text-shadow: none !important;
-}
-
-.fc .fc-day-grid-event .fc-content {
-  white-space: normal !important;
-  padding: 10px 0 !important;
-  color: $color-white !important;
-}
-
-.fc h2 {
-  color: $color-purple-mid !important;
-  font-size: 3.2rem !important;
-}
-
-.fc .fc-event-time {
-  color: $color-white !important;
-  font-size: 1rem !important;
-}
-
-.fc .fc-event-title {
-  color: $color-white !important;
-  font-size: 1rem !important;
-  overflow-wrap: normal !important;
-}
-
-.fc .fc-event {
-  border: $color-purple-mid !important;
-  background: $color-purple-mid !important;
-}
 #sponsorUsButton {
   margin-top: $spacer-three;
   margin-bottom: $spacer-four;

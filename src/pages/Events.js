@@ -4,11 +4,12 @@ import dayGridPlugin from '@fullcalendar/daygrid'
 import googleCalendarPlugin from '@fullcalendar/google-calendar';
 import { Row, Col, Container } from "react-grid-system";
 import Button from "../components/Button";
+import "../styles/Events.scss";
 
 class Events extends React.Component {
   render() {
     return (
-		<Container id="events-container">
+		<Container id="events-page">
 			<Row id="events-title">
 				<Col>
                     <h1>Events</h1>

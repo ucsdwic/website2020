@@ -7,7 +7,7 @@ import "../styles/App.scss";
 class Resources extends React.Component {
   render() {
     return (
-      <div className="darkest-background-section resources-section">
+      <div className="darkest-background-section resources-section" id="resources-page">
         <Container>
           <h1>Resources</h1>
           <Tabs>
