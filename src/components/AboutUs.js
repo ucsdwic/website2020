@@ -6,6 +6,7 @@ import { RiComputerFill } from "react-icons/ri";
 import { GiGraduateCap } from "react-icons/gi";
 import { AiFillTrophy } from "react-icons/ai";
 import AboutUsSection from "./AboutUsSection";
+import Button from "./Button";
 class AboutUs extends React.Component {
   render() {
     return (
@@ -22,6 +23,25 @@ class AboutUs extends React.Component {
               </p>
             </Col>
           </Row>
+          <Row justify="center" align="center">
+            <Col xs={12} sm={6} md={4}>
+              {" "}
+              <Button
+                type="primary"
+                text="Join our mailing list"
+                toLink="https://google.com"
+              />
+            </Col>
+            <Col xs={12} sm={6} md={4}>
+              {" "}
+              <Button
+                type="secondary"
+                text="Sponsor Us"
+                toLink="https://google.com"
+              />
+            </Col>
+          </Row>
+
           <Row>
             <Col xs={12} sm={6} md={3}>
               <AboutUsSection icon={RiComputerFill} title="Industry Events" />
