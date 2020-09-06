@@ -11,21 +11,23 @@ import Events from './pages/Events.js';
 import Button from "./components/Button";
 import Sponsors from "./pages/sponsors";
 import Navbar from "./components/Navbar";
+import Resources from "./components/Resources";
 
-setConfiguration({ gutterWidth: 80 });
+setConfiguration({ gutterWidth: 60 });
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <Home />
-      <AboutUs />
-      <MeetTheTeam />
+      <Navbar/>
+      <Home/>
+      <AboutUs/>
       <Events/>
-      <GetInvolved />
-      <Sponsors />
-      <JoinUs />
-      <ContactUs />
+      <MeetTheTeam/>
+      <GetInvolved/>
+      <Sponsors/>
+      <Resources/>
+      <JoinUs/>
+      <ContactUs/>      
     </div>
   );
 }

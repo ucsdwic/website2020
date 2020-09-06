@@ -12,7 +12,7 @@ class Navbar extends React.Component {
 		this.state = {
 			scrolled: false,
 			navbarBackground: "navbar-transparent",
-			navbarHeading: "navbar-white-heading",
+			navbarHeading: "navbar-purple-heading",
 			wicLogo: wic_purple
 		};
 		this.setNavBarColor = this.setNavBarColor.bind(this);

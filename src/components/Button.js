@@ -5,13 +5,6 @@ export default class Button extends React.Component {
     super(props);
   }
   componentDidMount() {
-    // let width = document.querySelector(".front-button").clientWidth;
-    // console.log(width);
-    // let left_margin = -width / 2;
-    // console.log(left_margin);
-    // document.getElementById(
-    //   "main-button"
-    // ).style.marginLeft = `${left_margin}px`;
 
     let element = document.getElementsByClassName(`front-button`);
     for (let child of element) {
