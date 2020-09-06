@@ -2,14 +2,15 @@ import React from 'react'
 import { Row, Col, Container } from "react-grid-system";
 import "../styles/App.scss";
 import {ImQuotesLeft} from 'react-icons/im'
-import PhotoGallery from './PhotoGallery.js'
+import PhotoGallery from '../components/PhotoGallery.js'
+import Button from "../components/Button";
 
 class JoinUs extends React.Component{
     render(){
         return(
             <div className="mid-background-section" id="join-us-page">
                 <Container>
-                    <Row>
+                    <Row id="join-us-title">
                         <Col>
                             <h1>Join Us</h1>
                         </Col>
@@ -28,6 +29,24 @@ class JoinUs extends React.Component{
                 <div id="photo-gallery">
                     <PhotoGallery />
                 </div>
+                <Container>
+                    <Row justify="center" align="center">
+                        <Col xs={12} sm={6} md={4}>
+                            <Button
+                                type="secondary"
+                                text="Become an active member"
+                                toLink="https://google.com"
+                            />
+                        </Col>
+                        <Col xs={12} sm={6} md={4}>
+                            <Button
+                                type="secondary"
+                                text="Join our mailing list"
+                                toLink="https://google.com"
+                            />
+                        </Col>
+                    </Row>
+                </Container>
             </div>
         )
     }

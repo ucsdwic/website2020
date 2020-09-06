@@ -43,10 +43,13 @@
   text-align: center;
 }
 
+#join-us-title {
+  padding-bottom: $spacer-two;
+}
+
 #join-us-quote-icon {
   font-size: 5rem;
   color: $color-white;
-  padding-top: $spacer-two;
 }
 
 #join-us-quote {
@@ -328,8 +331,7 @@
   }
 }
 
-
-.homeButtons{
+.homeButtons {
   position: relative;
 
   .front-button {
@@ -362,11 +364,11 @@
   }
 }
 
-#homeCenterButton{
+#homeCenterButton {
   text-align: center;
 }
 
-#homeImage{
+#homeImage {
   background-image: url("../static/homeOverlay.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -374,7 +376,7 @@
   background-position: center;
 }
 
-#homeCenterText{
+#homeCenterText {
   text-align: center;
   color: $color-purple-mid;
   font-family: Poppins, Arial, Helvetica, sans-serif;
@@ -384,40 +386,37 @@
   margin-bottom: $spacer-two;
 }
 
-#homeCenterLogo{
+#homeCenterLogo {
   text-align: center;
   margin-top: 22%;
 }
 
-#homeCenterContainer{
+#homeCenterContainer {
   position: relative;
 }
 
-img{
+img {
   max-width: 100%;
 }
 
-#sponsorsTitleMargin{
+#sponsorsTitleMargin {
   margin-top: $spacer-four;
 }
-#logoMargin{
+#logoMargin {
   margin-top: $spacer-three;
 }
 
-#learnMoreButton{
-  margin-top: $spacer-three;
-  margin-bottom: $spacer-four;
-
-}
-#sponsorUsButton{
+#learnMoreButton {
   margin-top: $spacer-three;
   margin-bottom: $spacer-four;
-  
 }
-#centerButtons{
-  justify-content: center;  
+#sponsorUsButton {
+  margin-top: $spacer-three;
+  margin-bottom: $spacer-four;
 }
-
+#centerButtons {
+  justify-content: center;
+}
 
 #navbar-container {
   padding-top: $spacer-one;
@@ -444,7 +443,6 @@ img{
     line-height: 1.6rem;
     cursor: pointer;
   }
-
 }
 
 .navbar-wic-logo {
@@ -458,14 +456,14 @@ img{
 .navbar-active {
   font-family: Kollektif-Bold;
   border-bottom: 4px solid white;
-  cursor: pointer; 
+  cursor: pointer;
 }
 
-.navbar-transparent{
+.navbar-transparent {
   background-color: "transparent";
 }
 
-.navbar-opaque{
+.navbar-opaque {
   background-color: $color-purple-darkest;
 }
 
@@ -475,4 +473,55 @@ img{
 
 .navbar-white-heading {
   color: white;
+  #events-container {
+    padding-top: $spacer-four;
+    padding-bottom: $spacer-four;
+  }
+  #events-title {
+    padding-bottom: $spacer-three;
+    color: $color-purple-mid;
+  }
+
+  .fc {
+    font-family: Poppins;
+  }
+
+  .fc .fc-daygrid-day-number {
+    color: $color-purple-mid !important;
+    font-size: 1.4rem !important;
+  }
+
+  .fc .fc-state-default {
+    background-image: none !important;
+    box-shadow: none !important;
+    border: none !important;
+    text-shadow: none !important;
+  }
+
+  .fc .fc-day-grid-event .fc-content {
+    white-space: normal !important;
+    padding: 10px 0 !important;
+    color: $color-white !important;
+  }
+
+  .fc h2 {
+    color: $color-purple-mid !important;
+    font-size: 3.2rem !important;
+  }
+
+  .fc .fc-event-time {
+    color: $color-white !important;
+    font-size: 1rem !important;
+  }
+
+  .fc .fc-event-title {
+    color: $color-white !important;
+    font-size: 1rem !important;
+    overflow-wrap: normal !important;
+  }
+
+  .fc .fc-event {
+    border: $color-purple-mid !important;
+    background: $color-purple-mid !important;
+  }
 }
