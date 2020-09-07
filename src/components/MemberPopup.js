@@ -17,7 +17,7 @@ class MemberPopup extends React.Component {
               </button>
               <Row justify="center" type="flex">
                 <Col xs={10} md={4}>
-                  <img src={require("./demoPic.jpg")} />
+                  <img src={all_members[index].picture} />
                 </Col>
                 <Col xs={10} className="member-popup-info" md={6}>
                   <div>
