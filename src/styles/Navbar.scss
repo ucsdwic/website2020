@@ -23,7 +23,7 @@
   
 	h6 {
 	  font-family: Kollektif;
-	  font-size: 1.6rem;
+	  font-size: 1.4rem;
 	  line-height: 1.6rem;
 	  cursor: pointer;
 	}
@@ -65,5 +65,14 @@
   
 .navbar-white-heading {
 	color: white;
+}
+
+.hamburger{
+	padding:0 !important;
+	z-index: 300000;
+}
+
+.panel-content {
+	background-color: $color-purple-lightest !important;
 }
   
