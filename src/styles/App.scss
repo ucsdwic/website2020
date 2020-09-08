@@ -157,7 +157,8 @@
   @media screen and (max-width: $xl) and (min-width: $sm) {
     left: $spacer-three;
     right: $spacer-three;
-    top: 20rem;
+    top: 5rem;
+    bottom: 5rem;
   }
 
   @media screen and (max-width: $sm) {

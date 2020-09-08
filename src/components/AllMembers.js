@@ -11,6 +11,7 @@ export const all_members = [
     bio: "Hey everyone! I'm Priyal and I'm a ___ year in ____ college majoring in ___. In my free time I like to ____."
   },
   {
+    picture: require("../static/board-members/angela-wang.PNG"),
     name: "Angela Wang",
     position: "Vice President Internal",
     year: "",
@@ -20,6 +21,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/grace-carlson.jpeg"),
     name: "Grace Carlson",
     position: "Vice President External",
     year: "",
@@ -29,6 +31,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/vas-sengupta.JPEG"),
     name: "Vas Sengupta",
     position: "Vice President External",
     year: "",
@@ -38,6 +41,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/jaz-gill.jpeg"),
     name: "Jaz Gill",
     position: "Treasurer",
     year: "",
@@ -47,6 +51,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/lily-steiner.JPG"),
     name: "Lily Steiner",
     position: "Secretary",
     year: "",
@@ -56,6 +61,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/paridhi-khaitan.jpg"),
     name: "Paridhi Khaitan",
     position: "Technical Development Co-Chair",
     year: "",
@@ -65,6 +71,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/judy-liu.JPG"),
     name: "Judy Liu",
     position: "Technical Development Co-Chair",
     year: "",
@@ -74,6 +81,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/aarushi-shah.jpg"),
     name: "Aarushi Shah",
     position: "Technical Development Co-Chair",
     year: "",
@@ -83,6 +91,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/jaida-day.PNG"),
     name: "Jaida Day",
     position: "Web Development Chair",
     year: "2022",
@@ -92,6 +101,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/harshi-agrawal.JPG"),
     name: "Harshi Agrawal",
     position: "Social Co-Chair",
     year: "",
@@ -101,6 +111,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/yelitza-mendez.JPG"),
     name: "Yelitza Mendez",
     position: "Social Co-Chair",
     year: "",
@@ -110,6 +121,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/sandra-pekelis.jpg"),
     name: "Sandra Pekelis",
     position: "BPC Co-Chair",
     year: "",
@@ -119,6 +131,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/tri-truong.jpg"),
     name: "Tri Truong",
     position: "BPC Co-Chair",
     year: "",
@@ -128,6 +141,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/stephanie-hernandez.jpg"),
     name: "Stephanie Hernandez",
     position: "Outreach Co-Chair",
     year: "",
@@ -137,6 +151,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/sydney-wong.jpeg"),
     name: "Sydney Wong",
     position: "Outreach Co-Chair",
     year: "",
@@ -146,6 +161,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/sravya-balasa.jpg"),
     name: "Sravya Balasa",
     position: "Public Relations Co-Chair",
     year: "",
@@ -155,6 +171,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/claudia-handoyo.jpg"),
     name: "Claudia Handoyo",
     position: "Public Relations Co-Chair",
     year: "",
@@ -164,6 +181,7 @@ export const all_members = [
     bio: ""
   },
   {
+    picture: require("../static/board-members/navika-budhraja.JPG"),
     name: "Navika Budhraja",
     position: "Intern",
     year: "",

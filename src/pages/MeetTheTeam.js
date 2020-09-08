@@ -47,6 +47,7 @@ class MeetTheTeam extends React.Component {
                       <Col xs={6} sm={4} md={3}>
                         <div onClick={() => this.getModal(idx)}>
                           <Member
+                            picture={member.picture}
                             name={member.name}
                             position={member.position}
                           />
