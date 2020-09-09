@@ -100,10 +100,12 @@ class Sponsors extends React.Component{
                 </Row>
                 <Row>
                     <Col id="learnMoreButton" md={6}>
-                        <Button type="primary" text = "Learn More" toLink = "https://google.com" />
+                        <Button type="primary" text = "Learn More" toLink = "https://drive.google.com/file/d/1nuMtyG3DIZsTHyIa19-hLOzgUnEWIHvN/view?usp=sharing" />
                     </Col>
                     <Col id="sponsorUsButton" md={6}>
-                        <Button type="primary" text = "Sponsor Us" toLink = "https://google.com" />
+                        <Button type="primary" text = "Sponsor Us" toLink = "https://docs.google.com/forms/d/e/1FAIpQLSf5gwmYL7xGtG8x_NyLDg6BN740m8G12BScxlnnrdRBQM6DXw/viewform?usp=sf_link" />
+                    </Col>
+                    <Col md={12}>
                     </Col>
                 </Row>
             </Container>
