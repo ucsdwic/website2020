@@ -103,7 +103,7 @@ class Sponsors extends React.Component{
                         <Button type="primary" text = "Learn More" toLink = "https://drive.google.com/file/d/1nuMtyG3DIZsTHyIa19-hLOzgUnEWIHvN/view?usp=sharing" />
                     </Col>
                     <Col id="sponsorUsButton" md={6}>
-                        <Button type="primary" text = "Sponsor Us" toLink = "https://docs.google.com/forms/d/e/1FAIpQLSf5gwmYL7xGtG8x_NyLDg6BN740m8G12BScxlnnrdRBQM6DXw/viewform?usp=sf_link" />
+                        <Button type="primary" text = "Sponsor Us" toLink = "https://docs.google.com/forms/d/1IjNFhuCIBFjEi8MDoGm7ovmZOo-izW3Ai4k6Cr1AF_g/edit" />
                     </Col>
                     <Col md={12}>
                     </Col>
