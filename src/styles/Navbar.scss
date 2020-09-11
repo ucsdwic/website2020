@@ -3,8 +3,8 @@
 
 
 #navbar-container {
-	padding-top: $spacer-one;
-	padding-bottom: $spacer-one;
+	padding-top: 2.3rem;
+	padding-bottom: 2.3rem;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -15,8 +15,8 @@
 	top: 0;
 	left: 0;
 	right: 0;
-	height: 8rem;
-	margin-top: -8rem;
+	height: 10rem;
+	margin-top: -10rem;
 	padding-left: $spacer-two;
 	padding-right: $spacer-two;
 	z-index: 100000;
@@ -41,12 +41,11 @@
 }
   
  .navbar-active {
-	font-family: Kollektif-Bold;
-	// border-bottom: 4px solid white;
+	font-family: Kollektif;
 	background: linear-gradient(
 	  to top,
-	  $color-white 50%,
-	  transparent 50%
+	  #fbf2ff 75%,
+	  transparent 25%,
 	);
 	cursor: pointer;
 }
@@ -76,3 +75,23 @@
 	background-color: $color-purple-lightest !important;
 }
   
+#vertical-navbar-container {
+	padding-top: $spacer-four;
+
+	h2 {
+		font-size: 3.0rem;
+		font-family: Kollektif;
+		color: $color-purple-mid;
+		cursor: pointer;
+		padding-top: $spacer-one;
+		padding-left: $spacer-two;
+	}
+
+	a:hover {
+		background: linear-gradient(
+			to top,
+			#fbf2ff 75%,
+			transparent 25%,
+		);
+	}
+}
