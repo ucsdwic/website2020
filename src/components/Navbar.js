@@ -42,8 +42,6 @@ class Navbar extends React.Component {
 		var scrolled = window.scrollY > 200
 		this.setState({
 			navbarBackground: scrolled ? "navbar-opaque" : "navbar-transparent",
-			// navbarHeading: scrolled ? "navbar-white-heading": "navbar-purple-heading",
-			// wicLogo: scrolled ? wic_white : wic_purple
 		});
 	}
 
