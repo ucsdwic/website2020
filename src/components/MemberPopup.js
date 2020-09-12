@@ -23,7 +23,7 @@ class MemberPopup extends React.Component {
                   <div>
                     <h2>{all_members[index].name}</h2>
                     <h3>{all_members[index].position}</h3>
-                    <p>Grad Year: {all_members[index].year}</p>
+                    <p>{all_members[index].year}</p>
                     <p>
                       {all_members[index].bio}
                     </p>

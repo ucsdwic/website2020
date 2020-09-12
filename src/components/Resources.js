@@ -33,21 +33,21 @@ class Resources extends React.Component {
               <h3>Newsletter Sign-Up & Previous Newsletters</h3>
               <p>
                 <ul>
-                  <li>- Sign up to receive our newsletter 
+                  <li>Sign up to receive our newsletter 
                   <a href="https://docs.google.com/forms/d/1PP55wKz-O1ei23OaoWR_RbEfRQvbWTngTHK5h36Viz0/edit?EMAIL&b_36c4fd991d266f23781ded980_aefe40901a" target="_blank"> here</a>
                   !
                   </li>
-                  <li>- Fall 2020</li>
+                  <li>Fall 2020</li>
                 </ul>
               </p>
             </TabPanel>
             <TabPanel>
               <h3>Scholarships and Conferences</h3>
               <p>
+              **Scholarship application period is currently closed.
                 <ul>
-                  <li>**Scholarship application period is currently closed.</li>
-                  <li>- Grace Hopper Conference</li>
-                  <li>- Tapia Conference</li>
+                  <li>Grace Hopper Conference</li>
+                  <li>Tapia Conference</li>
                 </ul>
               </p>
             </TabPanel>
@@ -57,10 +57,10 @@ class Resources extends React.Component {
                 <ul>
                   <li>** resources we really like</li>
                   <li>** update once a quarter</li>
-                  <li>- Medium articles</li>
-                  <li>- https://www.womenintech.ucla.edu/resources</li>
-                  <li>- https://wicc.cornell.edu/resources.php</li>
-                  <li>- https://www.women.cs.cmu.edu/papers/</li>
+                  <li>Medium articles</li>
+                  <li>https://www.womenintech.ucla.edu/resources</li>
+                  <li>https://wicc.cornell.edu/resources.php</li>
+                  <li>https://www.women.cs.cmu.edu/papers/</li>
                 </ul>
               </p>
             </TabPanel>
@@ -73,12 +73,26 @@ class Resources extends React.Component {
               </p>
             </TabPanel> */}
             <TabPanel>
-              <h3>Any content 5</h3>
+              <h3>Engineering Organizations on Campus</h3>
               <p>
 
                 <ul>
                   <li> -<a href="https://jacobsschool.ucsd.edu/idea/student-orgs/undergraduate" target="_blank"> All Engineering Organizations</a> </li>
-                  <li> - Diversity Engineering Organizations </li>
+                  <li> 
+                    Diversity Engineering Organizations: 
+                    <li>
+                      <a href="http://nsbeucsd.weebly.com/" target="_blank"> National Society of Black Engineers (NSBE)</a> 
+                    </li>
+                    <li>
+                      <a href="http://ostem.ucsd.edu/" target="_blank">Out in STEM (oSTEM)</a>
+                    </li>
+                    <li>
+                      <a href="https://sites.google.com/view/shpeucsd/home" target="_blank">Society of Hispanic Professional Engineers (SHPE)</a> 
+                    </li>
+                    <li>
+                      <a href="https://swe-ucsd.netlify.app/" target="_blank">Society of Women Engineers (SWE)</a> 
+                    </li>
+                  </li>
                 </ul>
                 
                 
