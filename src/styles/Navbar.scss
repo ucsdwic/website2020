@@ -25,7 +25,10 @@
 	  font-family: Kollektif;
 	  font-size: 1.4rem;
 	  line-height: 1.6rem;
-	  cursor: pointer;
+	}
+
+	a {
+		cursor: pointer;
 	}
 }
   
@@ -39,19 +42,13 @@
 	  cursor: pointer;
 	}
 }
-  
- .navbar-active {
-	font-family: Kollektif;
-	background: linear-gradient(
-	  to top,
-	  #fbf2ff 75%,
-	  transparent 25%,
-	);
-	cursor: pointer;
-}
-  
+
 .navbar-purple-heading {
 	color: $color-purple-darkest;
+}
+
+.navbar-active {
+	background: linear-gradient(to top,#fbf2ff 75%, transparent 25%);
 }
   
 .navbar-transparent {
@@ -60,10 +57,6 @@
   
 .navbar-opaque {
 	background-color: $color-purple-lightest;
-}
-  
-.navbar-white-heading {
-	color: white;
 }
 
 .hamburger{
@@ -82,16 +75,15 @@
 		font-size: 3.0rem;
 		font-family: Kollektif;
 		color: $color-purple-mid;
-		cursor: pointer;
 		padding-top: $spacer-one;
 		padding-left: $spacer-two;
 	}
 
+	a {
+		cursor: pointer;
+	}
+
 	a:hover {
-		background: linear-gradient(
-			to top,
-			#fbf2ff 75%,
-			transparent 25%,
-		);
+		background: linear-gradient(to top,	#fbf2ff 75%, transparent 25%);
 	}
 }

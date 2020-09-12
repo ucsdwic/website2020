@@ -1,8 +1,6 @@
 import React from 'react';
-import { Row, Col, Container } from "react-grid-system";
 import "../styles/Navbar.scss";
 import wic_purple from "../static/wic_logo_purple.png"
-import wic_white from "../static/wic_logo_white.png"
 import { Link, animateScroll as scroll } from "react-scroll";
 import windowSize from 'react-window-size';
 import {HamburgerCollapse} from 'react-animated-burgers';
@@ -16,8 +14,6 @@ class Navbar extends React.Component {
 		this.state = {
 			scrolled: false,
 			navbarBackground: "navbar-transparent",
-			navbarHeading: "navbar-purple-heading",
-			wicLogo: wic_purple,
 			isActive: false,
 			isPaneOpen: false,
 			isPaneOpenLeft: false,
@@ -27,15 +23,14 @@ class Navbar extends React.Component {
 	}
 
 
-	scrollToTop = () => {
+	scrollToTop() {
 		scroll.scrollToTop();
-	};
-
+	}
 	componentDidMount() {
-	window.addEventListener('scroll', this.setNavBarColor);
+		window.addEventListener('scroll', this.setNavBarColor);
 	}
 	componentWillUnmount() {
-	window.removeEventListener('scroll', this.setNavBarColor);
+		window.removeEventListener('scroll', this.setNavBarColor);
 	}
 
 	setNavBarColor(){	
@@ -54,76 +49,42 @@ class Navbar extends React.Component {
 	  }
 
 
-
-	// TODO: Dynamically render the Links Section
 	render () {
+		const navbarItems = [{ id: "about-us-page", name: "About"},
+							 { id: "events-page", name: "Events"},
+							 { id: "meet-the-team-page",name: "Team"},
+				     		 { id: "involvement-page", name: "Involvement"},
+						     { id: "sponsors-page", name: "Sponsors"},
+						     { id: "resources-page", name: "Resources"},
+							 { id: "join-us-page", name: "Join Us"},
+							 { id: "contact-us-page", name: "Contact Us"}]
+		const navbarHorizontal = navbarItems.map(navbarItem => <h6 className="navbar-purple-heading" style={{ transition: '1s ease' }}>
+															   		<Link activeClass="navbar-active" to={navbarItem.id} spy={true} smooth={true} offset={-70} duration={1000}>&nbsp;{navbarItem.name}&nbsp;</Link>
+															   </h6>)
+		const navbarVertical = navbarItems.map(navbarItem => <h2>
+																<Link to={navbarItem.id} spy={true} smooth={true} offset={-70} duration={1000} onClick={this.toggleButton}>&nbsp;{navbarItem.name}&nbsp;</Link>
+															</h2>)
+
 		return (
-			
 			<div className={this.state.navbarBackground} style={{ transition: '1s ease' }} id="navbar-sticky" onScroll={this.setNavBarColor}>
 				<div id="navbar-container">
 						<div id="img-container">
-							<img className="navbar-wic-logo" src={this.state.wicLogo} onClick={this.scrollToTop}></img>
+							<img className="navbar-wic-logo" src={wic_purple} onClick={this.scrollToTop}></img>
 						</div>
-						{this.props.windowWidth > 790 ? (
-							<React.Fragment>
-								<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
-									<Link activeClass="navbar-active" to="about-us-page" spy={true} smooth={true} offset={-70} duration={1000}>&nbsp;About&nbsp;</Link>
-								</h6>
-								<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
-									<Link activeClass="navbar-active" to="events-page" spy={true} smooth={true} offset={-70} duration={1000}>&nbsp;Events&nbsp;</Link>
-								</h6>
-								<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
-									<Link activeClass="navbar-active" to="meet-the-team-page" spy={true} smooth={true} offset={-70} duration={1000}>&nbsp;Team&nbsp;</Link>
-								</h6>
-								<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
-									<Link activeClass="navbar-active" to="involvement-page" spy={true} smooth={true} offset={-70} duration={1000}>&nbsp;Involvement&nbsp;</Link>
-								</h6>
-								<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
-									<Link activeClass="navbar-active" to="sponsors-page" spy={true} smooth={true} offset={-70} duration={1000}>&nbsp;Sponsors&nbsp;</Link>
-								</h6>
-								<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
-									<Link activeClass="navbar-active" to="resources-page" spy={true} smooth={true} offset={-70} duration={1000}>&nbsp;Resources&nbsp;</Link>
-								</h6>
-								<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
-									<Link activeClass="navbar-active" to="join-us-page" spy={true} smooth={true} offset={-70} duration={1000}>&nbsp;Join Us&nbsp;</Link>
-								</h6>
-								<h6 className={this.state.navbarHeading} style={{ transition: '1s ease' }}>
-									<Link activeClass="navbar-active" to="contact-us-page" spy={true} smooth={true} offset={-70} duration={1000}>&nbsp;Contact&nbsp;</Link>
-								</h6>
-							</React.Fragment>
-						): (
-							<React.Fragment>
-								<SlidingPanel isOpen={this.state.isPaneOpen} type={'right'} size={this.props.windowWidth > 550 ? 45 : 80} hideHeader backdropClicked={this.toggleButton}>
+						{this.props.windowWidth > 820 ? (
+							<>
+								{navbarHorizontal}
+							</>
+						):(
+							<>
+								<SlidingPanel isOpen={this.state.isPaneOpen} type={'right'} size={this.props.windowWidth > 576 ? 45 : 80} hideHeader backdropClicked={this.toggleButton}>
 									<div id="vertical-navbar-container">
-										<h2>
-											<Link to="about-us-page" spy={true} smooth={true} offset={-70} duration={1000} onClick={this.toggleButton}>&nbsp;About&nbsp;</Link>
-										</h2>
-										<h2>
-											<Link to="events-page" spy={true} smooth={true} offset={-70} duration={1000} onClick={this.toggleButton}>&nbsp;Events&nbsp;</Link>
-										</h2>
-										<h2>
-											<Link to="meet-the-team-page" spy={true} smooth={true} offset={-70} duration={1000} onClick={this.toggleButton}>&nbsp;Team&nbsp;</Link>
-										</h2>
-										<h2>
-											<Link to="involvement-page" spy={true} smooth={true} offset={-70} duration={1000} onClick={this.toggleButton}>&nbsp;Involvement&nbsp;</Link>
-										</h2>
-										<h2>
-											<Link to="sponsors-page" spy={true} smooth={true} offset={-70} duration={1000} onClick={this.toggleButton}>&nbsp;Sponsors&nbsp;</Link>
-										</h2>
-										<h2>
-											<Link to="resources-page" spy={true} smooth={true} offset={-70} duration={1000} onClick={this.toggleButton}>&nbsp;Resources&nbsp;</Link>
-										</h2>
-										<h2>
-											<Link  to="join-us-page" spy={true} smooth={true} offset={-70} duration={1000} onClick={this.toggleButton}>&nbsp;Join Us&nbsp;</Link>
-										</h2>
-										<h2>
-											<Link to="contact-us-page" spy={true} smooth={true} offset={-70} duration={1000} onClick={this.toggleButton}>&nbsp;Contact&nbsp;</Link>
-										</h2>
+										{navbarVertical}
 									</div>
 								</SlidingPanel>
 								<HamburgerCollapse isActive={this.state.isActive} toggleButton={this.toggleButton} barColor= "#4d4c7d" className = "hamburger"></HamburgerCollapse>
-							</React.Fragment>
-						) }
+							</>
+						)}
 				</div>
 				
 			</div>
