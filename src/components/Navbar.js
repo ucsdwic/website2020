@@ -82,7 +82,7 @@ class Navbar extends React.Component {
 										{navbarVertical}
 									</div>
 								</SlidingPanel>
-								<HamburgerCollapse isActive={this.state.isActive} toggleButton={this.toggleButton} barColor="#4d4c7d" className="hamburger"></HamburgerCollapse>
+								<HamburgerCollapse buttonWidth={25} isActive={this.state.isActive} toggleButton={this.toggleButton} barColor="#4d4c7d" className="hamburger"></HamburgerCollapse>
 							</>
 						)}
 				</div>
