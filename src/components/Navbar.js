@@ -71,7 +71,7 @@ class Navbar extends React.Component {
 						<div id="img-container">
 							<img className="navbar-wic-logo" src={wic_purple} onClick={this.scrollToTop}></img>
 						</div>
-						{this.props.windowWidth > 820 ? (
+						{this.props.windowWidth > 790 ? (
 							<>
 								{navbarHorizontal}
 							</>
