@@ -87,10 +87,10 @@ class ContactUs extends React.Component {
                 </div>
               </div>
             </Col> */}
-          <Row type="flex" justify="center">
+          <Row type="flex" justify="center" gutterWidth={20}>
             <Col xs={2}>
               <MdMailOutline />
-              <h6>gmail.com</h6>
+              <h6>wic.ucsd@gmail.com</h6>
             </Col>
             <Col xs={2}>
               <MdMailOutline />
