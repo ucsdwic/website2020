@@ -176,6 +176,13 @@
   background-size: cover;
 }
 
+.getInvolved{
+  a{
+    text-decoration: none;
+    color: $color-purple-lightest;
+  }
+}
+
 #GetInvolvedMargin {
   margin-top: $spacer-four;
   margin-left: $spacer-three;
@@ -199,6 +206,13 @@
   font-family: Kollektif-Bold;
   font-size: 20rem;
   line-height: 16rem;
+}
+
+.contactUsLinks{
+  a{
+    text-decoration: none;
+    color: $color-purple-mid;
+  }
 }
 
 #ContactUsTitle {
@@ -393,7 +407,8 @@
 }
 
 #homeCenterContainer {
-  position: relative;
+  //  position: relative;
+   text-align: center;
 }
 
 img {
@@ -409,12 +424,19 @@ img {
 
 #learnMoreButton {
   margin-top: $spacer-three;
-  margin-bottom: $spacer-four;
+  // margin-bottom: $spacer-four;
+  text-align: center;
 }
 #sponsorUsButton {
-  margin-top: $spacer-three;
+  // margin-top: $spacer-three;
   margin-bottom: $spacer-four;
+  text-align:center;
 }
+
+#sponsorsSpacing{
+  margin-top: $spacer-four;
+}
+
 #centerButtons {
   justify-content: center;
 }

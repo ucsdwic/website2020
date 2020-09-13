@@ -12,7 +12,7 @@ class ContactUs extends React.Component {
     const insta = "https://www.instagram.com/wicucsd/";
     return (
       <div className="lightest-background-section" id="contact-us-page">
-        <Container>
+        <Container className="contactUsLinks">
           <Row>
             <Col
               id="ContactUsTitle"
