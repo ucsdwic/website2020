@@ -19,91 +19,86 @@ class Resources extends React.Component {
                 <h6>Scholarships</h6>
               </Tab>
               <Tab>
-                <h6>Conferences</h6>
+                <h6>Articles</h6>
               </Tab>
-              <Tab>
+              {/* <Tab>
                 <h6>Our Alumni</h6>
-              </Tab>
+              </Tab> */}
               <Tab>
                 <h6>Similar Orgs</h6>
               </Tab>
             </TabList>
 
             <TabPanel>
-              <h3>Any content 1</h3>
+              <h3>Newsletter Sign-Up & Previous Newsletters</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <ul>
+                  <li>Sign up to receive our newsletter 
+                  <a href="https://docs.google.com/forms/d/1PP55wKz-O1ei23OaoWR_RbEfRQvbWTngTHK5h36Viz0/edit?EMAIL&b_36c4fd991d266f23781ded980_aefe40901a" target="_blank"> here</a>
+                  !
+                  </li>
+                  <li>Fall 2020</li>
+                </ul>
               </p>
             </TabPanel>
             <TabPanel>
-              <h3>Any content 2</h3>
+              <h3>Scholarships and Conferences</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              **Scholarship application period is currently closed.
+                <ul>
+                  <li>Grace Hopper Conference</li>
+                  <li>Tapia Conference</li>
+                </ul>
               </p>
             </TabPanel>
             <TabPanel>
-              <h3>Any content 3</h3>
+              <h3>Must reads!</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                <ul>
+                  <li>** resources we really like</li>
+                  <li>** update once a quarter</li>
+                  <li>Medium articles</li>
+                  <li>https://www.womenintech.ucla.edu/resources</li>
+                  <li>https://wicc.cornell.edu/resources.php</li>
+                  <li>https://www.women.cs.cmu.edu/papers/</li>
+                </ul>
               </p>
             </TabPanel>
-            <TabPanel>
-              <h3>Any content 4</h3>
+            {/* <TabPanel>
+              <h3>Alumni and Where They are Now</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+                Coming soon!
+                Name + link to (info/resume/linkedin) + where they are now 
+                Industry, research, graduate school
               </p>
-            </TabPanel>
+            </TabPanel> */}
             <TabPanel>
-              <h3>Any content 5</h3>
+              <h3>Engineering Organizations on Campus</h3>
               <p>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-                enim ad minim veniam, quis nostrud exercitation ullamco laboris
-                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
-                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+                <ul>
+                  <li> -<a href="https://jacobsschool.ucsd.edu/idea/student-orgs/undergraduate" target="_blank"> All Engineering Organizations</a> </li>
+                  <li> 
+                    Diversity Engineering Organizations: 
+                    <li>
+                      <a href="http://nsbeucsd.weebly.com/" target="_blank"> National Society of Black Engineers (NSBE)</a> 
+                    </li>
+                    <li>
+                      <a href="http://ostem.ucsd.edu/" target="_blank">Out in STEM (oSTEM)</a>
+                    </li>
+                    <li>
+                      <a href="https://sites.google.com/view/shpeucsd/home" target="_blank">Society of Hispanic Professional Engineers (SHPE)</a> 
+                    </li>
+                    <li>
+                      <a href="https://swe-ucsd.netlify.app/" target="_blank">Society of Women Engineers (SWE)</a> 
+                    </li>
+                  </li>
+                </ul>
+                
+                
               </p>
             </TabPanel>
           </Tabs>
-          {/* <Row>
-                    <Col sm={12} md={12}>
-                        <h1 className="teamTitle">Resources</h1>
-                    </Col>
-                </Row>
-                <Row>
-                    <Col class="toggle-tab">
-                        <button class="tablinks" onclick="openResource(event, 'Newsletters')">Newsletters</button>
-                        <button class="tablinks" onclick="openResource(event, 'Scholarships')">Scholarships</button>
-                        <button class="tablinks" onclick="openResource(event, 'Conferences')">Conferences</button>
-                        <button class="tablinks" onclick="openResource(event, 'Our Alumni')">Our Alumni</button>
-                        <button class="tablinks" onclick="openResource(event, 'Similar Orgs')">Similar Orgs</button>
-                    </Col>
-                </Row> */}
         </Container>
       </div>
     );

@@ -7,7 +7,7 @@ class Member extends React.Component {
       <div className="members">
         <div className="member-wrapper">
           <div className="img-background"></div>
-          <img className="memberImage" src={require("./demoPic.jpg")}></img>
+          <img className="memberImage" src={this.props.picture}></img>
         </div>
         <div className="teamImageBg"></div>
         <div className="teamInfo">
