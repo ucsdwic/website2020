@@ -51,7 +51,7 @@ export const all_members = [
     bio: ""
   },
   {
-    picture: require("../static/board-members/lily-steiner.jpg"),
+    picture: require("../static/board-members/lily-steiner.JPG"),
     name: "Lily Steiner",
     position: "Secretary",
     year: "Grad Year: ",
@@ -71,7 +71,7 @@ export const all_members = [
     bio: ""
   },
   {
-    picture: require("../static/board-members/judy-liu.jpg"),
+    picture: require("../static/board-members/judy-liu.JPG"),
     name: "Judy Liu",
     position: "Technical Development Co-Chair",
     year: "Grad Year: ",
@@ -101,7 +101,7 @@ export const all_members = [
     bio: ""
   },
   {
-    picture: require("../static/board-members/harshi-agrawal.jpg"),
+    picture: require("../static/board-members/harshi-agrawal.JPG"),
     name: "Harshi Agrawal",
     position: "Social Co-Chair",
     year: "Grad Year: ",
@@ -111,7 +111,7 @@ export const all_members = [
     bio: ""
   },
   {
-    picture: require("../static/board-members/yelitza-mendez.jpg"),
+    picture: require("../static/board-members/yelitza-mendez.JPG"),
     name: "Yelitza Mendez",
     position: "Social Co-Chair",
     year: "Grad Year: ",
@@ -181,7 +181,7 @@ export const all_members = [
     bio: ""
   },
   {
-    picture: require("../static/board-members/navika-budhraja.jpg"),
+    picture: require("../static/board-members/navika-budhraja.JPG"),
     name: "Navika Budhraja",
     position: "Intern",
     year: "Grad Year: 2023",
