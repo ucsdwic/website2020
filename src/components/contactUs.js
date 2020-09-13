@@ -21,7 +21,8 @@ class ContactUs extends React.Component {
             >
               <h1 className="lightest-background-section">Contact Us</h1>
             </Col>
-            <Col
+          </Row>
+          {/* <Col
               id="ContactUsText"
               className="lightest-background-section"
               md={6}
@@ -35,11 +36,7 @@ class ContactUs extends React.Component {
                 </div>
               </div>
             </Col>
-            <Col
-              id="ContactUsText"
-              className="lightest-background-section"
-              md={6}
-            >
+            <Col id="ContactUsText" md={6}>
               <div id="ContactUsParent">
                 <div id="ContactUsMailFacebook">
                   <FaFacebookSquare />
@@ -54,11 +51,7 @@ class ContactUs extends React.Component {
                 </div>
               </div>
             </Col>
-            <Col
-              id="ContactUsText"
-              className="lightest-background-section"
-              md={6}
-            >
+            <Col id="ContactUsText" md={6}>
               <div id="ContactUsParent">
                 <div id="ContactUsLinkedInsta">
                   <span style={{ display: "none" }}>
@@ -76,11 +69,7 @@ class ContactUs extends React.Component {
                 </div>
               </div>
             </Col>
-            <Col
-              id="ContactUsText"
-              className="lightest-background-section"
-              md={6}
-            >
+            <Col id="ContactUsText" md={6}>
               <div id="ContactUsParent">
                 <div id="ContactUsLinkedInsta">
                   <span style={{ display: "none" }}>
@@ -97,8 +86,27 @@ class ContactUs extends React.Component {
                   </a>
                 </div>
               </div>
+            </Col> */}
+          <Row type="flex" justify="center">
+            <Col xs={2}>
+              <MdMailOutline />
+              <h6>gmail.com</h6>
             </Col>
-            <Col id="Trademark" className="lightest-background-section" md={12}>
+            <Col xs={2}>
+              <MdMailOutline />
+            </Col>
+            <Col xs={2}>
+              <MdMailOutline />
+            </Col>
+            <Col xs={2}>
+              <MdMailOutline />
+            </Col>
+            <Col xs={2}>
+              <MdMailOutline />
+            </Col>
+          </Row>
+          <Row>
+            <Col id="Trademark" md={12}>
               <p>
                 {" "}
                 © <b>Women in Computing</b> at University of California, San

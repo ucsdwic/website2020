@@ -4,13 +4,32 @@ import { Row, Col } from "react-grid-system";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 
 class MemberPopup extends React.Component {
+  constructor(props) {
+    super(props);
+    this.memberRef = React.createRef();
+  }
+
+  componentDidMount() {
+    // this.positionMember();
+  }
+
+  positionMember() {
+    // if (this.memberRef) {
+    //   console.log(this.memberRef.current);
+    // }
+  }
+
   render() {
     const index = this.props.index;
     return (
       <>
         <div className="lightest-background-section">
           {this.props.show && (
-            <div className="member-popup">
+            <div
+              className="member-popup"
+              ref={this.memberRef}
+              onLoad={this.positionMember}
+            >
               <button className="exitButton" onClick={this.props.onHide}>
                 {" "}
                 X{" "}
@@ -24,9 +43,7 @@ class MemberPopup extends React.Component {
                     <h2>{all_members[index].name}</h2>
                     <h3>{all_members[index].position}</h3>
                     <p>{all_members[index].year}</p>
-                    <p>
-                      {all_members[index].bio}
-                    </p>
+                    <p>{all_members[index].bio}</p>
                   </div>
                 </Col>
               </Row>

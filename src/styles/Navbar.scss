@@ -1,90 +1,99 @@
 @import "./Vars.scss";
 @import "./Typography.scss";
 
-
 #navbar-container {
-	padding-top: 2.3rem;
-	padding-bottom: 2.3rem;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-  
- #navbar-sticky {
-	position: sticky;
-	top: 0;
-	left: 0;
-	right: 0;
-	height: 10rem;
-	margin-top: -10rem;
-	padding-left: $spacer-two;
-	padding-right: $spacer-two;
-	z-index: 100000;
-  
-	h6 {
-	  font-family: Kollektif;
-	  font-size: 2.0rem;
-	  line-height: 1.6rem;
-	}
 
-	a {
-		cursor: pointer;
-	}
+#navbar-sticky {
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 10rem;
+  margin-top: -10rem;
+  padding-left: $spacer-two;
+  padding-right: $spacer-two;
+  z-index: 1000;
+
+  h6 {
+    font-family: Kollektif;
+    font-size: 2rem;
+  }
+
+  a {
+    cursor: pointer;
+  }
 }
-  
+
 .navbar-wic-logo {
-	height: 4rem;
+  height: 4rem;
 }
-  
+
 #img-container {
-	width: 40%;
-	img {
-	  cursor: pointer;
-	}
+  @media screen and (min-width: $xl) {
+    &{
+      width: 40%;
+    }
+  }
+
+  @media screen and (max-width : $xl) and (min-width: $md) {
+    &{
+      width: 20%;
+    }
+  }
+
+  img {
+    cursor: pointer;
+  }
 }
 
 .navbar-purple-heading {
-	color: $color-purple-darkest;
+  color: $color-purple-darkest;
 }
 
 .navbar-active {
-	background: linear-gradient(to top,#fbf2ff 75%, transparent 25%);
-}
-  
-.navbar-transparent {
-	background-color: "transparent";
-}
-  
-.navbar-opaque {
-	background-color: $color-purple-lightest;
+  background: linear-gradient(to top, #fbf2ff 75%, transparent 25%);
 }
 
-.hamburger{
-	padding:0 !important;
-	z-index: 300000;
+.navbar-transparent {
+  background-color: "transparent";
+}
+
+.navbar-opaque {
+  background-color: $color-purple-lightest;
+}
+
+.hamburger {
+  padding: 0 !important;
+  z-index: 300000;
 }
 
 .panel-content {
-	background-color: $color-purple-lightest !important;
-	overflow: scroll;
+  background-color: $color-purple-lightest !important;
+  overflow: scroll;
 }
-  
+
 #vertical-navbar-container {
-	padding-top: $spacer-four;
+  padding-top: $spacer-four;
 
-	h2 {
-		font-size: 3.0rem;
-		font-family: Kollektif;
-		color: $color-purple-mid;
-		padding-top: $spacer-one;
-		padding-left: $spacer-two;
-	}
+  h2 {
+    font-size: 3rem;
+    font-family: Kollektif;
+    color: $color-purple-mid;
+    padding-top: $spacer-one;
+    padding-left: $spacer-two;
+  }
 
-	a {
-		cursor: pointer;
-	}
+  a {
+    cursor: pointer;
+  }
 
-	a:hover {
-		background: linear-gradient(to top,	#fbf2ff 75%, transparent 25%);
-	}
+  a:hover {
+    background: linear-gradient(to top, #fbf2ff 75%, transparent 25%);
+  }
 }

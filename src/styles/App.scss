@@ -48,9 +48,10 @@
 .member-popup {
   z-index: 10000;
   position: fixed;
-  top: $spacer-three;
   left: 20vh;
   right: 20vh;
+  top: 10%;
+  bottom: 10%;
   border: 2px solid $color-purple-darkest;
   background: $color-purple-lightest;
   padding: $spacer-two;
@@ -74,14 +75,13 @@
   @media screen and (max-width: $xl) and (min-width: $sm) {
     left: $spacer-three;
     right: $spacer-three;
-    top: 5rem;
-    bottom: 5rem;
+    top: 20%;
+    bottom: 20%;
   }
 
   @media screen and (max-width: $sm) {
     left: $spacer-two;
     right: $spacer-two;
-    bottom: $spacer-three;
   }
 }
 
@@ -103,7 +103,7 @@
     .memberImage {
       // box-shadow: 10px 10px 0px -5px $color-purple-lightest;
       width: 100%;
-      z-index: 1000;
+      z-index: 100;
       position: relative;
       top: 0;
       left: 0;
@@ -148,6 +148,10 @@
       margin: $spacer-one;
     }
   }
+
+  a {
+    color: $color-purple-darkest;
+  }
 }
 
 .exitButton {
@@ -176,8 +180,8 @@
   background-size: cover;
 }
 
-.getInvolved{
-  a{
+.getInvolved {
+  a {
     text-decoration: none;
     color: $color-purple-lightest;
   }
@@ -208,10 +212,17 @@
   line-height: 16rem;
 }
 
-.contactUsLinks{
-  a{
+.contactUsLinks {
+  text-align: center;
+  h1 {
+    text-align: left;
+  }
+  a {
     text-decoration: none;
     color: $color-purple-mid;
+  }
+  svg {
+    font-size: 4.8rem;
   }
 }
 
@@ -377,8 +388,6 @@
 //   }
 // }
 
-
-
 #homeCenterButton {
   text-align: center;
 }
@@ -394,21 +403,24 @@
 #homeCenterText {
   text-align: center;
   color: $color-purple-mid;
-  font-family: Poppins, Arial, Helvetica, sans-serif;
-  font-size: 2.4rem;
-  line-height: 2.4rem;
-  margin-top: $spacer-one;
-  margin-bottom: $spacer-two;
 }
 
 #homeCenterLogo {
   text-align: center;
-  margin-top: 22%;
+
+  img {
+    width: 80%;
+  }
 }
 
 #homeCenterContainer {
-  //  position: relative;
-   text-align: center;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  position: relative;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  text-align: center;
 }
 
 img {
@@ -422,19 +434,8 @@ img {
   margin-top: $spacer-three;
 }
 
-#learnMoreButton {
-  margin-top: $spacer-three;
-  // margin-bottom: $spacer-four;
-  text-align: center;
-}
-#sponsorUsButton {
-  // margin-top: $spacer-three;
+#sponsorsSpacing {
   margin-bottom: $spacer-four;
-  text-align:center;
-}
-
-#sponsorsSpacing{
-  margin-top: $spacer-four;
 }
 
 #centerButtons {
@@ -500,7 +501,6 @@ img {
   }
 }
 
-
 #opaque-filler {
   z-index: 9999;
   position: fixed;
@@ -513,15 +513,10 @@ img {
   display: none;
 }
 
-
-#sponsorUsButton {
-  margin-top: $spacer-three;
-  margin-bottom: $spacer-four;
-}
 #centerButtons {
   justify-content: center;
 }
 
-li {
-  list-style-type: disc;
+#meet-the-team-page {
+  padding-bottom: $spacer-four;
 }

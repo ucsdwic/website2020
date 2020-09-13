@@ -4,8 +4,13 @@ export default class Button extends React.Component {
   constructor(props) {
     super(props);
   }
-  componentDidMount() {
 
+  componentDidMount() {
+    this.centerButton();
+    window.addEventListener("resize", this.centerButton);
+  }
+
+  centerButton() {
     let element = document.getElementsByClassName(`front-button`);
     for (let child of element) {
       let width = -child.clientWidth / 2;
