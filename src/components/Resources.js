@@ -42,8 +42,8 @@ class Resources extends React.Component {
               </p>
             </TabPanel>
             <TabPanel>
-              <h3>Scholarships and Conferences</h3>
-              <p><b>Scholarships: Scholarship application period is currently closed.</b></p>
+              <h3>Scholarships, Conferences, and Hackathons</h3>
+              <p><b>Scholarships: Our scholarship application period is currently closed.</b></p>
               <p><b>Conferences:</b></p>
                 <ul>
                 <li>
@@ -68,14 +68,31 @@ class Resources extends React.Component {
                   </li>
                 </ul>
                 <p><b>Hackathons:</b></p>
+                <ul>
+                <li>
+                  <p>
+                    <a href="https://www.athenahacks.com/" target="_blank">AthenaHacks</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a href="https://www.facebook.com/hackXXsd" target="_blank">Hack XX</a>
+                  </p>
+                  </li>
+                  <li> 
+                    <p>
+                      <a href="https://www.facebook.com/harvardwecode/" target="_blank">WECode: Women Engineers Code Conference</a>
+                    </p>
+                  </li>
+                </ul>
             </TabPanel>
             <TabPanel>
               <h3>Must reads!</h3>
                 <ul>
-                  <li>Check out our Medium articles here!</li>
-                  <li>https://www.womenintech.ucla.edu/resources</li>
-                  <li>https://wicc.cornell.edu/resources.php</li>
-                  <li>https://www.women.cs.cmu.edu/papers/</li>
+                  <li><p>Check out our Medium articles here!</p></li>
+                  <li><p>https://www.womenintech.ucla.edu/resources</p></li>
+                  <li><p>https://wicc.cornell.edu/resources.php</p></li>
+                  <li><p>https://www.women.cs.cmu.edu/papers/</p></li>
                 </ul>
             </TabPanel>
             {/* <TabPanel>
@@ -88,7 +105,7 @@ class Resources extends React.Component {
             </TabPanel> */}
             <TabPanel>
               <h3>Engineering Organizations on Campus</h3>
-              <p>Diversity Engineering Organizations:</p>
+              <p><b>Diversity Engineering Organizations:</b></p>
               <ul>
                 <li>
                   <p>

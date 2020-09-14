@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import { MdMailOutline } from "react-icons/md";
-import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaFacebookSquare, FaInstagram, FaLinkedin, FaMedium } from "react-icons/fa";
 
 class ContactUs extends React.Component {
   render() {
@@ -10,6 +10,7 @@ class ContactUs extends React.Component {
     const facebook = "https://www.facebook.com/groups/wicucsd/";
     const linkedIn = "https://www.linkedin.com/company/wicucsd/about/";
     const insta = "https://www.instagram.com/wicucsd/";
+    const medium = "https://medium.com/the-innovation/recap-women-in-computings-summer-dev-program-87b25a3a511f";
     return (
       <div className="lightest-background-section" id="contact-us-page">
         <Container className="contactUsLinks">
@@ -89,21 +90,36 @@ class ContactUs extends React.Component {
             </Col> */}
           <Row type="flex" justify="center" gutterWidth={20}>
             <Col xs={2}>
-              <MdMailOutline />
+            <a href="mailto:wic.ucsd@gmail.com">
+              <MdMailOutline/>
               <h6>wic.ucsd@gmail.com</h6>
+              </a>
             </Col>
             <Col xs={2}>
-              <MdMailOutline />
+            <a href={facebook} target="_blank">
+              <FaFacebookSquare/>
+              <h6>WICUCSD</h6>
+            </a>
             </Col>
             <Col xs={2}>
-              <MdMailOutline />
+            <a href={linkedIn} target="_blank">
+              <FaLinkedin/>
+              <h6>WICUCSD</h6>
+              </a>
             </Col>
             <Col xs={2}>
-              <MdMailOutline />
+            <a href={medium} target="_blank">
+              <FaMedium />
+              <h6>Coming Soon!</h6>
+              </a>
             </Col>
             <Col xs={2}>
-              <MdMailOutline />
+            <a href={insta} target="_blank">
+              <FaInstagram />
+              <h6>@wicucsd</h6>
+            </a>
             </Col>
+            
           </Row>
           <Row>
             <Col id="Trademark" md={12}>

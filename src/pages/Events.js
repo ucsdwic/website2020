@@ -20,8 +20,10 @@ class Events extends React.Component {
 				<FullCalendar
 					plugins={[ dayGridPlugin, googleCalendarPlugin ]}
 					googleCalendarApiKey= 'AIzaSyBP_Qc9_Csvfqt2p3gwDnSbMJw-zNlw5fU'
+					//googleCalendarApiKey= 'AIzaSyDDp3PGxcPokT5ZUli1P_VPgE49JP396YM'
 					events= {{
 						googleCalendarId: 'wic.ucsd@gmail.com',
+						//googleCalendarId: 'wic@eng.ucsd.edu',
 						className: 'wic-calendar'
 					}}
 					eventColor= "#ffffff"/>
@@ -33,6 +35,7 @@ class Events extends React.Component {
 						type="primary"
 						text="Add it to your Calendar"
 						toLink="https://calendar.google.com/calendar/u/3?cid=d2ljLnVjc2RAZ21haWwuY29t"
+						//toLink="https://calendar.google.com/calendar/u/6?cid=Y18wNmhkZDN1dXJqbjJ2cmRscW52a3RrbzA3Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
 					/>
 				</Col>
           </Row>
