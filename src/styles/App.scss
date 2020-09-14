@@ -466,6 +466,7 @@ img {
   background: $color-purple-darkest;
   padding: $spacer-two;
   color: $color-purple-lightest;
+
 }
 
 .react-tabs__tab--selected {
@@ -486,6 +487,10 @@ img {
   background: $color-purple-lightest !important;
   color: $color-purple-darkest;
   padding: $spacer-two;
+
+  li {
+    margin-left: 3%;
+  }
 }
 
 @media screen and (max-width: $sm) {

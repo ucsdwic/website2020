@@ -34,7 +34,7 @@ class Resources extends React.Component {
               <p>
                 <ul>
                   <li>Sign up to receive our newsletter 
-                  <a href="https://docs.google.com/forms/d/1PP55wKz-O1ei23OaoWR_RbEfRQvbWTngTHK5h36Viz0/edit?EMAIL&b_36c4fd991d266f23781ded980_aefe40901a" target="_blank"> here</a>
+                    <a href="https://docs.google.com/forms/d/1PP55wKz-O1ei23OaoWR_RbEfRQvbWTngTHK5h36Viz0/edit?EMAIL&b_36c4fd991d266f23781ded980_aefe40901a" target="_blank"> here</a>
                   !
                   </li>
                   <li>Fall 2020</li>
@@ -43,26 +43,40 @@ class Resources extends React.Component {
             </TabPanel>
             <TabPanel>
               <h3>Scholarships and Conferences</h3>
-              <p>
-              **Scholarship application period is currently closed.
+              <p><b>Scholarships: Scholarship application period is currently closed.</b></p>
+              <p><b>Conferences:</b></p>
                 <ul>
-                  <li>Grace Hopper Conference</li>
-                  <li>Tapia Conference</li>
+                <li>
+                  <p>
+                    <a href="https://tapiaconference.cmd-it.org/" target="_blank">ACM Richard Tapia Conference</a>
+                  </p>
+                  </li>
+                  <li> 
+                    <p>
+                      <a href="https://ghc.anitab.org/" target="_blank">Grace Hopper Celebration</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <a href="https://we20.swe.org/" target="_blank">Society of Women Engineers Conference</a>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                    <a href="https://convention.nsbe.org/" target="_blank">National Society of Black Engineers Convention</a>
+                    </p>
+                  </li>
                 </ul>
-              </p>
+                <p><b>Hackathons:</b></p>
             </TabPanel>
             <TabPanel>
               <h3>Must reads!</h3>
-              <p>
                 <ul>
-                  <li>** resources we really like</li>
-                  <li>** update once a quarter</li>
-                  <li>Medium articles</li>
+                  <li>Check out our Medium articles here!</li>
                   <li>https://www.womenintech.ucla.edu/resources</li>
                   <li>https://wicc.cornell.edu/resources.php</li>
                   <li>https://www.women.cs.cmu.edu/papers/</li>
                 </ul>
-              </p>
             </TabPanel>
             {/* <TabPanel>
               <h3>Alumni and Where They are Now</h3>
@@ -74,29 +88,32 @@ class Resources extends React.Component {
             </TabPanel> */}
             <TabPanel>
               <h3>Engineering Organizations on Campus</h3>
-              <p>
-
-                <ul>
-                  <li> -<a href="https://jacobsschool.ucsd.edu/idea/student-orgs/undergraduate" target="_blank"> All Engineering Organizations</a> </li>
-                  <li> 
-                    Diversity Engineering Organizations: 
-                    <li>
-                      <a href="http://nsbeucsd.weebly.com/" target="_blank"> National Society of Black Engineers (NSBE)</a> 
-                    </li>
-                    <li>
-                      <a href="http://ostem.ucsd.edu/" target="_blank">Out in STEM (oSTEM)</a>
-                    </li>
-                    <li>
-                      <a href="https://sites.google.com/view/shpeucsd/home" target="_blank">Society of Hispanic Professional Engineers (SHPE)</a> 
-                    </li>
-                    <li>
-                      <a href="https://swe-ucsd.netlify.app/" target="_blank">Society of Women Engineers (SWE)</a> 
-                    </li>
-                  </li>
-                </ul>
-                
-                
-              </p>
+              <p>Diversity Engineering Organizations:</p>
+              <ul>
+                <li>
+                  <p>
+                    <a href="http://nsbeucsd.weebly.com/" target="_blank"> National Society of Black Engineers (NSBE)</a> 
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a href="http://ostem.ucsd.edu/" target="_blank">Out in STEM (oSTEM)</a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a href="https://sites.google.com/view/shpeucsd/home" target="_blank">Society of Hispanic Professional Engineers (SHPE)</a> 
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a href="https://swe-ucsd.netlify.app/" target="_blank">Society of Women Engineers (SWE)</a> 
+                  </p>
+                </li>
+              </ul>
+              <p><b>
+                <a href="https://jacobsschool.ucsd.edu/idea/student-orgs/undergraduate" target="_blank"> All Engineering Organizations</a>
+              </b></p>
             </TabPanel>
           </Tabs>
         </Container>

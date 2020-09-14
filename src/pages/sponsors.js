@@ -108,8 +108,8 @@ class Sponsors extends React.Component {
             <Col sm={4}>
               <Button
                 type="primary"
-                text="Sponsor Us"
-                toLink="https://docs.google.com/forms/d/1IjNFhuCIBFjEi8MDoGm7ovmZOo-izW3Ai4k6Cr1AF_g/edit"
+                text="Resume Database"
+                toLink="#"
               />
             </Col>
             <Col sm={4}>
