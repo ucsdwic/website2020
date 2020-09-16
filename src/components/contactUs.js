@@ -10,7 +10,7 @@ class ContactUs extends React.Component {
     const facebook = "https://www.facebook.com/groups/wicucsd/";
     const linkedIn = "https://www.linkedin.com/company/wicucsd/about/";
     const insta = "https://www.instagram.com/wicucsd/";
-    const medium = "https://medium.com/the-innovation/recap-women-in-computings-summer-dev-program-87b25a3a511f";
+    const medium = "https://medium.com/women-in-computing-ucsd";
     return (
       <div className="lightest-background-section" id="contact-us-page">
         <Container className="contactUsLinks">

@@ -19,7 +19,7 @@ class Resources extends React.Component {
                 <h6>Scholarships</h6>
               </Tab>
               <Tab>
-                <h6>Articles</h6>
+                <h6>Must Reads</h6>
               </Tab>
               {/* <Tab>
                 <h6>Our Alumni</h6>
@@ -37,7 +37,7 @@ class Resources extends React.Component {
                     <a href="https://docs.google.com/forms/d/1PP55wKz-O1ei23OaoWR_RbEfRQvbWTngTHK5h36Viz0/edit?EMAIL&b_36c4fd991d266f23781ded980_aefe40901a" target="_blank"> here</a>
                   !
                   </li>
-                  <li>Fall 2020</li>
+                  {/* <li>Fall 2020</li> */}
                 </ul>
               </p>
             </TabPanel>
@@ -87,12 +87,49 @@ class Resources extends React.Component {
                 </ul>
             </TabPanel>
             <TabPanel>
-              <h3>Must reads!</h3>
+              <h3>Articles, Books, and More</h3>
+              <p><b>Articles:</b></p>
                 <ul>
-                  <li><p>Check out our Medium articles here!</p></li>
-                  <li><p>https://www.womenintech.ucla.edu/resources</p></li>
-                  <li><p>https://wicc.cornell.edu/resources.php</p></li>
-                  <li><p>https://www.women.cs.cmu.edu/papers/</p></li>
+                  <li><p>
+                    <a href="https://www.amazon.com/Black-Science-Technology-Engineering-Mathematics/dp/1658697677" target="_blank">101 Black Women in S.T.E.M.</a>
+                  </p></li>
+                  <li><p>
+                    <a href="https://medium.com/women-in-computing-ucsd/recap-women-in-computings-summer-dev-program-87b25a3a511f" target="_blank">Recap: Women In Computing’s Summer Dev Program</a>
+                  </p></li>
+                  <li><p>
+                    <a href="https://www.afrikanblackcoalition.org/news/the-adversity-in-diversity" target="_blank">The Adversity in “Diversity”</a>
+                  </p></li>
+                </ul>
+                <p><b>Books:</b></p>
+                <ul>
+                  <li><p>
+                    <a href="https://www.amazon.com/Ask-Women-Power-Negotiation-Really/dp/0553384554" target="_blank">Ask For It</a>
+                  </p></li>
+                  <li><p>
+                    <a href="https://www.amazon.com/Brotopia-Breaking-Boys-Silicon-Valley-ebook/dp/B074LQKJJC" target="_blank">Brotopia: Breaking Up the Boys' Club of Silicon Valley</a>
+                  </p></li>
+                  <li><p>
+                    <a href="https://www.amazon.com/Cracking-Coding-Interview-Gayle-McDowell/dp/0984782850/ref=as_li_ss_tl?ie=UTF8&linkCode=sl1&tag=careercup-ctciwebsite-20&linkId=173f3d8878a1d7f0d131a85fbfc9f67f" target="_blank">Cracking the Coding Interview</a>
+                  </p></li>
+                  <li><p>
+                    <a href="https://www.amazon.com/Cracking-Data-Science-Interview-Questions/dp/171068013X" target="_blank">Cracking the Data Science Interview</a>
+                  </p></li>
+                  <li><p>
+                    <a href="https://www.amazon.com/Cracking-PM-Interview-Product-Technology/dp/0984782818" target="_blank">Cracking the PM Interview</a>
+                  </p></li>
+                  <li><p>
+                    <a href="https://www.amazon.com/Get-Paid-What-Youre-Worth/dp/031230269X" target="_blank">Get Paid What You're Worth</a>
+                  </p></li>
+                </ul>
+                <p><b>Videos:</b></p>
+                <ul>
+                  <li><p>
+                    <a href="https://drive.google.com/file/d/1dJOC_UI3vuF4JTg3G2or_Z56O2h4Wdae/view" target="_blank">WIC Welcome Video</a>
+                  </p></li>
+                  <li><p>
+                    <a href="https://www.youtube.com/watch?v=-GrQ3BF-nVw" target="_blank">Women In Computing - UCSD CSE</a>
+                  </p></li>
+                  
                 </ul>
             </TabPanel>
             {/* <TabPanel>

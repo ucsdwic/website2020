@@ -28,7 +28,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/grace-carlson-ucsd-2021",
     instagram: "https://www.instagram.com/ephemeral_dawn/",
     github: "",
-    bio: ""
+    bio: "Hi I’m Grace and I’m a 4 year CS major in Warren. This past summer, I worked on building my own computer. Here's a word of advice: You are exactly the person you need to be to accomplish the next big step in your life!"
   },
   {
     picture: require("../static/board-members/vas-sengupta.jpg"),
@@ -48,7 +48,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "My name is Jaz and I’m a 3rd year Computer Science Major with a minor in Cognitive Science. I’m in Thurgood Marshall College and my pronouns are she/her/hers. In my free time I love to travel and eat :)"
   },
   {
     picture: require("../static/board-members/lily-steiner.JPG"),
@@ -118,7 +118,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "My name is Yelitza and I'm a 4th year computer science major in Warren college. I've been a part of WIC since my first year and have enjoyed being surrounded by strong women in the community!"
   },
   {
     picture: require("../static/board-members/sandra-pekelis.jpg"),
