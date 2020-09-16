@@ -20,6 +20,7 @@ class Events extends React.Component {
 				<FullCalendar
 					plugins={[ dayGridPlugin, googleCalendarPlugin ]}
 					googleCalendarApiKey= 'AIzaSyBP_Qc9_Csvfqt2p3gwDnSbMJw-zNlw5fU'
+					//googleCalendarApiKey= {process.env.REACT_APP_CALENDAR_API}
 					//googleCalendarApiKey= 'AIzaSyDDp3PGxcPokT5ZUli1P_VPgE49JP396YM'
 					events= {{
 						googleCalendarId: 'wic.ucsd@gmail.com',
