@@ -89,31 +89,31 @@ class ContactUs extends React.Component {
               </div>
             </Col> */}
           <Row type="flex" justify="center" gutterWidth={20}>
-            <Col xs={2}>
+          <Col className="contact-info" xs={12} md={2}>
             <a href="mailto:wic.ucsd@gmail.com">
               <MdMailOutline/>
               <h6>wic.ucsd@gmail.com</h6>
               </a>
             </Col>
-            <Col xs={2}>
+            <Col className="contact-info" xs={12} md={2}>
             <a href={facebook} target="_blank">
               <FaFacebookSquare/>
               <h6>WICUCSD</h6>
             </a>
             </Col>
-            <Col xs={2}>
+            <Col className="contact-info" xs={12} md={2}>
             <a href={linkedIn} target="_blank">
               <FaLinkedin/>
               <h6>WICUCSD</h6>
               </a>
             </Col>
-            <Col xs={2}>
+            <Col className="contact-info" xs={12} md={2}>
             <a href={medium} target="_blank">
               <FaMedium />
               <h6>Coming Soon!</h6>
               </a>
             </Col>
-            <Col xs={2}>
+            <Col className="contact-info" xs={12} md={2}>
             <a href={insta} target="_blank">
               <FaInstagram />
               <h6>@wicucsd</h6>

@@ -294,3 +294,25 @@ img {
 #centerButtons {
   justify-content: center;
 }
+
+.contact-info {
+
+  @media screen and (max-width: $xl) and (min-width: $md) {
+    margin-left: $spacer-one;
+    margin-right: $spacer-one;
+  }
+
+  @media screen and (max-width: $md) {
+    padding-bottom: $spacer-one;
+
+    //make h6 values be h5
+    h6 {
+     font-size: 2.2rem;
+     line-height: 2.4rem;
+    }
+
+    svg {
+      font-size: 6rem;
+    }
+  }
+}
