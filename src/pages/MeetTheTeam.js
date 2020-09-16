@@ -1,9 +1,10 @@
 import React from "react";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import Member from "../components/Member.js";
-import "../styles/App.scss";
 import { all_members } from "../components/AllMembers";
 import MemberPopup from "../components/MemberPopup";
+import "../styles/MeetTheTeam.scss";
+
 
 class MeetTheTeam extends React.Component {
   constructor(props) {

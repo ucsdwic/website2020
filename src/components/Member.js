@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/App.scss";
+import "../styles/MeetTheTeam.scss";
 
 class Member extends React.Component {
   render() {

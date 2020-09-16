@@ -2,6 +2,8 @@ import React from "react";
 import { all_members } from "./AllMembers";
 import { Row, Col } from "react-grid-system";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import "../styles/MeetTheTeam.scss";
+
 
 class MemberPopup extends React.Component {
   constructor(props) {

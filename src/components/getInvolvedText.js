@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
+import "../styles/GetInvolved.scss";
 
 class GetInvolvedText extends React.Component{
     render(){

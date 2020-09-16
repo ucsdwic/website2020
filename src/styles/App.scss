@@ -22,194 +22,11 @@
   color: $color-purple-mid;
 }
 
-.teamTitle {
-  padding-top: $spacer-four;
-  padding-bottom: $spacer-three;
-}
-
-.teamInfo {
-  color: $color-white;
-  padding-top: $spacer-two;
-  text-align: left;
-  color: $color-purple-lightest;
-}
-
-.teamPosition {
-  padding-top: $spacer-base;
-  margin-bottom: $spacer-two;
-  color: $color-purple-lightest;
-}
-
-.involve-title {
-  font-weight: 700;
-  margin-bottom: $spacer-base;
-}
-
-.member-popup {
-  z-index: 10000;
-  position: fixed;
-  left: 20vh;
-  right: 20vh;
-  top: 10%;
-  bottom: 10%;
-  border: 2px solid $color-purple-darkest;
-  background: $color-purple-lightest;
-  padding: $spacer-two;
-  max-height: 100%;
-  overflow-y: scroll;
-
-  img {
-    display: block;
-    margin-top: $spacer-two;
-    width: 100%;
-  }
-
-  h2 {
-    margin-top: $spacer-two;
-  }
-
-  p {
-    margin-top: $spacer-one;
-  }
-
-  @media screen and (max-width: $xl) and (min-width: $sm) {
-    left: $spacer-three;
-    right: $spacer-three;
-    top: 20%;
-    bottom: 20%;
-  }
-
-  @media screen and (max-width: $sm) {
-    left: $spacer-two;
-    right: $spacer-two;
-  }
-}
-
-.members {
-  .img-background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 5px;
-    left: 5px;
-    z-index: 10;
-    border: 2px solid $color-purple-lightest;
-    pointer-events: none;
-  }
-
-  .member-wrapper {
-    width: 100%;
-    position: relative;
-    .memberImage {
-      // box-shadow: 10px 10px 0px -5px $color-purple-lightest;
-      width: 100%;
-      z-index: 100;
-      position: relative;
-      top: 0;
-      left: 0;
-      // position: relative;
-      cursor: pointer;
-      transition: 0.6s all;
-      &:hover {
-        transform: translate(7px, 7px);
-      }
-    }
-  }
-}
-
-.member-popup-info {
-  color: $color-purple-darkest;
-  text-align: left;
-}
-
-.member-popup-name {
-  font-weight: bold;
-}
-
-.member-popup-bio {
-  padding-top: 10%;
-}
-
-.member-popup-socials {
-  margin-top: $spacer-two;
-  text-align: center;
-  font-size: 4.8rem;
-
-  svg {
-    margin: $spacer-two;
-    transition: 0.6s all;
-
-    &:hover {
-      transform: scale(0.8);
-    }
-  }
-  @media screen and (max-width: $sm) {
-    svg {
-      margin: $spacer-one;
-    }
-  }
-
-  a {
-    color: $color-purple-darkest;
-  }
-}
-
-.exitButton {
-  background-color: $color-purple-lightest;
-  border: none;
-  color: $color-purple-darkest;
-  display: inline-block;
-  font-size: 250%;
-  font-weight: bold;
-  cursor: pointer;
-  position: absolute;
-  top: 2%;
-  right: 2%;
-  cursor: pointer;
-  transition: 0.6s all;
-
-  &:hover {
-    transform: scale(0.8);
-  }
-}
-
 .transparent-background-section {
   background-color: $color-purple-lightest-transparent;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-}
-
-.getInvolved {
-  a {
-    text-decoration: none;
-    color: $color-purple-lightest;
-  }
-}
-
-#GetInvolvedMargin {
-  margin-top: $spacer-four;
-  margin-left: $spacer-three;
-  margin-bottom: $spacer-three;
-}
-
-#GetInvolvedMentorBPC {
-  margin-bottom: $spacer-two;
-}
-
-#GetInvolvedEdgeSocials {
-  margin-bottom: $spacer-two;
-}
-
-#GetInvolvedBottom {
-  margin-top: $spacer-contactUs;
-}
-
-#GetInvolvedNum {
-  color: $color-purple-lightest-transparent;
-  font-family: Kollektif-Bold;
-  font-size: 20rem;
-  line-height: 16rem;
 }
 
 .contactUsLinks {
@@ -355,38 +172,6 @@
   }
 }
 
-// .homeButtons {
-//   position: relative;
-
-//   .front-button {
-//     height: 5rem;
-//     padding: 0 5rem;
-//     color: $color-purple-lightest;
-//     background-color: $color-purple-mid;
-//     border: 2px solid $color-purple-mid;
-//     transition: 0.5s all;
-//     z-index: 100;
-//   }
-
-//   .front-button:hover {
-//     transform: translate(6px, 4px);
-//   }
-
-//   .back-button {
-//     position: absolute;
-//     top: 2px;
-//     left: 6px;
-//     height: 5rem;
-//     padding: 0 5rem;
-//     z-index: -100;
-//     border: 2px solid $color-purple-mid;
-//     background-color: $color-purple-lightest;
-
-//     h5 {
-//       opacity: 0;
-//     }
-//   }
-// }
 
 #homeCenterButton {
   text-align: center;
@@ -506,22 +291,6 @@ img {
   }
 }
 
-#opaque-filler {
-  z-index: 9999;
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: $color-black-transparent;
-  pointer-events: none;
-  display: none;
-}
-
 #centerButtons {
   justify-content: center;
-}
-
-#meet-the-team-page {
-  padding-bottom: $spacer-four;
 }

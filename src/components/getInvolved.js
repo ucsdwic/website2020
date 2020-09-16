@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import GetInvolvedText from "./getInvolvedText.js";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
+import "../styles/GetInvolved.scss";
 
 class GetInvolved extends React.Component {
   render() {
@@ -26,7 +27,7 @@ class GetInvolved extends React.Component {
               className="mid-background-section"
               md={12}
             >
-              <h1 className="mid-background-section">Get Involved</h1>
+              <h1 className="mid-background-section" id="get-involved-title">Get Involved</h1>
             </Col>
             <Col
               id="GetInvolvedMentorBPC"

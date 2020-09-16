@@ -1,0 +1,46 @@
+@import "./Typography.scss";
+@import "./Vars.scss";
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+#GetInvolvedMentorBPC {
+    margin-bottom: $spacer-two;
+}
+
+#GetInvolvedEdgeSocials {
+    margin-bottom: $spacer-two;
+}
+
+#GetInvolvedBottom {
+    margin-top: $spacer-contactUs;
+}
+
+#GetInvolvedNum {
+    color: $color-purple-lightest-transparent;
+    font-family: Kollektif-Bold;
+    font-size: 20rem;
+    line-height: 16rem;
+}
+
+#get-involved-title {
+    padding-top: $spacer-three;
+    padding-bottom: $spacer-three;
+      color: $color-purple-lightest;
+}
+
+.involve-title {
+    font-weight: 700;
+    margin-bottom: $spacer-base;
+}
+
+.getInvolved {
+    a {
+      text-decoration: none;
+      color: $color-purple-lightest;
+    }
+}
+  
+#getInvolvedMargin {
+    margin-top: $spacer-four;
+    margin-left: $spacer-three;
+    margin-bottom: $spacer-three;
+}

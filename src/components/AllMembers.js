@@ -68,7 +68,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Hi, I'm Paridhi, a rising Senior studying Computer Science with a minor in Design in Muir College. I'm really excited to host technical events for the WIC community and increase the representation of our very talented women."
   },
   {
     picture: require("../static/board-members/judy-liu.JPG"),
@@ -78,7 +78,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "My name is Judy Liu and I’m a second year Computer Science major in Warren college. My favourite thing to do is to explore delicious foods from different cultures. I love to meet new people and help them to the best of my abilities."
   },
   {
     picture: require("../static/board-members/aarushi-shah.jpg"),
@@ -98,7 +98,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/jaida-day/",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Hey everyone! My name is Jaida and I'm a 3rd year Math-CS major in Revelle college. My pronouns are she/her/hers and in my free time I love to dance and roller-skate!"
   },
   {
     picture: require("../static/board-members/harshi-agrawal.JPG"),
@@ -128,7 +128,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Hi! My name is Sandra Pekelis and I’m a fourth year Computer Science major in Revelle. In my free time, I love to draw, paint, and go on spontaneous adventures. "
   },
   {
     picture: require("../static/board-members/tri-truong.jpg"),
@@ -154,11 +154,11 @@ export const all_members = [
     picture: require("../static/board-members/sydney-wong.jpg"),
     name: "Sydney Wong",
     position: "Outreach Co-Chair",
-    year: "Grad Year: ",
+    year: "Grad Year: 2023",
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Hi! My name is Sydney, and I am a second year computer science major in Sixth college. I love playing/watching tennis, reading and watching Law & Order. I am excited to co-lead our high school mentorship program, Empowerment & Development for Girls in Engineering (EDGE), in its first ever year!"
   },
   {
     picture: require("../static/board-members/sravya-balasa.jpg"),
@@ -178,7 +178,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Hi everyone! My name is Claudia and I'm a third year majoring in Math-CS in ERC. One of my interests is learning foreign languages. I'm also a big foodie and love finding new restaurants and cafes."
   },
   {
     picture: require("../static/board-members/navika-budhraja.JPG"),
@@ -188,7 +188,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "My name is Navika and I’m a second-year computer science major in Eleanor Roosevelt College. A fun fact about myself is that I love traveling and exploring new places with my family."
   },
   {
     picture: require("../static/board-members/default-img.jpg"),
