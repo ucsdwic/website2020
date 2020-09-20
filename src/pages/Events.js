@@ -19,12 +19,12 @@ class Events extends React.Component {
 				<Col>
 				<FullCalendar
 					plugins={[ dayGridPlugin, googleCalendarPlugin ]}
-					googleCalendarApiKey= 'AIzaSyBP_Qc9_Csvfqt2p3gwDnSbMJw-zNlw5fU'
+					//googleCalendarApiKey= 'AIzaSyBP_Qc9_Csvfqt2p3gwDnSbMJw-zNlw5fU'
 					//googleCalendarApiKey= {process.env.REACT_APP_CALENDAR_API}
-					//googleCalendarApiKey= 'AIzaSyDDp3PGxcPokT5ZUli1P_VPgE49JP396YM'
+					googleCalendarApiKey= 'AIzaSyDDp3PGxcPokT5ZUli1P_VPgE49JP396YM'
 					events= {{
-						googleCalendarId: 'wic.ucsd@gmail.com',
-						//googleCalendarId: 'wic@eng.ucsd.edu',
+						//googleCalendarId: 'wic.ucsd@gmail.com',
+						googleCalendarId: 'c_06hdd3uurjn2vrdlqnvktko07g@group.calendar.google.com',
 						className: 'wic-calendar'
 					}}
 					eventColor= "#ffffff"/>
@@ -35,8 +35,8 @@ class Events extends React.Component {
 					<Button
 						type="primary"
 						text="Add it to your Calendar"
-						toLink="https://calendar.google.com/calendar/u/3?cid=d2ljLnVjc2RAZ21haWwuY29t"
-						//toLink="https://calendar.google.com/calendar/u/6?cid=Y18wNmhkZDN1dXJqbjJ2cmRscW52a3RrbzA3Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
+						//toLink="https://calendar.google.com/calendar/u/3?cid=d2ljLnVjc2RAZ21haWwuY29t"
+						toLink="https://calendar.google.com/calendar/u/6?cid=Y18wNmhkZDN1dXJqbjJ2cmRscW52a3RrbzA3Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t"
 					/>
 				</Col>
           </Row>
