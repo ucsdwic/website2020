@@ -15,9 +15,9 @@ class Resources extends React.Component {
           <h1>Resources</h1>
           <Tabs>
             <TabList>
-              <Tab>
+              {/* <Tab>
                 <h6>Newsletter</h6>
-              </Tab>
+              </Tab> */}
               <Tab>
                 <h6>Scholarships</h6>
               </Tab>
@@ -32,7 +32,7 @@ class Resources extends React.Component {
               </Tab>
             </TabList>
 
-            <TabPanel>
+            {/* <TabPanel>
               <h3>Newsletter Sign-Up & Previous Newsletters</h3>
 
               <ul>
@@ -49,10 +49,10 @@ class Resources extends React.Component {
                     !
                   </p>
                 </li>
-                {/* <li>Fall 2020</li> */}
+                <li>Fall 2020</li>
               </ul>
-            </TabPanel>
-            <TabPanel>
+            </TabPanel> */}
+            <TabPanel> 
               <h3>Scholarships, Conferences, and Hackathons</h3>
               <p>
                 <b>
