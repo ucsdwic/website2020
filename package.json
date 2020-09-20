@@ -17,6 +17,7 @@
     "react-dom": "^16.13.1",
     "react-grid-system": "^7.0.3",
     "react-icons": "^3.11.0",
+    "react-lazy-load-image-component": "^1.5.0",
     "react-scripts": "3.4.3",
     "react-scroll": "^1.8.1",
     "react-sliding-pane": "^6.1.0",

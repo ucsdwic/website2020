@@ -44,8 +44,8 @@ class MeetTheTeam extends React.Component {
               <Row>
                 {all_members.map((member, idx) => {
                   return (
-                    <>
-                      <Col xs={6} sm={4} md={3}>
+                    <React.Fragment key={member.name}>
+                      <Col xs={6} sm={4} md={3} key = {idx}>
                         <div onClick={() => this.getModal(idx)}>
                           <Member
                             picture={member.picture}
@@ -61,7 +61,7 @@ class MeetTheTeam extends React.Component {
                         }}
                         index={idx}
                       />
-                    </>
+                    </React.Fragment>
                   );
                 })}
               </Row>

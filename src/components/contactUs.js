@@ -2,7 +2,9 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import { MdMailOutline } from "react-icons/md";
-import { FaFacebookSquare, FaInstagram, FaLinkedin, FaMedium } from "react-icons/fa";
+import { RiFacebookFill } from "react-icons/ri";
+import { AiOutlineMedium } from "react-icons/ai";
+import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 
 class ContactUs extends React.Component {
   render() {
@@ -88,38 +90,37 @@ class ContactUs extends React.Component {
                 </div>
               </div>
             </Col> */}
-          <Row type="flex" justify="center" gutterWidth={20}>
-          <Col className="contact-info" xs={12} md={2}>
-            <a href="mailto:wic.ucsd@gmail.com">
-              <MdMailOutline/>
-              <h6>wic.ucsd@gmail.com</h6>
+          <Row type="flex" justify="center" gutterWidth={10}>
+            <Col className="contact-info" xs={12} sm={4} md={2}>
+              <a href="mailto:wic.ucsd@gmail.com">
+                <MdMailOutline />
+                <h5>wic.ucsd@gmail.com</h5>
               </a>
             </Col>
-            <Col className="contact-info" xs={12} md={2}>
-            <a href={facebook} target="_blank">
-              <FaFacebookSquare/>
-              <h6>WICUCSD</h6>
-            </a>
-            </Col>
-            <Col className="contact-info" xs={12} md={2}>
-            <a href={linkedIn} target="_blank">
-              <FaLinkedin/>
-              <h6>WICUCSD</h6>
+            <Col className="contact-info" xs={12} sm={4} md={2}>
+              <a href={facebook} target="_blank">
+                <RiFacebookFill />
+                <h5>/wicucsd</h5>
               </a>
             </Col>
-            <Col className="contact-info" xs={12} md={2}>
-            <a href={medium} target="_blank">
-              <FaMedium />
-              <h6>W.I.C. UCSD</h6>
+            <Col className="contact-info" xs={12} sm={4} md={2}>
+              <a href={linkedIn} target="_blank">
+                <FaLinkedinIn />
+                <h5>/wicucsd</h5>
               </a>
             </Col>
-            <Col className="contact-info" xs={12} md={2}>
-            <a href={insta} target="_blank">
-              <FaInstagram />
-              <h6>@wicucsd</h6>
-            </a>
+            <Col className="contact-info" xs={12} sm={4} md={2}>
+              <a href={medium} target="_blank">
+                <AiOutlineMedium />
+                <h5>/wicucsd</h5>
+              </a>
             </Col>
-            
+            <Col className="contact-info" xs={12} sm={4} md={2}>
+              <a href={insta} target="_blank">
+                <FaInstagram />
+                <h5>@wicucsd</h5>
+              </a>
+            </Col>
           </Row>
           <Row>
             <Col id="Trademark" md={12}>

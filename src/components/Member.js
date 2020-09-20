@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/MeetTheTeam.scss";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 class Member extends React.Component {
   render() {
@@ -7,7 +8,7 @@ class Member extends React.Component {
       <div className="members">
         <div className="member-wrapper">
           <div className="img-background"></div>
-          <img className="memberImage" src={this.props.picture}></img>
+          <LazyLoadImage className="memberImage" src={this.props.picture} alt={this.props.name}/>
         </div>
         <div className="teamImageBg"></div>
         <div className="teamInfo">
