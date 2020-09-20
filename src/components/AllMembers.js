@@ -8,7 +8,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/priyalsuneja/",
     instagram: "",
     github: "",
-    bio: "Hey everyone! I'm Priyal and I'm a ___ year in ____ college majoring in ___. In my free time I like to ____."
+    bio: ""
   },
   {
     picture: require("../static/board-members/angela-wang.jpg"),
