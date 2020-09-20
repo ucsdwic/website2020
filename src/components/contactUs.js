@@ -110,7 +110,7 @@ class ContactUs extends React.Component {
             <Col className="contact-info" xs={12} md={2}>
             <a href={medium} target="_blank">
               <FaMedium />
-              <h6>Coming Soon!</h6>
+              <h6>W.I.C. UCSD</h6>
               </a>
             </Col>
             <Col className="contact-info" xs={12} md={2}>
