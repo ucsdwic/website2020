@@ -24,7 +24,7 @@ export const all_members = [
     picture: require("../static/board-members/grace-carlson.jpg"),
     name: "Grace Carlson",
     position: "Vice President External",
-    year: "Grad Year: ",
+    year: "Grad Year: 2021",
     linkedin: "https://www.linkedin.com/in/grace-carlson-ucsd-2021",
     instagram: "https://www.instagram.com/ephemeral_dawn/",
     github: "",
