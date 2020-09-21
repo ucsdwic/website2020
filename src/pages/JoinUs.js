@@ -31,14 +31,14 @@ class JoinUs extends React.Component{
                 </div>
                 <Container>
                     <Row justify="center" align="center">
-                        <Col xs={12} sm={6} md={4}>
+                        <Col className="join-us-active-member" sm={12} md={4}>
                             <Button
                                 type="secondary"
                                 text="Become an active member"
                                 toLink="https://docs.google.com/forms/d/e/1FAIpQLScsf3G_eeySKZ_8dhYSUFtQmUNnFwa__rVOOBnrvium5lIAjQ/viewform"
                             />
                         </Col>
-                        <Col xs={12} sm={6} md={4}>
+                        <Col className="join-us-mailing-list" sm={12} md={4}>
                             <Button
                                 type="secondary"
                                 text="Join our mailing list"

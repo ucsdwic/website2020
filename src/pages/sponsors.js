@@ -16,6 +16,7 @@ import yahoo from "../static/yahoo2.png";
 import cisco from "../static/cisco.png";
 import qualcomm from "../static/qualcomm.png";
 import firefox from "../static/firefox2.png";
+import "../styles/App.scss";
 
 class Sponsors extends React.Component {
   render() {
@@ -98,21 +99,21 @@ class Sponsors extends React.Component {
             </Col>
           </Row>
           <Row id="sponsorsSpacing">
-            <Col sm={4}>
+            <Col className="sponsors-learn-more" sm={4}>
               <Button
                 type="primary"
                 text="Learn More"
                 toLink="https://drive.google.com/file/d/1nuMtyG3DIZsTHyIa19-hLOzgUnEWIHvN/view?usp=sharing"
               />
             </Col>
-            <Col sm={4}>
+            <Col className="sponsors-resume-database"sm={4}>
               <Button
                 type="primary"
                 text="Resume Database"
                 toLink="#"
               />
             </Col>
-            <Col sm={4}>
+            <Col className="sponsors-sponsor-us"sm={4}>
               <Button
                 type="primary"
                 text="Sponsor Us"

@@ -86,6 +86,7 @@
   margin: $spacer-two 0;
   left: 50%;
   width: max-content;
+  
 }
 
 .primary {
@@ -169,6 +170,22 @@
 
   .back-button {
     border: 2px solid $color-purple-mid;
+  }
+}
+
+.join-us-active-member {
+  @media screen and (max-width: $xl) and (min-width: $sm) {
+    //position: center;
+    display: flex;
+    margin-right: 5%;
+  }
+}
+
+.join-us-mailing-list {
+  @media screen and (max-width: $xl) and (min-width: $sm) {
+    //position: center;
+    display: flex;
+    margin-left: 5%;
   }
 }
 
@@ -314,3 +331,4 @@ img {
     transition: 0.4s all;
   }
 }
+
