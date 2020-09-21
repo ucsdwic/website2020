@@ -8,17 +8,17 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/priyalsuneja/",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "I’m Priyal, a fourth year CS major from Revelle College. I love to read and listen to indie music, and my favorite artist of all time is Hozier."
   },
   {
     picture: require("../static/board-members/angela-wang.jpg"),
     name: "Angela Wang",
     position: "Vice President Internal",
-    year: "Grad Year: ",
+    year: "Grad Year: 2022",
     linkedin: "https://linkedin.com/in/wangangela2000/",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "My name is Angela and I am an incoming junior in Muir studying Math-CS. Some hobbies I enjoy include reading fictional novels (especially fantasy and thriller!), skiing, and honestly anything art related; I enjoy painting and drawing and I hope to try out others in the future."
   },
   {
     picture: require("../static/board-members/grace-carlson.jpg"),
@@ -38,7 +38,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/vasundharasengupta/",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Hi Tritons! My name is Vas Sengupta and I'm a third-year Computer Engineering major in Warren college. In my spare time, I like to oil paint, binge-watch crime shows, and travel!"
   },
   {
     picture: require("../static/board-members/jaz-gill.jpg"),
@@ -84,11 +84,11 @@ export const all_members = [
     picture: require("../static/board-members/aarushi-shah.jpg"),
     name: "Aarushi Shah",
     position: "Technical Development Co-Chair",
-    year: "Grad Year: ",
+    year: "Grad Year: 2022",
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Hi everyone, my name is Aarushi Shah and I am one of the Technical Development Chairs this year! I am a 3rd year Computer Science major in Warren :) In addition to WIC, I am also apart of a dance team on campus called UCSD Raas Ruckus. I love dancing and being apart of a team as it is such a great way to make new friends and relieve some stress from school :)"
   },
   {
     picture: require("../static/board-members/jaida-day.jpg"),
@@ -134,21 +134,21 @@ export const all_members = [
     picture: require("../static/board-members/tri-truong.jpg"),
     name: "Tri Truong",
     position: "BPC Co-Chair",
-    year: "Grad Year: ",
+    year: "Grad Year: 2022",
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Hey everyone! My name is Tri, and I’m WIC’s co-Beginner’s Programming Competition (BPC) chair. I’m a 3rd year CS major in Warren. Outside of coding, I play a lot of sports (soccer, basketball, swimming, etc.), but I don’t really get that great at any of them L. I also enjoy working out in the gym. When I don’t study or exercise, I usually read/watch superheroes stuff and watch K-dramas."
   },
   {
     picture: require("../static/board-members/stephanie-hernandez.jpg"),
     name: "Stephanie Hernandez",
     position: "Outreach Co-Chair",
-    year: "Grad Year: ",
+    year: "Grad Year: 2021",
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "My name is Stephanie Hernandez and I'm a 4th year Computer Science major in Sixth college. I love photography, basketball, and movies!"
   },
   {
     picture: require("../static/board-members/sydney-wong.jpg"),
@@ -168,7 +168,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Hi everyone, my name is Sravya Balasa and I'm WIC's Public-Relations Marketing Chair! I'm a 3rd year Computer Science major in ERC :) Besides coding, I run a photography business that I started junior year of high school."
   },
   {
     picture: require("../static/board-members/claudia-handoyo.jpg"),
