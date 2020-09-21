@@ -56,10 +56,17 @@ class Resources extends React.Component {
               <h3>Scholarships, Conferences, and Hackathons</h3>
               <p>
                 <b>
-                  Scholarships: Our scholarship application period is currently
-                  closed.
+                  Scholarships: 
                 </b>
               </p>
+              <ul>
+                <li>
+                  <p>
+                    Our scholarship application period is currently closed.
+                  </p>
+                </li>
+              </ul>
+              
               <p>
                 <b>Conferences:</b>
               </p>
