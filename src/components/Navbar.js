@@ -58,12 +58,12 @@ class Navbar extends React.Component {
 						     { id: "resources-page", name: "Resources"},
 							 { id: "join-us-page", name: "Join Us"},
 							 { id: "contact-us-page", name: "Contact Us"}]
-		const navbarHorizontal = navbarItems.map(navbarItem => <h6 className="navbar-purple-heading" style={{ transition: '1s ease'}} key={navbarItem.id}>
+		const navbarHorizontal = navbarItems.map(navbarItem => <h5 className="navbar-purple-heading" style={{ transition: '1s ease'}} key={navbarItem.id}>
 															   		<Link activeClass="navbar-active" to={navbarItem.id} spy={true} smooth={true} offset={-70} duration={1000}>&nbsp;{navbarItem.name}&nbsp;</Link>
-															   </h6>)
-		const navbarVertical = navbarItems.map(navbarItem => <h2 key={navbarItem.id}>
+															   </h5>)
+		const navbarVertical = navbarItems.map(navbarItem => <h3 key={navbarItem.id}>
 																<Link to={navbarItem.id} spy={true} smooth={true} offset={-70} duration={1000} onClick={this.toggleButton}>&nbsp;{navbarItem.name}&nbsp;</Link>
-															</h2>)
+															</h3>)
 
 		return (
 			<div className={this.state.navbarBackground} style={{ transition: '1s ease' }} id="navbar-sticky" onScroll={this.setNavBarColor}>

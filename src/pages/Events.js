@@ -27,7 +27,8 @@ class Events extends React.Component {
 						googleCalendarId: 'c_06hdd3uurjn2vrdlqnvktko07g@group.calendar.google.com',
 						className: 'wic-calendar'
 					}}
-					eventColor= "#ffffff"/>
+					eventColor= "#ffffff"
+					fixedWeekCount={false}/>
 				</Col>
 			</Row>
 			<Row justify="center" align="center">

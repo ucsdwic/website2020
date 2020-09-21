@@ -1,5 +1,7 @@
 @import "./Reset.scss";
 @import "./Vars.scss";
+@import "~fontsource-kumbh-sans/index.css";
+@import "~fontsource-kumbh-sans/700.css";
 
 html {
   @media screen and (min-width: $lg) {
@@ -38,37 +40,47 @@ html {
 }
 
 h1 {
-  font-family: Kollektif-Bold;
+  //font-family: Kollektif-Bold;
+  font-family: "Kumbh Sans" ;
+  font-weight: 800;
   font-size: 7.2rem;
   line-height: 7.2rem;
 }
 
 h2 {
-  font-family: Kollektif-Bold;
+  //font-family: Kollektif-Bold;
+  font-family: "Kumbh Sans" ;
+  font-weight: 800;
   font-size: 5.2rem;
   line-height: 5.2rem;
 }
 
 h3 {
-  font-family: Kollektif;
+  //font-family: Kollektif-Bold;
+  font-family: "Kumbh Sans" ;
   font-size: 3.2rem;
   line-height: 3.2rem;
 }
 
 h4 {
-  font-family: Kollektif-Bold;
+  //font-family: Kollektif-Bold;
+  font-family: "Kumbh Sans" ;
+  font-weight: 800;
   font-size: 2.4rem;
   line-height: 2.4rem;
 }
 
 h5 {
-  font-family: Kollektif;
+  //font-family: Kollektif;
+  font-family: "Kumbh Sans" ;
   font-size: 2.2rem;
   line-height: 2.4rem;
 }
 
 h6 {
-  font-family: Kollektif-Bold;
+  //font-family: Kollektif-Bold;
+  font-family: "Kumbh Sans" ;
+  font-weight: 800;
   font-size: 1.8rem;
   line-height: 1.8rem;
 }

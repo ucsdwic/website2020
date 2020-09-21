@@ -20,9 +20,9 @@
   padding-right: $spacer-two;
   z-index: 1000;
 
-  h6 {
-    font-family: Kollektif;
-    font-size: 2rem;
+  h5 {
+    font-size: 1.8rem;
+    line-height: 1.8rem;
   }
 
   a {
@@ -81,9 +81,8 @@
 #vertical-navbar-container {
   padding-top: $spacer-four;
 
-  h2 {
+  h3 {
     font-size: 3rem;
-    font-family: Kollektif;
     color: $color-purple-mid;
     padding-top: $spacer-one;
     padding-left: $spacer-two;
