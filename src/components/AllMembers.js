@@ -174,8 +174,8 @@ export const all_members = [
     picture: require("../static/board-members/claudia-handoyo.jpg"),
     name: "Claudia Handoyo",
     position: "Public Relations Co-Chair",
-    year: "Grad Year: ",
-    linkedin: "2022",
+    year: "Grad Year: 2022",
+    linkedin: "",
     instagram: "",
     github: "",
     bio: "Hi everyone! My name is Claudia and I'm a third year majoring in Math-CS in ERC. One of my interests is learning foreign languages. I'm also a big foodie and love finding new restaurants and cafes."
