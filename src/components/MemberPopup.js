@@ -3,7 +3,7 @@ import { all_members } from "./AllMembers";
 import { Row, Col } from "react-grid-system";
 import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
 import "../styles/MeetTheTeam.scss";
-
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 class MemberPopup extends React.Component {
   constructor(props) {
@@ -38,7 +38,7 @@ class MemberPopup extends React.Component {
               </button>
               <Row justify="center" type="flex">
                 <Col xs={10} md={4}>
-                  <img src={all_members[index].picture} />
+                  <LazyLoadImage src={all_members[index].picture} alt={all_members[index].name}/>
                 </Col>
                 <Col xs={10} className="member-popup-info" md={6}>
                   <div>

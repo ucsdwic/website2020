@@ -5,7 +5,6 @@ import { all_members } from "../components/AllMembers";
 import MemberPopup from "../components/MemberPopup";
 import "../styles/MeetTheTeam.scss";
 
-
 class MeetTheTeam extends React.Component {
   constructor(props) {
     super(props);

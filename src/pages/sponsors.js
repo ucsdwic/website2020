@@ -17,6 +17,7 @@ import cisco from "../static/cisco.png";
 import qualcomm from "../static/qualcomm.png";
 import firefox from "../static/firefox2.png";
 import "../styles/App.scss";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 class Sponsors extends React.Component {
   render() {
@@ -29,72 +30,72 @@ class Sponsors extends React.Component {
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={firefox} alt="firefox" />
+                <LazyLoadImage src={firefox} alt="firefox"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={yahoo} alt="yahoo" />
+                <LazyLoadImage src={yahoo} alt="yahoo"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={facebook} alt="facebook" />
+                <LazyLoadImage src={facebook} alt="facebook"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={qualcomm} alt="qualcomm" />
+                <LazyLoadImage src={qualcomm} alt="qualcomm"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={oracle} alt="oracle" />
+                <LazyLoadImage src={oracle} alt="oracle"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={intuit} alt="intuit" />
+                <LazyLoadImage src={intuit} alt="intuit"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={microsoft} alt="microsoft" />
+                <LazyLoadImage src={microsoft} alt="microsoft"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={cisco} alt="cisco" />
+                <LazyLoadImage src={cisco} alt="cisco"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={servicenow} alt="service now" />
+                <LazyLoadImage src={servicenow} alt="service now"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={twilio} alt="twilio" />
+                <LazyLoadImage src={twilio} alt="twilio"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={salesforce} alt="sales force" />
+                <LazyLoadImage src={salesforce} alt="sales force"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={amerEx} alt="american express" />
+                <LazyLoadImage src={amerEx} alt="american express"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={idea} alt="idea engineering student center" />
+                <LazyLoadImage src={idea} alt="idea engineering student center"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <img src={liveramp} alt="live ramp" />
+                <LazyLoadImage src={liveramp} alt="live ramp"/>
               </div>
             </Col>
           </Row>

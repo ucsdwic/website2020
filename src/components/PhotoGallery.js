@@ -8,6 +8,7 @@ import image6 from "../static/photo-six.JPG"
 import image9 from "../static/photo-nine.JPG"
 import image10 from "../static/photo-ten.JPG"
 import "../styles/App.scss"; 
+import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 class PhotoGallery extends React.Component {
     render(){
@@ -15,7 +16,7 @@ class PhotoGallery extends React.Component {
     
         const imageNames = [image1, image2, image4, image6, image9, image10]
         const images = imageNames.map(image => <div id="slider-img-container">
-                                                    <img src={image} id="slider-img" onDragStart={handleOnDragStart}  alt=""/>
+                                                    <LazyLoadImage src={image} id="slider-img" onDragStart={handleOnDragStart}  alt=""/>
                                                </div>)
         const responsiveObject =  {
             0: { items:2 },
