@@ -34,9 +34,13 @@
 }
 
 .getInvolved {
-    a {
-      text-decoration: none;
-      color: $color-purple-lightest;
+    
+    a{
+        color: $color-purple-lightest;
+
+        &:hover{
+          opacity: 0.4;
+        }
     }
 }
   
