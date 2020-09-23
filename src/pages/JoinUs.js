@@ -4,6 +4,7 @@ import "../styles/JoinUs.scss";
 import {ImQuotesLeft} from 'react-icons/im'
 import PhotoGallery from '../components/PhotoGallery.js'
 import Button from "../components/Button";
+import "../styles/App.scss";
 
 class JoinUs extends React.Component{
     render(){
@@ -31,18 +32,25 @@ class JoinUs extends React.Component{
                 </div>
                 <Container>
                     <Row justify="center" align="center">
-                        <Col className="join-us-active-member" sm={12} md={4}>
+                        <Col className="join-us-active-member" xs={12} xl={4}>
                             <Button
                                 type="secondary"
                                 text="Become an active member"
                                 toLink="https://docs.google.com/forms/d/e/1FAIpQLScsf3G_eeySKZ_8dhYSUFtQmUNnFwa__rVOOBnrvium5lIAjQ/viewform"
                             />
                         </Col>
-                        <Col className="join-us-mailing-list" sm={12} md={4}>
+                        <Col className="join-us-mailing-list" xs={12} xl={4}>
                             <Button
                                 type="secondary"
                                 text="Join our mailing list"
                                 toLink="https://docs.google.com/forms/d/e/1FAIpQLScV5bxCkSR5kxkREJZsrmAw5ldz_a5X2WNMyKIDUzsszKuDNA/viewform"
+                            />
+                        </Col>
+                        <Col className="join-us-discord" xs={12} xl={4}>
+                            <Button
+                                type="secondary"
+                                text="Join our discord"
+                                toLink="https://discord.gg/ZE62Zuh"
                             />
                         </Col>
                     </Row>

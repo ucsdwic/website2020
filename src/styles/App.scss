@@ -131,6 +131,8 @@
 
   .front-button {
     position: absolute;
+    left: auto;
+    right: auto;
     height: 5rem;
     padding: 0 5rem;
     color: $color-purple-mid;
@@ -175,7 +177,7 @@
 }
 
 .join-us-active-member {
-  @media screen and (max-width: $xl) and (min-width: $sm) {
+  @media screen and (max-width: $lg) and (min-width: $sm){
     //position: center;
     display: flex;
     margin-right: 5%;
@@ -183,7 +185,16 @@
 }
 
 .join-us-mailing-list {
-  @media screen and (max-width: $xl) and (min-width: $sm) {
+  @media screen and (max-width: $lg) and (min-width: $sm){
+    //position: center;
+    display: flex;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+
+.join-us-discord {
+  @media screen and (max-width: $lg) and (min-width: $sm){
     //position: center;
     display: flex;
     margin-left: 5%;
