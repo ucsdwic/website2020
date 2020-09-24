@@ -50,7 +50,7 @@ class JoinUs extends React.Component{
                         <Col className="join-us-discord" xs={12} xl={4}>
                             <Button
                                 type="secondary"
-                                text="Join our discord"
+                                text="Join our Discord"
                                 toLink="https://discord.gg/ZE62Zuh"
                             />
                         </Col>

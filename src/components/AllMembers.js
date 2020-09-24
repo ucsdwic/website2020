@@ -108,7 +108,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: "Hey y’all! My name is Harshi (pronounced like the chocolate 😋) and I’m a 3rd year CS major in Warren! I’m literally the biggest social butterfly (as if you couldn’t already tell by my position on board this year😜), and I love doing outdoor things such as hiking and going for ocean swims."
+    bio: "Hey y’all! My name is Harshi, and I’m a 3rd year CS major in Warren! Some of my favorite things to do are hiking, going for ocean swims, and cooking. I am so excited to meet every one of you, so be sure to connect with me on my socials below!"
   },
   {
     picture: require("../static/board-members/yelitza-mendez.JPG"),
@@ -167,7 +167,7 @@ export const all_members = [
     year: "Class of 2022",
     linkedin: "",
     instagram: "",
-    github: "",
+    github: "https://github.com/sravyabalasa",
     bio: "Hi everyone, my name is Sravya Balasa and I'm WIC's Public-Relations Marketing Chair! I'm a 3rd year Computer Science major in ERC :) Besides coding, I run a photography business that I started junior year of high school."
   },
   {
