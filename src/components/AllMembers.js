@@ -105,8 +105,8 @@ export const all_members = [
     name: "Harshi Agrawal",
     position: "Social Co-Chair",
     year: "Class of 2022",
-    linkedin: "",
-    instagram: "",
+    linkedin: "https://www.linkedin.com/in/harshiagrawal/",
+    instagram: "https://www.instagram.com/harshiagrawal/?hl=en",
     github: "",
     bio: "Hey y’all! My name is Harshi, and I’m a 3rd year CS major in Warren! Some of my favorite things to do are hiking, going for ocean swims, and cooking. I am so excited to meet every one of you, so be sure to connect with me on my socials below!"
   },
