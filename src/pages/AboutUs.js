@@ -16,7 +16,7 @@ class AboutUs extends React.Component {
             <Col>
               <h1>About Us</h1>
               <p id="about-us-blurb">
-                We're coders and engineers - both women and men - who support
+                We're coders and engineers - of all genders - who support
                 the female presence in computing. We run events, from tech talks
                 to socials, and provide opportunities for female engineers to
                 connect and succeed.
