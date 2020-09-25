@@ -47,7 +47,7 @@ class JoinUs extends React.Component{
                     </Row>
                     <Row className="join-us-icons">
                         <Col sm={6} md={3}>
-                            <JoinUsSection icon={IoIosPaper} title="Resume in the WIC sponsor database." />
+                            <JoinUsSection icon={IoIosPaper} title="Resume in our company database." />
                         </Col>
                         <Col sm={6} md={3}>
                             <JoinUsSection icon={FaDollarSign} title="Priority for scholarships to conferences." />
