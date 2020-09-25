@@ -111,7 +111,7 @@ class Sponsors extends React.Component {
               <Button
                 type="primary"
                 text="Resume Database"
-                toLink="#"
+                toLink="https://airtable.com/shrfVnXweer0HRowp"
               />
             </Col>
             <Col className="sponsors-sponsor-us"sm={4}>
