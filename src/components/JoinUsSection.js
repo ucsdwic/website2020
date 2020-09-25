@@ -1,18 +1,18 @@
 import React from 'react'
-import "../styles/AboutUs.scss";
+import "../styles/JoinUs.scss";
 
-class AboutUsSection extends React.Component {
+class JoinUsSection extends React.Component {
     render(){
         const PropIcon = this.props.icon
         return(
             <div className="mid-background-section">
-                <div id = "about-us-icon">
+                <div id = "join-us-icon">
                     <PropIcon/>
                 </div>
-                <h4 id="about-us-icon-title">{this.props.title}</h4>
+                <p id="join-us-icon-title">{this.props.title}</p>
             </div>
         )
 
     }
 }
-export default AboutUsSection
+export default JoinUsSection

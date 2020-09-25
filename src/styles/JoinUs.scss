@@ -33,6 +33,28 @@
 	  transparent 50%
 	);
   }
+
+  #active-member-blurb {
+	padding-top: $spacer-two;
+	color: white;
+  }
+  #join-us-icon {
+	font-size: 6rem;
+	text-align: center;
+	margin-top: $spacer-two;
+	color: $color-purple-lightest;
+  }
+
+  #join-us-icon-title {
+	text-align: center;
+	margin-bottom: $spacer-one;
+	color: white;
+	font-weight: 800;
+  }
+
+  .join-us-icons {
+	padding-bottom: $spacer-one;
+  }
   
   #slider-img:hover {
 	filter: none;
