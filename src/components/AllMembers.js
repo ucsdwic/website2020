@@ -155,9 +155,9 @@ export const all_members = [
     name: "Sydney Wong",
     position: "Outreach Co-Chair",
     year: "Class of 2023",
-    linkedin: "",
-    instagram: "",
-    github: "",
+    linkedin: "https://www.linkedin.com/in/sydney-wong-269a83193/detail/background-image/",
+    instagram: "https://www.instagram.com/sydneywong8/",
+    github: "https://github.com/sywong888",
     bio: "Hi! My name is Sydney, and I am a second year computer science major in Sixth college. I love playing/watching tennis, reading and watching Law & Order. I am excited to co-lead our high school mentorship program, Empowerment & Development for Girls in Engineering (EDGE), in its first ever year!"
   },
   {
