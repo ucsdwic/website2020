@@ -16,7 +16,7 @@ class Resources extends React.Component {
           <Tabs>
             <TabList>
               {/* <Tab>
-                <h6>Newsletter</h6>
+                <h6>Event Slides</h6>
               </Tab> */}
               <Tab>
                 <h6>Scholarships</h6>
@@ -31,28 +31,22 @@ class Resources extends React.Component {
                 <h6>Similar Orgs</h6>
               </Tab>
             </TabList>
-
-            {/* <TabPanel>
-              <h3>Newsletter Sign-Up & Previous Newsletters</h3>
-
+            {/* <TabPanel> 
+            <h3>GBMs and Tech-Dev Events</h3>
+              <p>
+                <b>
+                  Group Board Meetings:
+                </b>
+              </p>
               <ul>
                 <li>
                   <p>
-                    Sign up to receive our newsletter
-                    <a
-                      href="https://docs.google.com/forms/d/1PP55wKz-O1ei23OaoWR_RbEfRQvbWTngTHK5h36Viz0/edit?EMAIL&b_36c4fd991d266f23781ded980_aefe40901a"
-                      target="_blank"
-                    >
-                      {" "}
-                      here
-                    </a>
-                    !
+                    Our scholarship application period is currently closed.
                   </p>
                 </li>
-                <li>Fall 2020</li>
               </ul>
             </TabPanel> */}
-            <TabPanel> 
+            <TabPanel>
               <h3>Scholarships, Conferences, and Hackathons</h3>
               <p>
                 <b>
@@ -66,7 +60,6 @@ class Resources extends React.Component {
                   </p>
                 </li>
               </ul>
-              
               <p>
                 <b>Conferences:</b>
               </p>
