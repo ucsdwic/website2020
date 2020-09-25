@@ -2,20 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import Button from "../components/Button";
-import amerEx from "../static/amerexp.png";
-import facebook from "../static/facebook.png";
-import idea from "../static/idea.png";
-import intuit from "../static/intuit.png";
-import liveramp from "../static/liveramp.png";
-import microsoft from "../static/microsoft.png";
-import oracle from "../static/oracle.png";
-import salesforce from "../static/salesforce.png";
-import servicenow from "../static/servicenow.png";
-import twilio from "../static/twilio.png";
-import yahoo from "../static/yahoo2.png";
-import cisco from "../static/cisco.png";
-import qualcomm from "../static/qualcomm.png";
-import firefox from "../static/firefox2.png";
+import bloomberg from "../static/sponsors/bloomberg.png";
+import braincorp from "../static/sponsors/braincorp.png";
+import idea from "../static/sponsors/idea.png";
+import intuit from "../static/sponsors/intuit.png";
+import nutanix from "../static/sponsors/nutanix.png";
+import salesforce from "../static/sponsors/salesforce.png";
+import servicenow from "../static/sponsors/servicenow.png";
+import twilio from "../static/sponsors/twilio.png";
 import "../styles/App.scss";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -30,27 +24,17 @@ class Sponsors extends React.Component {
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <LazyLoadImage src={firefox} alt="firefox"/>
+                <LazyLoadImage src={bloomberg} alt="bloomberg"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <LazyLoadImage src={yahoo} alt="yahoo"/>
+                <LazyLoadImage src={braincorp} alt="brain corporation"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <LazyLoadImage src={facebook} alt="facebook"/>
-              </div>
-            </Col>
-            <Col id="logoMargin" xs={6} md={3}>
-              <div>
-                <LazyLoadImage src={qualcomm} alt="qualcomm"/>
-              </div>
-            </Col>
-            <Col id="logoMargin" xs={6} md={3}>
-              <div>
-                <LazyLoadImage src={oracle} alt="oracle"/>
+                <LazyLoadImage src={idea} alt="idea engineering student center"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
@@ -58,14 +42,15 @@ class Sponsors extends React.Component {
                 <LazyLoadImage src={intuit} alt="intuit"/>
               </div>
             </Col>
+
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <LazyLoadImage src={microsoft} alt="microsoft"/>
+                <LazyLoadImage src={nutanix} alt="nutanix"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <LazyLoadImage src={cisco} alt="cisco"/>
+                <LazyLoadImage src={salesforce} alt="sales force"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
@@ -76,26 +61,6 @@ class Sponsors extends React.Component {
             <Col id="logoMargin" xs={6} md={3}>
               <div>
                 <LazyLoadImage src={twilio} alt="twilio"/>
-              </div>
-            </Col>
-            <Col id="logoMargin" xs={6} md={3}>
-              <div>
-                <LazyLoadImage src={salesforce} alt="sales force"/>
-              </div>
-            </Col>
-            <Col id="logoMargin" xs={6} md={3}>
-              <div>
-                <LazyLoadImage src={amerEx} alt="american express"/>
-              </div>
-            </Col>
-            <Col id="logoMargin" xs={6} md={3}>
-              <div>
-                <LazyLoadImage src={idea} alt="idea engineering student center"/>
-              </div>
-            </Col>
-            <Col id="logoMargin" xs={6} md={3}>
-              <div>
-                <LazyLoadImage src={liveramp} alt="live ramp"/>
               </div>
             </Col>
           </Row>
