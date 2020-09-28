@@ -2,6 +2,7 @@
   "name": "wic-website-2020",
   "version": "0.1.0",
   "private": true,
+  "homepage" : ".",
   "dependencies": {
     "@fullcalendar/core": "^5.3.1",
     "@fullcalendar/daygrid": "^5.3.1",
@@ -48,5 +49,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "ftp-deploy": "^2.3.7"
   }
 }

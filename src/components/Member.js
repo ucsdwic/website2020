@@ -8,7 +8,7 @@ class Member extends React.Component {
       <div className="members">
         <div className="member-wrapper">
           <div className="img-background"></div>
-          <LazyLoadImage className="memberImage" src={this.props.picture} alt={this.props.name}/>
+          <LazyLoadImage className="memberImage" src={this.props.picture} alt={this.props.name} effect="blur"/>
         </div>
         <div className="teamImageBg"></div>
         <div className="teamInfo">

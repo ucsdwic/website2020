@@ -38,7 +38,7 @@ class MemberPopup extends React.Component {
               </button>
               <Row justify="center" type="flex">
                 <Col xs={10} md={4}>
-                  <LazyLoadImage src={all_members[index].picture} alt={all_members[index].name}/>
+                  <LazyLoadImage src={all_members[index].picture} alt={all_members[index].name} effect="blur"/>
                 </Col>
                 <Col xs={10} className="member-popup-info" md={6}>
                   <div>

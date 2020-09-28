@@ -13,7 +13,7 @@ class Home extends React.Component {
         <Container id="homeCenterContainer">
           <Row type="flex" justify="center">
             <Col id="homeCenterLogo" md={6}>
-              <LazyLoadImage src={LogoCenter} alt="Wic Logo"/>
+              <LazyLoadImage src={LogoCenter} alt="Wic Logo" effect="blur"/>
             </Col>
             <Col id="homeCenterText" md={12}>
               <p>Women in Computing @ UC San Diego</p>

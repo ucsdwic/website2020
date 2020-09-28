@@ -86,7 +86,6 @@
   margin: $spacer-two 0;
   left: 50%;
   width: max-content;
-  
 }
 
 .primary {
@@ -177,7 +176,7 @@
 }
 
 .join-us-active-member {
-  @media screen and (max-width: $lg) and (min-width: $sm){
+  @media screen and (max-width: $lg) and (min-width: $sm) {
     //position: center;
     display: flex;
     margin-right: 5%;
@@ -185,7 +184,7 @@
 }
 
 .join-us-mailing-list {
-  @media screen and (max-width: $lg) and (min-width: $sm){
+  @media screen and (max-width: $lg) and (min-width: $sm) {
     //position: center;
     display: flex;
     margin-left: 5%;
@@ -194,7 +193,7 @@
 }
 
 .join-us-discord {
-  @media screen and (max-width: $lg) and (min-width: $sm){
+  @media screen and (max-width: $lg) and (min-width: $sm) {
     //position: center;
     display: flex;
     margin-left: 5%;
@@ -244,7 +243,15 @@ img {
   margin-top: $spacer-four;
 }
 #logoMargin {
-  margin-top: $spacer-three;
+  margin-top: $spacer-two;
+  margin-bottom: $spacer-two;
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60%;
+  }
 }
 
 #sponsorsSpacing {
@@ -273,10 +280,10 @@ img {
     margin-top: $spacer-one;
   }
 
-  a{
+  a {
     color: $color-purple-darkest;
 
-    &:hover{
+    &:hover {
       opacity: 0.4;
     }
   }
@@ -285,7 +292,7 @@ img {
 .react-tabs__tab {
   border: none;
   background: $color-purple-darkest;
-  padding: $spacer-two;
+  padding: $spacer-one $spacer-two;
   color: $color-purple-lightest;
 }
 
@@ -343,4 +350,3 @@ img {
     transition: 0.4s all;
   }
 }
-
