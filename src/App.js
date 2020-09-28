@@ -13,6 +13,10 @@ import Sponsors from "./pages/sponsors";
 import Navbar from "./components/Navbar";
 import Resources from "./components/Resources";
 
+import ReactGA from 'react-ga';
+ReactGA.initialize('UA-179181760-1');
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 setConfiguration({ gutterWidth: 60 });
 
 function App() {
