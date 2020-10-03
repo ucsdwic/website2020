@@ -11,5 +11,3 @@ RedirectMatch 301 ^/fall-project-team https://docs.google.com/forms/d/e/1FAIpQLS
 RedirectMatch 301 ^/edge-mentor-app https://docs.google.com/forms/d/1JfOSNog7EZYmtr1-249YCa4Y01EYnzmnANvyfa5Sq5A/viewform 
 RedirectMatch 301 ^/edge-committee-app https://docs.google.com/forms/d/1KkXsRgLVgph8byChh3oPCpUgJsTKI3RfPI3atKO2Hew/viewform 
 RedirectMatch 301 ^/jointgbm https://www.google.com/url?q=https://zoom.us/j/91358211344?pwd%3Db01sckZpL1k2L09UakZWajlkK0NKUT09&sa=D&source=calendar&ust=1601689020133000&usg=AOvVaw3LfChNnfImUjSrFPUan4kL 
-RedirectMatch 301 ^/fall-bpc https://docs.google.com/forms/d/e/1FAIpQLSeliOQTt1UypVOmlaQ7846B0ZBO5ICpZZO3iDO-Om2kM81opQ/viewform?usp=sf_link 
-RedirectMatch 301 ^/intern-app https://docs.google.com/forms/d/e/1FAIpQLSfZ1JXMw-qTKdZod5KXCbSz1rKra3UgFE6ctaUZdT0UCnnIfw/viewform?usp=sf_link 
