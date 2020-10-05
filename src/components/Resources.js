@@ -19,7 +19,7 @@ class Resources extends React.Component {
                 <h6>Event Slides</h6>
               </Tab> */}
               <Tab>
-                <h6>Scholarships</h6>
+                <h6>Scholarships & Programs</h6>
               </Tab>
               <Tab>
                 <h6>Must Reads</h6>
@@ -47,7 +47,7 @@ class Resources extends React.Component {
               </ul>
             </TabPanel> */}
             <TabPanel>
-              <h3>Scholarships, Conferences, and Hackathons</h3>
+              <h3>Scholarships, Programs, Conferences, and Hackathons</h3>
               <p>
                 <b>
                   Scholarships: 
@@ -57,6 +57,20 @@ class Resources extends React.Component {
                 <li>
                   <p>
                     Our scholarship application period is currently closed.
+                  </p>
+                </li>
+              </ul>
+              <p>
+                <b>
+                  Programs: 
+                </b>
+              </p>
+              <ul>
+                <li>
+                  <p>
+                    <a href="https://ersp.eng.ucsd.edu/" target="_blank">
+                      Early Research Scholars Programs
+                    </a>
                   </p>
                 </li>
               </ul>

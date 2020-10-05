@@ -10,6 +10,7 @@ import nutanix from "../static/sponsors/nutanix.png";
 import salesforce from "../static/sponsors/salesforce.png";
 import servicenow from "../static/sponsors/servicenow.png";
 import twilio from "../static/sponsors/twilio.png";
+import ucsdcse from "../static/sponsors/ucsdcse.png"; 
 import "../styles/App.scss";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -61,6 +62,11 @@ class Sponsors extends React.Component {
             <Col id="logoMargin" xs={6} md={3}>
               <div>
                 <LazyLoadImage src={twilio} alt="twilio"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
+                <LazyLoadImage src={ucsdcse} alt="ucsd cse computer science and engineering"/>
               </div>
             </Col>
           </Row>
