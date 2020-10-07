@@ -10,16 +10,15 @@ We are continuously making changes to the site so be on the lookout for updates!
     npm install [to download node modules locally]<br />
     npm start [to view the website locally]<br />
     make whatever changes necessary<br />
-2. npm install
-3. npm run build [locally]
-4. Push to github<br />
+2. npm run build [locally]
+3. Push to github<br />
     git add .<br />
     git commit -m "commit message"<br />
     git push<br />
-5. Go inside website folder, the directory one up from build [locally]
-6. Copy build to server: scp -r build wic@acsweb.ucsd.edu:~/ [this should create a build folder on the server]
-7. Move public_html to temp [on the server]: mv public_html/* temp
-8. Move build to public_html [on the server]: mv build/* public_html
+4. Ssh into the server.
+5. Pull from the repo on the server (cd website 2020; git pull)
+6. Copy current public_html to temp (cd ..; rm -rf temp; mv public_html temp)
+7. Copy build from the website2020 to public_html (cp -r website2020/build public_html)
 9. Check the website at wic.ucsd.edu to ensure all changes were made and uploaded successfully!
 
 ### `npm start`

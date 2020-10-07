@@ -12,9 +12,10 @@ class AboutUs extends React.Component {
     return (
       <div className="mid-background-section" id="about-us-page">
         <Container>
-          <Row>
+          <Row className="about-us-no-icon">
             <Col>
               <h1>About Us</h1>
+              <iframe className="about-us-video" src="https://drive.google.com/file/d/1dJOC_UI3vuF4JTg3G2or_Z56O2h4Wdae/preview" allow="fullscreen"></iframe>
               <p id="about-us-blurb">
                 We're coders and engineers - of all genders - who support
                 the female presence in computing. We run events, from tech talks
@@ -23,7 +24,7 @@ class AboutUs extends React.Component {
               </p>
             </Col>
           </Row>
-          <Row>
+          {/* <Row className = "about-us-icons">
             <Col xs={12} sm={6} md={3}>
               <AboutUsSection icon={RiComputerFill} title="Industry Events" />
             </Col>
@@ -36,7 +37,7 @@ class AboutUs extends React.Component {
             <Col sm={6} md={3}>
               <AboutUsSection icon={AiFillTrophy} title="Coding Competitions" />
             </Col>
-          </Row>
+          </Row> */}
         </Container>
       </div>
     );

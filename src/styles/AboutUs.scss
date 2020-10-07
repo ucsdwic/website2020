@@ -1,17 +1,36 @@
 @import "./Vars.scss";
 @import "./Typography.scss";
 
+.about-us-no-icon{
+	padding-bottom: $spacer-five + 1;
+}
+
+.about-us-video {
+	display: block; 
+	margin: auto;
+	width: 60%;
+	height: 75%;
+	margin-top: $spacer-two;
+
+	@media screen and (max-width: $md){
+		width: 100%;
+		height: 60%;
+	}
+}
+
 #about-us-blurb {
-	padding-top: $spacer-three;
+	margin-top: $spacer-one;
+	padding-top: $spacer-two;
 	font-size: 2.4rem;
 	line-height: 3.2rem;
+	text-align: center;
   }
   
-  #about-us-icon {
+#about-us-icon {
 	font-size: 8rem;
 	text-align: center;
 	margin-top: $spacer-two;
-  }
+}
   
   #about-us-page {
 	padding-top: $spacer-four;
@@ -26,4 +45,12 @@
   #about-us-description {
 	font-size: 1.6rem;
 	line-height: 1.8rem;
+  }
+
+  .about-us-icons {
+	margin-top: $spacer-two;
+
+	@media screen and (max-width: $md){
+		margin-top: 0;
+	}
   }
