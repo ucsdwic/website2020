@@ -22,4 +22,6 @@ RedirectMatch 301 ^/book-club https://docs.google.com/forms/d/e/1FAIpQLSfnrq_s-N
 RedirectMatch 301 ^/meeting-notes https://docs.google.com/spreadsheets/d/1ojCotq_d5YMGCaJRoD_owUhva04_NVNVzJh90OaYXfw/edit#gid=2003285780
 RedirectMatch 301 ^/board-event-form https://docs.google.com/forms/d/e/1FAIpQLScD11Ufyq0zB8sS3sxGqIo-FmkUHV8akbish6Ja5Si5jovEWg/viewform
 RedirectMatch 301 ^/public-resources https://drive.google.com/drive/folders/14HwRns73JSSrc8zmYYTKtLWUnqmowc-F?usp=sharing
+RedirectMatch 301 ^/pei-app https://ideacenter.typeform.com/to/qdmROrus
+RedirectMatch 301 ^/pei https://jacobsschool.ucsd.edu/node/400
 
