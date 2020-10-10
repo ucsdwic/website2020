@@ -24,5 +24,9 @@ RedirectMatch 301 ^/board-event-form https://docs.google.com/forms/d/e/1FAIpQLSc
 RedirectMatch 301 ^/public-resources https://drive.google.com/drive/folders/14HwRns73JSSrc8zmYYTKtLWUnqmowc-F?usp=sharing
 RedirectMatch 301 ^/pei-app https://ideacenter.typeform.com/to/qdmROrus
 RedirectMatch 301 ^/pei https://jacobsschool.ucsd.edu/node/400
+RedirectMatch 301 ^/csi-form https://docs.google.com/forms/d/e/1FAIpQLSdEKuxGC3lApTaszqj99z0oMvcb8P8G-TtNKJu-8rk33m_sFA/viewform 
 RedirectMatch 301 ^/rsvp https://docs.google.com/forms/d/e/1FAIpQLSd0Qeq49fm7g6zfEGF6nPrOgsQty1ngB0Ul2Q2h9O4aU6bRdw/viewform 
+
+
+
 
