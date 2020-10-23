@@ -84,6 +84,15 @@ class JoinUs extends React.Component{
                             />
                         </Col>
                     </Row>
+                    <Row justify="center" align="center">
+                        <Col className="join-us-resume-drop" xs={12} xl={4}>
+                            <Button
+                                type="secondary"
+                                text="Drop your resume"
+                                toLink="https://airtable.com/shrWaHEgJZ4KQ8kJn"
+                            />
+                        </Col>
+                    </Row>
                 </Container>
             </div>
         )
