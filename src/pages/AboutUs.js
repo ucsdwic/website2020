@@ -15,7 +15,7 @@ class AboutUs extends React.Component {
           <Row className="about-us-no-icon">
             <Col>
               <h1>About Us</h1>
-              <iframe className="about-us-video" src="https://drive.google.com/file/d/1dJOC_UI3vuF4JTg3G2or_Z56O2h4Wdae/preview" allow="fullscreen"></iframe>
+              <iframe className="about-us-video" src="https://drive.google.com/file/d/1dJOC_UI3vuF4JTg3G2or_Z56O2h4Wdae/preview"></iframe>
               <p id="about-us-blurb">
                 We're coders and engineers - of all genders - who support
                 the female presence in computing. We run events, from tech talks
