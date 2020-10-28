@@ -27,3 +27,4 @@ RedirectMatch 301 ^/pei https://jacobsschool.ucsd.edu/node/400
 RedirectMatch 301 ^/csi-form https://docs.google.com/forms/d/e/1FAIpQLSdEKuxGC3lApTaszqj99z0oMvcb8P8G-TtNKJu-8rk33m_sFA/viewform 
 RedirectMatch 301 ^/rsvp https://docs.google.com/forms/d/e/1FAIpQLSd0Qeq49fm7g6zfEGF6nPrOgsQty1ngB0Ul2Q2h9O4aU6bRdw/viewform 
 RedirectMatch 301 ^/nutanix-rsvp https://jst.me/u5bv 
+RedirectMatch 301 ^/mock-interview https://docs.google.com/forms/d/e/1FAIpQLSfTTMQI4dwhA28jamS-LPdrK2rEb6v6yZB6ZxAt0uKjwkDI-Q/viewform
