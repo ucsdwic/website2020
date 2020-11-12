@@ -51,15 +51,21 @@ class MemberPopup extends React.Component {
               </Row>
               <Row>
                 <Col className="member-popup-socials">
+                { all_members[index].github && 
                   <a href={all_members[index].github} target="_blank">
                     <FaGithub />
                   </a>
+                }
+                { all_members[index].linkedin && 
                   <a href={all_members[index].linkedin} target="_blank">
                     <FaLinkedinIn />
                   </a>
+                }
+                {all_members[index].instagram && 
                   <a href={all_members[index].instagram} target="_blank">
                     <FaInstagram />
                   </a>
+                }
                 </Col>
               </Row>
             </div>

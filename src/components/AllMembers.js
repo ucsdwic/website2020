@@ -97,7 +97,7 @@ export const all_members = [
     year: "Class of 2022",
     linkedin: "https://www.linkedin.com/in/jaida-day/",
     instagram: "",
-    github: "",
+    github: "https://github.com/aadiaaj",
     bio: "Hey everyone! My name is Jaida and I'm a 3rd year Math-CS major in Revelle college. My pronouns are she/her/hers and in my free time I love to dance and roller-skate!"
   },
   {
@@ -198,7 +198,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Stay tuned to see who our new interns will be for the remainder of the school year!"
   },
   
 ];
