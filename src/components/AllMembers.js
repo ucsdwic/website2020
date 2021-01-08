@@ -191,14 +191,54 @@ export const all_members = [
     bio: "My name is Navika and I’m a second-year computer science major in Eleanor Roosevelt College. A fun fact about myself is that I love traveling and exploring new places with my family."
   },
   {
-    picture: require("../static/board-members/default-img.jpg"),
-    name: "Coming Soon!",
+    picture: require("../static/board-members/lavanya-verma.jpg"),
+    name: "Lavanya Verma",
     position: "Intern",
+    year: "Class of 2023",
+    linkedin: "http://linkedin.com/in/lavanya-verma14",
+    instagram: "",
+    github: "https://github.com/FiendFyre5",
+    bio: "Hey! My name is Lavanya and I am a 2nd year Computer Science major in Warren College. In my free time you can find me painting my heart out or reading the latest thriller. I love trying new things! Fun fact: I redid my bike from scratch last summer :)"
+  },
+  {
+    picture: require("../static/board-members/2020.JPG"),
+    name: "",
+    position: "",
     year: "",
     linkedin: "",
     instagram: "",
     github: "",
-    bio: "Stay tuned to see who our new interns will be for the remainder of the school year!"
+    bio: ""
+  },
+  {
+    picture: require("../static/board-members/lindsey-manzano.jpg"),
+    name: "Lindsey Manzano",
+    position: "Intern",
+    year: "Class of 2024",
+    linkedin: "https://www.linkedin.com/in/lindsey-manzano-886a7316",
+    instagram: "https://www.instagram.com/lindseymanzano/",
+    github: "https://github.com/lindseymanzano",
+    bio: "Hello! My name is Lindsey Manzano and I'm a first year studying computer science in Marshall College! I enjoy dancing, playing soccer, hiking, listening to music, going to the beach, and spending time with friends and family.  Fun fact: I danced at a Dance Moms competition and saw Abby Lee Miller (and Christi and Kelly fighting)."
+  },
+  {
+    picture: require("../static/board-members/vivian-dang.jpg"),
+    name: "Vivian Dang",
+    position: "Intern",
+    year: "Class of 2023",
+    linkedin: "https://www.linkedin.com/in/viviantdangg/6",
+    instagram: "",
+    github: "",
+    bio: "Hi I’m Vivian and I’m a 2nd year Math-CS major in Revelle. Ever since quarantine started, I’ve been getting into cooking and trying out new recipes. I’ve also been trying to learn how to skateboard! This year, I’m really excited to meet more women in CS and be a part of such a fun and supportive community!"
+  },
+  {
+    picture: require("../static/board-members/2021.JPG"),
+    name: "",
+    position: "",
+    year: "",
+    linkedin: "",
+    instagram: "",
+    github: "",
+    bio: ""
   },
   
 ];
