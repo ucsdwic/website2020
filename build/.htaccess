@@ -32,3 +32,5 @@ RedirectMatch 301 ^/self-identify https://docs.google.com/forms/d/e/1FAIpQLSe1Sp
 RedirectMatch 301 ^/company-mentorship-signup https://docs.google.com/forms/d/e/1FAIpQLSdU_pXL7b_WAUUwPE9yJ45Scot3N5S_9VV8zp_VYrUKJbHe5Q/viewform
 RedirectMatch 301 ^/techdev-committee https://docs.google.com/forms/d/e/1FAIpQLScetfSfUeeGpBgZC-YjT-87eLX_6QDCBFhDUQfy6iX7H_lR6Q/viewform
 RedirectMatch 301 ^/gbm1-icebreaker https://docs.google.com/presentation/d/1xp5i9Uzj-DWZm0n0-RfCSzF48YwNKnQuxL3TeUU_Z5M/edit?usp=sharing
+RedirectMatch 301 ^/girl-code https://open.spotify.com/show/2JSuMtKPl2UNXUsH9lknIu?si=36dUbb6tTrKYr2MmSbVkdQ
+RedirectMatch 301 ^/gc-ep1 https://open.spotify.com/episode/7bOI0Kim57OLFpTcZjE7g6 
