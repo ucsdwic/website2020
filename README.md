@@ -7,6 +7,7 @@ We are continuously making changes to the site so be on the lookout for updates!
 ### `How to make changes to the site and deploy them correctly.`
 1. Make changes locally. <br />
     git clone (if first time using) git pull if folder is already stored locally<br />
+    cd into the "website2020" folder<br />
     npm install [to download node modules locally]<br />
     npm start [to view the website locally]<br />
     make whatever changes necessary<br />
@@ -15,7 +16,7 @@ We are continuously making changes to the site so be on the lookout for updates!
     git add .<br />
     git commit -m "commit message"<br />
     git push<br />
-4. Ssh into the server.
+4. Ssh into the server (wic@acsweb.ucsd.edu)
 5. Pull from the repo on the server (cd website 2020; git pull)
 6. Copy current public_html to temp (cd ..; rm -rf temp; mv public_html temp)
 7. Copy build from the website2020 to public_html (cp -r website2020/build public_html)
