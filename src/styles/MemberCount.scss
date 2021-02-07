@@ -1,0 +1,40 @@
+@import "./Typography.scss";
+@import "./Vars.scss";
+@import "react-alice-carousel/lib/scss/alice-carousel.scss";
+
+body{
+    font-size:18px;
+    font-weight: 400;
+}
+.p-y-2 {
+padding-top: 28px;
+padding-bottom: 28px;
+}
+.p-y-3 {
+padding-top: 45px;
+padding-bottom: 45px;
+}
+.m-b-1 {
+margin-bottom: 18px;
+}
+.m-t-1 {
+margin-top: 18px;
+}
+
+
+/*==========================================================
+               counter section style
+============================================================*/
+
+.main_counter_area{
+    background: url(https://images.pexels.com/photos/196288/pexels-photo-196288.jpeg?w=940&h=650&auto=compress&cs=tinysrgb) no-repeat top center;
+    background-size: cover;
+    overflow: hidden;
+}
+.main_counter_area .main_counter_content .single_counter{
+    background: rgba(236, 72, 72, 0.5);
+        color: #fff;
+}
+.main_counter_area .main_counter_content .single_counter i{
+    font-size:36px;
+}
