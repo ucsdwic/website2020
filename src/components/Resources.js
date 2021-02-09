@@ -249,6 +249,26 @@ class Resources extends React.Component {
                 <li>
                   <p>
                     <a
+                      href="https://drive.google.com/file/d/1E7IsOfz_vpJxUPEWLyjP-OhU6yJTvYDY/view"
+                      target="_blank"
+                    >
+                      Web Dev Series: Introduction to React
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a
+                      href="https://drive.google.com/file/d/15U3O7pF5Hl0XuMP3Fk30fNWiJlL8uY2W/view"
+                      target="_blank"
+                    >
+                      Web Dev Series: Introduction to Backend Development + API
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a
                       href="https://drive.google.com/file/d/1dJOC_UI3vuF4JTg3G2or_Z56O2h4Wdae/view"
                       target="_blank"
                     >
