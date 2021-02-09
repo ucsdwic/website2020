@@ -184,20 +184,20 @@ class Resources extends React.Component {
                 <li>
                   <p>
                     <a
-                      href="https://www.amazon.com/Ask-Women-Power-Negotiation-Really/dp/0553384554"
+                      href="https://www.amazon.com/Algorithms-Oppression-Search-Engines-Reinforce/dp/1479837245"
                       target="_blank"
                     >
-                      Ask For It
+                      Algorithms of Oppression: How Search Engines Reinforce Racism
                     </a>
                   </p>
                 </li>
                 <li>
                   <p>
                     <a
-                      href="https://www.amazon.com/Brotopia-Breaking-Boys-Silicon-Valley-ebook/dp/B074LQKJJC"
+                      href="https://www.amazon.com/Ask-Women-Power-Negotiation-Really/dp/0553384554"
                       target="_blank"
                     >
-                      Brotopia: Breaking Up the Boys' Club of Silicon Valley
+                      Ask For It
                     </a>
                   </p>
                 </li>
@@ -234,10 +234,10 @@ class Resources extends React.Component {
                 <li>
                   <p>
                     <a
-                      href="https://www.amazon.com/Get-Paid-What-Youre-Worth/dp/031230269X"
+                      href="https://www.amazon.com/Technically-Wrong-Sexist-Algorithms-Threats/dp/1681688611"
                       target="_blank"
                     >
-                      Get Paid What You're Worth
+                      Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech
                     </a>
                   </p>
                 </li>
