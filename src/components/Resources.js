@@ -159,6 +159,16 @@ class Resources extends React.Component {
                 <li>
                   <p>
                     <a
+                      href="https://medium.com/women-in-computing-ucsd/all-about-landing-a-software-engineering-internship-18298f246ab0"
+                      target="_blank"
+                    >
+                      All About Landing a Software Engineering Internship
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a
                       href="https://medium.com/women-in-computing-ucsd/recap-women-in-computings-summer-dev-program-87b25a3a511f"
                       target="_blank"
                     >
@@ -173,6 +183,16 @@ class Resources extends React.Component {
                       target="_blank"
                     >
                       The Adversity in “Diversity”
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a
+                      href="https://medium.com/women-in-computing-ucsd/women-in-computing-ucsds-website-redesign-489196c4226c"
+                      target="_blank"
+                    >
+                      Women in Computing @ UCSD’s Website Redesign
                     </a>
                   </p>
                 </li>
