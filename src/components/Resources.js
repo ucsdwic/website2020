@@ -243,6 +243,21 @@ class Resources extends React.Component {
                 </li>
               </ul>
               <p>
+                <b>Podcasts:</b>
+              </p>
+              <ul>
+                <li>
+                  <p>
+                    <a
+                      href="https://anchor.fm/women-in-computing"
+                      target="_blank"
+                    >
+                      WIC's Girl Code Podcast
+                    </a>
+                  </p>
+                </li>
+              </ul>
+              <p>
                 <b>Videos:</b>
               </p>
               <ul>
@@ -252,7 +267,7 @@ class Resources extends React.Component {
                       href="https://drive.google.com/file/d/1E7IsOfz_vpJxUPEWLyjP-OhU6yJTvYDY/view"
                       target="_blank"
                     >
-                      Web Dev Series: Introduction to React
+                      WIC's Web Dev Series: Introduction to React
                     </a>
                   </p>
                 </li>
@@ -262,7 +277,7 @@ class Resources extends React.Component {
                       href="https://drive.google.com/file/d/15U3O7pF5Hl0XuMP3Fk30fNWiJlL8uY2W/view"
                       target="_blank"
                     >
-                      Web Dev Series: Introduction to Backend Development + API
+                      WIC's Web Dev Series: Introduction to Backend Development + API
                     </a>
                   </p>
                 </li>
