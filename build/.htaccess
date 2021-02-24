@@ -40,3 +40,4 @@ RedirectMatch 301 ^/track-active-member https://docs.google.com/spreadsheets/d/1
 RedirectMatch 301 ^/election-faq https://docs.google.com/document/d/1IHiFMHuPOIvvTRoFDnGAjYkye7dVJ00O9-IjL2eJu5o/edit?usp=sharing
 RedirectMatch 301 ^/wic-fams https://docs.google.com/forms/d/e/1FAIpQLSfg1Sx2zpz-P_M30eGg8zrSlU-q8m__euFnNXEGShUxlvkHhQ/viewform 
 RedirectMatch 301 ^/election-app https://docs.google.com/forms/d/e/1FAIpQLScQ4dJ07bkmz10nkEm373zKUrTnXxgntuyySmhhDbDKHOkowA/viewform?usp=sf_link
+RedirectMatch 301 ^/winter-bpc https://docs.google.com/forms/d/e/1FAIpQLSfxaodQMeGjWKlwIszHoSYpGGlPZhIN_JOweQfbyhWHEhT0YA/viewform?usp=sf_link
