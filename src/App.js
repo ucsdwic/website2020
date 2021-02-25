@@ -29,7 +29,7 @@ function App() {
       <Navbar/>
       <Home/>
       <AboutUs/>
-      <MemberCount/>
+      {/* <MemberCount/> */}
       <Events/>
       <MeetTheTeam/>
       <GetInvolved/>
