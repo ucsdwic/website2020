@@ -159,6 +159,16 @@ class Resources extends React.Component {
                 <li>
                   <p>
                     <a
+                      href="https://medium.com/women-in-computing-ucsd/all-about-landing-a-software-engineering-internship-18298f246ab0"
+                      target="_blank"
+                    >
+                      All About Landing a Software Engineering Internship
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a
                       href="https://medium.com/women-in-computing-ucsd/recap-women-in-computings-summer-dev-program-87b25a3a511f"
                       target="_blank"
                     >
@@ -176,6 +186,16 @@ class Resources extends React.Component {
                     </a>
                   </p>
                 </li>
+                <li>
+                  <p>
+                    <a
+                      href="https://medium.com/women-in-computing-ucsd/women-in-computing-ucsds-website-redesign-489196c4226c"
+                      target="_blank"
+                    >
+                      Women in Computing @ UCSD’s Website Redesign
+                    </a>
+                  </p>
+                </li>
               </ul>
               <p>
                 <b>Books:</b>
@@ -184,20 +204,20 @@ class Resources extends React.Component {
                 <li>
                   <p>
                     <a
-                      href="https://www.amazon.com/Ask-Women-Power-Negotiation-Really/dp/0553384554"
+                      href="https://www.amazon.com/Algorithms-Oppression-Search-Engines-Reinforce/dp/1479837245"
                       target="_blank"
                     >
-                      Ask For It
+                      Algorithms of Oppression: How Search Engines Reinforce Racism
                     </a>
                   </p>
                 </li>
                 <li>
                   <p>
                     <a
-                      href="https://www.amazon.com/Brotopia-Breaking-Boys-Silicon-Valley-ebook/dp/B074LQKJJC"
+                      href="https://www.amazon.com/Ask-Women-Power-Negotiation-Really/dp/0553384554"
                       target="_blank"
                     >
-                      Brotopia: Breaking Up the Boys' Club of Silicon Valley
+                      Ask For It
                     </a>
                   </p>
                 </li>
@@ -234,10 +254,25 @@ class Resources extends React.Component {
                 <li>
                   <p>
                     <a
-                      href="https://www.amazon.com/Get-Paid-What-Youre-Worth/dp/031230269X"
+                      href="https://www.amazon.com/Technically-Wrong-Sexist-Algorithms-Threats/dp/1681688611"
                       target="_blank"
                     >
-                      Get Paid What You're Worth
+                      Technically Wrong: Sexist Apps, Biased Algorithms, and Other Threats of Toxic Tech
+                    </a>
+                  </p>
+                </li>
+              </ul>
+              <p>
+                <b>Podcasts:</b>
+              </p>
+              <ul>
+                <li>
+                  <p>
+                    <a
+                      href="https://anchor.fm/women-in-computing"
+                      target="_blank"
+                    >
+                      WIC's Girl Code Podcast
                     </a>
                   </p>
                 </li>
@@ -246,6 +281,26 @@ class Resources extends React.Component {
                 <b>Videos:</b>
               </p>
               <ul>
+                <li>
+                  <p>
+                    <a
+                      href="https://drive.google.com/file/d/1E7IsOfz_vpJxUPEWLyjP-OhU6yJTvYDY/view"
+                      target="_blank"
+                    >
+                      WIC's Web Dev Series: Introduction to React
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a
+                      href="https://drive.google.com/file/d/15U3O7pF5Hl0XuMP3Fk30fNWiJlL8uY2W/view"
+                      target="_blank"
+                    >
+                      WIC's Web Dev Series: Introduction to Backend Development + API
+                    </a>
+                  </p>
+                </li>
                 <li>
                   <p>
                     <a
