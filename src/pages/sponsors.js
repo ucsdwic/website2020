@@ -3,10 +3,15 @@ import ReactDOM from "react-dom";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import Button from "../components/Button";
 import bloomberg from "../static/sponsors/bloomberg.png";
+import boeing from "../static/sponsors/boeing.png";
 import braincorp from "../static/sponsors/braincorp.png";
+import ga from "../static/sponsors/generalatomics.png";
 import idea from "../static/sponsors/idea.png";
 import intuit from "../static/sponsors/intuit.png";
+import lockheed from "../static/sponsors/lockheedmartin.png";
+import northrop from "../static/sponsors/northropgrumman.png";
 import nutanix from "../static/sponsors/nutanix.png";
+import onevigor from "../static/sponsors/onevigor.png";
 import salesforce from "../static/sponsors/salesforce.png";
 import servicenow from "../static/sponsors/servicenow.png";
 import twilio from "../static/sponsors/twilio.png";
@@ -31,7 +36,17 @@ class Sponsors extends React.Component {
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
+                <LazyLoadImage src={boeing} alt="boeing"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
                 <LazyLoadImage src={braincorp} alt="brain corporation"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
+                <LazyLoadImage src={ga} alt="general atomics"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
@@ -51,7 +66,22 @@ class Sponsors extends React.Component {
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
+                <LazyLoadImage src={lockheed} alt="lockheed martin"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
+                <LazyLoadImage src={northrop} alt="northrop grumman"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
                 <LazyLoadImage src={nutanix} alt="nutanix"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
+                <LazyLoadImage src={onevigor} alt="one vigor"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
