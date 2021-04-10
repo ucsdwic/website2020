@@ -47,3 +47,4 @@ RedirectMatch 301 ^/four-year-plan https://docs.google.com/spreadsheets/d/12q3tr
 RedirectMatch 301 ^/constitution https://docs.google.com/document/d/1mG7_LjVezbxIZM-kbX04OHVEjHjqvUYwRtjGjuAoqtI/edit?usp=sharing 
 RedirectMatch 301 ^/applications https://docs.google.com/document/d/1aRHyV-ybDclnZxLkhm1f7k1wOYRzi0w8MXRkX5YBNqk/edit?usp=sharing
 RedirectMatch 301 ^/vote https://docs.google.com/forms/d/e/1FAIpQLSfY4TJgL4i5rLJs7NNWErNS13_Nhi3jWA_qR23DPY4KRLRW0g/viewform?usp=sf_link
+RedirectMatch 301 ^/banquet https://docs.google.com/forms/d/e/1FAIpQLSctAX-YGGe520HOykLjsvq-7LV7sl1VRV7yg_OwLdRXbSP68g/viewform 
