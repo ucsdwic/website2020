@@ -281,6 +281,16 @@ class Resources extends React.Component {
                 <b>Videos:</b>
               </p>
               <ul>
+              <li>
+                  <p>
+                    <a
+                      href="https://ucsd.zoom.us/rec/share/r1wMiXlC17D24KfaWJMFrfTGB4dwB6WjBBBaQT28cVuoflqVSc7VMubJkr0Yupi5.514c7HgvGhBN7BrV"
+                      target="_blank"
+                    >
+                      WIC's iOS Development Workshop
+                    </a>
+                  </p>
+                </li>
                 <li>
                   <p>
                     <a
