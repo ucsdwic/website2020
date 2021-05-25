@@ -50,3 +50,4 @@ RedirectMatch 301 ^/vote https://docs.google.com/forms/d/e/1FAIpQLSfY4TJgL4i5rLJ
 RedirectMatch 301 ^/banquet https://docs.google.com/forms/d/e/1FAIpQLSctAX-YGGe520HOykLjsvq-7LV7sl1VRV7yg_OwLdRXbSP68g/viewform 
 RedirectMatch 301 ^/alumni https://docs.google.com/forms/d/e/1FAIpQLScQF2HGHuWIPGxX52pcWrzCh3CuZCin8NzwO5M6t4lu5Jz3wQ/viewform?usp=sf_link 
 RedirectMatch 301 ^/spring-bpc https://docs.google.com/forms/d/e/1FAIpQLSecCeNKrtEHzKNOwKT-XAhRCdJMN_CwwOvLrvbpd2ZPDbB2Nw/viewform?usp=sf_link
+RedirectMatch 301 ^/care-package https://docs.google.com/forms/d/e/1FAIpQLSeO1xrkNeezL0IOnJs_sA-uUi2qPQoesEq0884aTxYhExyPmw/viewform?usp=sf_link 
