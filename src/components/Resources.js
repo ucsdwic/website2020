@@ -365,6 +365,16 @@ class Resources extends React.Component {
                 <li>
                   <p>
                     <a
+                      href="https://saseatucsd.weebly.com/"
+                      target="_blank"
+                    >
+                      Society of Asian Scientists and Engineers (SASE)
+                    </a>
+                  </p>
+                </li>
+                <li>
+                  <p>
+                    <a
                       href="https://sites.google.com/view/shpeucsd/home"
                       target="_blank"
                     >
