@@ -25,7 +25,7 @@ class AboutUs extends React.Component {
                We're coders and engineers - of all genders - who support
                the female presence in computing. We run events, from tech talks
                to socials, and provide opportunities for female engineers to
-               connect and succeed.
+               connect and succeed. Check out the above video from our 2020-2021 president!
              </p>
            </Col>
          </Row>
