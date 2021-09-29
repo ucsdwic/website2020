@@ -12,8 +12,8 @@ class GetInvolved extends React.Component {
     const bpcTitle = "BPC";
     const bpcDescrip = "Beginner's Programming Competition is an algorithmic problem solving competition open only to students who have yet to take upper division classes. Held every quarter, BPC is a fun way to prep for your next hackathon.";
     const bpcNum = "2";
-    const edgeTitle = <a href='https://edgeucsd.wixsite.com/edge' target="_blank"> EDGE </a> ;
-    const edgeDescrip = "WIC partners with Society of Women Engineers to offer EDGE, a program for high school students. Participants are paired with an undergraduate mentor and attend various engineering workshops!" ;
+    const edgeTitle = <a href='https://tinyurl.com/edgement2021' target="_blank"> EDGE </a> ;
+    const edgeDescrip = "WIC partners with Society of Women Engineers to offer EDGE, a program for high school students. Participants are paired with an undergraduate mentor and attend various engineering workshops! Click the 'EDGE' title to sign up to be an EDGE mentor! Applications are due 10/16/2021." ;
     const edgeNum = "3";
     const socialTitle = "EVENTS";
     const socialDescrip = "WIC hosts a variety of events. From tech talks that offer an opportunity to network with companies, to fun interactive socials, to workshops helping refine technical skills, there's something for everyone!";
