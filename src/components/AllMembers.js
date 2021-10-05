@@ -5,8 +5,8 @@ export const all_members = [
     name: "Vas Sengupta",
     position: "President",
     year: "Class of 2022",
-    linkedin: "https://www.linkedin.com/in/vasundharasengupta/",
-    instagram: "",
+    linkedin: "https://www.linkedin.com/in/vsengupta/",
+    instagram: "https://www.instagram.com/vas.sengupta/",
     github: "",
     bio: "Hi Tritons! My name is Vas Sengupta and I'm a third-year Computer Engineering major in Warren college. In my spare time, I like to oil paint, binge-watch crime shows, and travel!"
   },
