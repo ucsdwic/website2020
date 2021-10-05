@@ -8,7 +8,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/vsengupta/",
     instagram: "https://www.instagram.com/vas.sengupta/",
     github: "",
-    bio: "Hi Tritons! My name is Vas Sengupta and I'm a third-year Computer Engineering major in Warren college. In my spare time, I like to oil paint, binge-watch crime shows, and travel!"
+    bio: "Hi everyone! My name is Vas Sengupta and I’m WIC’s Co-President for this year! I’m a fourth year Computer Engineering student from Warren College. This past summer I interned at Microsoft and visited Seattle. I had an amazing time in the PNW exploring coffee shops, visiting tourist attractions, and enjoying the scenery! This year, I’m looking forward to growing the WIC community and raising awareness about WIC’s mission!"
   },
   {
     picture: require("../static/board-members/angela-wang.jpg"),
