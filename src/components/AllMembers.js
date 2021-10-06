@@ -148,7 +148,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: "Hey everyone! My name is Tri, and I’m WIC’s co-Beginner’s Programming Competition (BPC) chair. I’m a 4th year CS major in Warren. Outside of coding, I play a lot of sports (soccer, basketball, swimming, etc.), but I don’t really get that great at any of them L. I also enjoy working out in the gym. When I don’t study or exercise, I usually read/watch superheroes stuff and watch K-dramas."
+    bio: "Hello! I am Tri Truong and I am a senior majoring in CS at Warren College. Last summer, besides working, I played a lot of basketball, watched a lot of movies, and ate a lot of food with my friends. I also dropped my summer classes so I could have time to play on my PS5, which took me a month to buy because it was always sold out. A fun fact about me is that I stuffed a lot of weights and gym machines in my bedroom because all the gyms were closed during quarantine."
   },
   {
     picture: require("../static/board-members/sravya-balasa.jpg"),
@@ -189,5 +189,15 @@ export const all_members = [
     instagram: "",
     github: "",
     bio: "Hi ya’ll! I’m Vivian, this year’s PR-Marketing Chair. I’m a third year majoring in Math-Computer Science (please hit me up if you’re also math-cs) from Revelle College. I like watching Netflix and working out in my free time. Over the summer I interned at General Atomics (with Navika, one of the VPE co-chairs), hiked and ran a lot, and got to spend time with friends and family <3"
+  },
+  {
+    picture: require("../static/board-members/2021-2022.jpg"),
+    name: "2021-2022 Board Members",
+    position: "",
+    year: "",
+    linkedin: "https://www.linkedin.com/company/wicucsd/about/",
+    instagram: "https://www.instagram.com/wicucsd/",
+    github: "",
+    bio: "Feel free to reach out to any of our board members for any questions or advice! We are here to help you and be a resource! Don't forget our social media accounts are linked in the 'Contact Us' section for you to stay updated on events and ask any questions."
   },
 ];
