@@ -12,14 +12,15 @@ We are continuously making changes to the site so be on the lookout for updates!
     npm start [to view the website locally]<br />
     make whatever changes necessary<br />
 2. npm run build [locally]
-3. Push to github<br />
+3. Update .htaccess file (an get most recent version from recent github commit)
+4. Push to github<br />
     git add .<br />
     git commit -m "commit message"<br />
     git push<br />
-4. Ssh into the server (wic@acsweb.ucsd.edu)
-5. Pull from the repo on the server (cd website 2020; git pull)
-6. Copy current public_html to temp (cd ..; rm -rf temp; mv public_html temp)
-7. Copy build from the website2020 to public_html (cp -r website2020/build public_html)
+5. Ssh into the server (wic@acsweb.ucsd.edu)
+6. Pull from the repo on the server (cd website 2020; git pull)
+7. Copy current public_html to temp (cd ..; rm -rf temp; mv public_html temp)
+8. Copy build from the website2020 to public_html (cp -r website2020/build public_html)
 9. Check the website at wic.ucsd.edu to ensure all changes were made and uploaded successfully!
 
 ### `npm start`

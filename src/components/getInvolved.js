@@ -6,8 +6,8 @@ import "../styles/GetInvolved.scss";
 
 class GetInvolved extends React.Component {
   render() {
-    const mentorTitle = "MENTOR-MENTEE";
-    const mentorDescrip = "Our mentorship program is meant to offer a support system for junior women in computing. It is a great way to find inspiration, network with other women in CS, and find your niche in WIC’s community.";
+    const mentorTitle = <a href='https://forms.gle/mqZjNG6VucbnSX5D8' target="_blank"> MENTOR-MENTEE </a> ;
+    const mentorDescrip = "Our mentorship program is meant to offer a support system for junior women in computing. It is a great way to find inspiration, network with other women in CS, and find your niche in WIC’s community. Click the 'MENTOR-MENTEE' title to apply to be an mentor or mentee! Applications are due Friday, 10/15/2021.";
     const mentorNum = "1";
     const bpcTitle = "BPC";
     const bpcDescrip = "Beginner's Programming Competition is an algorithmic problem solving competition open only to students who have yet to take upper division classes. Held every quarter, BPC is a fun way to prep for your next hackathon.";
