@@ -38,7 +38,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: ""
+    bio: "Hey y’all my name is Navika. I’m a third year computer science major in erc. For most of summer, I stayed in San Diego, where I spent a lot of time swimming and running at the beach, drinking coffee, and learning new things at my internship! I spent the latter half of summer in the Bay Area where I hung out with my family, played basketball, and went on a lot of hikes. Looking forward to meeting everyone this school year!!"
   },
   {
     picture: require("../static/board-members/default-img.jpg"),
@@ -58,7 +58,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: "My name is Jaz and I’m a 4th year Computer Science Major with a minor in Cognitive Science. I’m in Thurgood Marshall College and my pronouns are she/her/hers. In my free time I love to travel and eat :)"
+    bio: "Hey y’all! My name is Jaz Gill and I am a fourth year Marshall student studying Comp Sci with a minor in Cognitive Science. This is my 3rd year serving as the VP Finance for WIC and I could not be more excited to be a part of the WIC community for another year! My summer consisted of working at Facebook and traveling a lot :) Fun Fact: Recently I've picked up kickboxing and I love it!!"
   },
   {
     picture: require("../static/board-members/lindsey-manzano.jpg"),
@@ -78,7 +78,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: "My name is Judy Liu and I’m a second year Computer Science major in Warren college. My favourite thing to do is to explore delicious foods from different cultures. I love to meet new people and help them to the best of my abilities."
+    bio: "My name is Judy Liu and I’m a third year Computer Science major in Warren college. I like coffee and boba, trying out new foods, learning, and running. This summer I went on a trip to SF and did a lot of touristy things."
   },
   {
     picture: require("../static/board-members/aarushi-shah.jpg"),
