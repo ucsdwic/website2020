@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "669f83af4b90520445265aeb88f884e9",
+    "revision": "17866865a6c4eb807f5d8cf23e6c0144",
     "url": "./index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.e30d590b.chunk.css"
   },
   {
-    "revision": "b818a5c89e58d2614b4e",
+    "revision": "6a8237b5c2e6f9249316",
     "url": "./static/css/main.34e7cf7d.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.b01e8371.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b818a5c89e58d2614b4e",
-    "url": "./static/js/main.7c19cc6b.chunk.js"
+    "revision": "6a8237b5c2e6f9249316",
+    "url": "./static/js/main.d290ecd5.chunk.js"
   },
   {
     "revision": "ebb8d834bada9d2a1e15",
@@ -101,7 +101,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "8a1e0897a5b9dc4835e6cbe23d7cd3e7",
-    "url": "./static/media/harshi-agrawal.8a1e0897.JPG"
+    "url": "./static/media/harshi-agrawal.8a1e0897.jpg"
   },
   {
     "revision": "23377bf7e63c8b9fc4faec5ba234abea",
@@ -157,7 +157,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   },
   {
     "revision": "0e74bcd7b9faf95b7447034f47dcf690",
-    "url": "./static/media/lily-steiner.0e74bcd7.JPG"
+    "url": "./static/media/lily-steiner.0e74bcd7.jpg"
   },
   {
     "revision": "2e22bc1136ac2cb2144a0211193b0b61",
