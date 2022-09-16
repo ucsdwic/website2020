@@ -44,5 +44,5 @@ RedirectMatch 301 ^/class-plan-template https://docs.google.com/spreadsheets/d/1
 RedirectMatch 301 ^/pr-publicity-apply https://forms.gle/Yn2qgMswq4XmqcvC8
 RedirectMatch 301 ^/banquetrsvp https://docs.google.com/forms/d/e/1FAIpQLScSIo0bcZcTEHLtDRKxtzVa01zRFO1F8LY5Fgzj53U8o0x8dA/viewform 
 RedirectMatch 301 ^/socialapp https://forms.gle/w4gdCSLq9zMMXUop7
-RedirectMatch 301 ^/ghc2022 https://docs.google.com/forms/d/e/1FAIpQLSemsThkSFyFhe8Ewf533rztxJmNIStDCF7gPZlfrNpyvdIaRA/viewform
+RedirectMatch 301 ^/ghc2022 https://docs.google.com/forms/d/e/1FAIpQLSemsThkSFyFhe8Ewf533rztxJmNIStDCF7gPZlfrNpyvdIaRA/viewform 
 
