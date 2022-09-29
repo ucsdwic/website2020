@@ -1,24 +1,23 @@
 {
   "files": {
-    "main.css": "./static/css/main.75a7fa58.chunk.css",
-    "main.js": "./static/js/main.4ed6743a.chunk.js",
-    "main.js.map": "./static/js/main.4ed6743a.chunk.js.map",
+    "main.css": "./static/css/main.e7143ad5.chunk.css",
+    "main.js": "./static/js/main.fb94fe8d.chunk.js",
+    "main.js.map": "./static/js/main.fb94fe8d.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c9b3e07e.js",
     "runtime-main.js.map": "./static/js/runtime-main.c9b3e07e.js.map",
     "static/css/2.2a4ed98f.chunk.css": "./static/css/2.2a4ed98f.chunk.css",
-    "static/js/2.c37c5d2e.chunk.js": "./static/js/2.c37c5d2e.chunk.js",
-    "static/js/2.c37c5d2e.chunk.js.map": "./static/js/2.c37c5d2e.chunk.js.map",
+    "static/js/2.76a1fd3f.chunk.js": "./static/js/2.76a1fd3f.chunk.js",
+    "static/js/2.76a1fd3f.chunk.js.map": "./static/js/2.76a1fd3f.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.1c983cd758146418d643858e2de4a025.js": "./precache-manifest.1c983cd758146418d643858e2de4a025.js",
+    "precache-manifest.a4ff6fa2a7e61ad3804e44b1af1ed7d0.js": "./precache-manifest.a4ff6fa2a7e61ad3804e44b1af1ed7d0.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.2a4ed98f.chunk.css.map": "./static/css/2.2a4ed98f.chunk.css.map",
-    "static/css/main.75a7fa58.chunk.css.map": "./static/css/main.75a7fa58.chunk.css.map",
-    "static/js/2.c37c5d2e.chunk.js.LICENSE.txt": "./static/js/2.c37c5d2e.chunk.js.LICENSE.txt",
+    "static/css/main.e7143ad5.chunk.css.map": "./static/css/main.e7143ad5.chunk.css.map",
+    "static/js/2.76a1fd3f.chunk.js.LICENSE.txt": "./static/js/2.76a1fd3f.chunk.js.LICENSE.txt",
     "static/media/2021-2022.jpg": "./static/media/2021-2022.8872d2c8.jpg",
     "static/media/Navbar.scss": "./static/media/kumbh-sans-latin-ext-700-normal.a29f4f6e.woff2",
     "static/media/LogoCenterHome.png": "./static/media/LogoCenterHome.bf743246.png",
     "static/media/aarushi-shah.jpg": "./static/media/aarushi-shah.32e86062.jpg",
-    "static/media/angela-wang.jpg": "./static/media/angela-wang.286bcfb5.jpg",
     "static/media/claudia-handoyo.jpg": "./static/media/claudia-handoyo.c16b7b30.jpg",
     "static/media/default-img.jpg": "./static/media/default-img.622c4ab4.jpg",
     "static/media/harshi-agrawal.JPG": "./static/media/harshi-agrawal.8a1e0897.JPG",
@@ -29,7 +28,7 @@
     "static/media/lavanya-verma.jpg": "./static/media/lavanya-verma.db4f5ea6.jpg",
     "static/media/lily-steiner.JPG": "./static/media/lily-steiner.0e74bcd7.JPG",
     "static/media/lindsey-manzano.jpg": "./static/media/lindsey-manzano.2e22bc11.jpg",
-    "static/media/navika-budhraja.JPG": "./static/media/navika-budhraja.83ddb90a.JPG",
+    "static/media/navika.jpeg": "./static/media/navika.b7791903.jpeg",
     "static/media/nora-yinxuan-du.jpg": "./static/media/nora-yinxuan-du.a5f1e55d.jpg",
     "static/media/photo-four.JPG": "./static/media/photo-four.8f987800.JPG",
     "static/media/photo-nine.JPG": "./static/media/photo-nine.16170671.JPG",
@@ -48,8 +47,8 @@
   "entrypoints": [
     "static/js/runtime-main.c9b3e07e.js",
     "static/css/2.2a4ed98f.chunk.css",
-    "static/js/2.c37c5d2e.chunk.js",
-    "static/css/main.75a7fa58.chunk.css",
-    "static/js/main.4ed6743a.chunk.js"
+    "static/js/2.76a1fd3f.chunk.js",
+    "static/css/main.e7143ad5.chunk.css",
+    "static/js/main.fb94fe8d.chunk.js"
   ]
 }
