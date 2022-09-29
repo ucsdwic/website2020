@@ -1,24 +1,24 @@
 export const all_members = [
   {
     //picture: require("./demoPic.jpg")
-    picture: require("../static/board-members/vas-sengupta.jpg"),
-    name: "Vas Sengupta",
+    picture: require("../static/board-members/sydney.jpg"),
+    name: "Sydney Wong",
     position: "President",
-    year: "Class of 2022",
-    linkedin: "https://www.linkedin.com/in/vsengupta/",
-    instagram: "https://www.instagram.com/vas.sengupta/",
+    year: "Class of 2023",
+    linkedin: "https://www.linkedin.com/in/sydney-wong-269a83193",
+    instagram: "https://www.instagram.com/sydneywong8/",
     github: "",
-    bio: "Hi everyone! My name is Vas Sengupta and I’m WIC’s Co-President for this year! I’m a fourth year Computer Engineering student from Warren College. This past summer I interned at Microsoft and visited Seattle. I had an amazing time in the PNW exploring coffee shops, visiting tourist attractions, and enjoying the scenery! This year, I’m looking forward to growing the WIC community and raising awareness about WIC’s mission!"
+    bio: "Hi everyone! I’m Sydney - a fourth year computer science major and business minor from Sixth college. I’m super excited to be this year’s co-president! A highlight from my summer was interning in New York and trying lots of different foods there."
   },
   {
-    picture: require("../static/board-members/angela-wang.jpg"),
-    name: "Angela Wang",
+    picture: require("../static/board-members/navika.jpeg"),
+    name: "Navika Budhraja",
     position: "President",
-    year: "Class of 2022",
-    linkedin: "https://linkedin.com/in/wangangela2000/",
+    year: "Class of 2023",
+    linkedin: "",
     instagram: "",
     github: "",
-    bio: "Hello! My name is Angela Wang and I’m a current senior in Muir College majoring in Math-CS and minoring in Design. I’m currently the Co-President of WIC and have been a part of WIC for the past few years. A fun fact about myself is that I dyed my hair 5+ times over quarantine."
+    bio: "Hi, my name is Navika Budhraja! I’m a fourth year CS major in ERC. My summer highlights were visiting friends in LA and NYC, hanging out with my 9-month old niece (I swear I’m the cool aunt), and commuting to SF for my summer internship!"
   },
   {
     picture: require("../static/board-members/sydney-wong.jpg"),
@@ -31,7 +31,7 @@ export const all_members = [
     bio: "Hi all! My name is Sydney, and I am a third year computer science major in Sixth college. This summer I interned at Intuit and visited Madison, Wisconsin. In my spare time, I love to play tennis, read, spend time with my dog, and watch Law & Order! As this year’s Vice President Internal, I am super excited to continue growing the WIC community and empowering women in STEM. I can’t wait to meet you all during our WIC events!"
   },
   {
-    picture: require("../static/board-members/navika-budhraja.JPG"),
+    picture: require("../static/board-members/navika.jpeg"),
     name: "Navika Budhraja",
     position: "Vice President External",
     year: "Class of 2023",
@@ -111,7 +111,7 @@ export const all_members = [
     bio: "Hi everyone! My name is Jaida Day and I’m a senior majoring in Math-CS. I’m from Revelle College #firstandfinest and in my free time I like to dance and/or hang with family and friends. Over the summer I interned with PricewaterhouseCoopers, visited a lot of view spots, and hung out with some dolphins!"
   },
   {
-    picture: require("../static/board-members/harshi-agrawal.jpg"),
+    picture: require("../static/board-members/harshi-agrawal.JPG"),
     name: "Harshi Agrawal",
     position: "Social Co-Chair",
     year: "Class of 2022",
@@ -121,7 +121,7 @@ export const all_members = [
     bio: "Hey my name is Harshi. I’m a senior majoring in Computer science and minoring in Business in Warren college. I’m super excited to be back in person and hopefully meet more of you! This summer I interned at Qualcomm, spent a lot of time with friends and family, and did some traveling!"
   },
   {
-    picture: require("../static/board-members/lily-steiner.jpg"),
+    picture: require("../static/board-members/lily-steiner.JPG"),
     name: "Lily Steiner",
     position: "Social Co-Chair",
     year: "Class of 2023",
