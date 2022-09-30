@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.e7143ad5.chunk.css",
-    "main.js": "./static/js/main.fb94fe8d.chunk.js",
-    "main.js.map": "./static/js/main.fb94fe8d.chunk.js.map",
+    "main.css": "./static/css/main.75a7fa58.chunk.css",
+    "main.js": "./static/js/main.d7f7eaab.chunk.js",
+    "main.js.map": "./static/js/main.d7f7eaab.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c9b3e07e.js",
     "runtime-main.js.map": "./static/js/runtime-main.c9b3e07e.js.map",
     "static/css/2.2a4ed98f.chunk.css": "./static/css/2.2a4ed98f.chunk.css",
-    "static/js/2.76a1fd3f.chunk.js": "./static/js/2.76a1fd3f.chunk.js",
-    "static/js/2.76a1fd3f.chunk.js.map": "./static/js/2.76a1fd3f.chunk.js.map",
+    "static/js/2.c37c5d2e.chunk.js": "./static/js/2.c37c5d2e.chunk.js",
+    "static/js/2.c37c5d2e.chunk.js.map": "./static/js/2.c37c5d2e.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.a4ff6fa2a7e61ad3804e44b1af1ed7d0.js": "./precache-manifest.a4ff6fa2a7e61ad3804e44b1af1ed7d0.js",
+    "precache-manifest.d6a8bd230a8240813bee116a5629a826.js": "./precache-manifest.d6a8bd230a8240813bee116a5629a826.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.2a4ed98f.chunk.css.map": "./static/css/2.2a4ed98f.chunk.css.map",
-    "static/css/main.e7143ad5.chunk.css.map": "./static/css/main.e7143ad5.chunk.css.map",
-    "static/js/2.76a1fd3f.chunk.js.LICENSE.txt": "./static/js/2.76a1fd3f.chunk.js.LICENSE.txt",
+    "static/css/main.75a7fa58.chunk.css.map": "./static/css/main.75a7fa58.chunk.css.map",
+    "static/js/2.c37c5d2e.chunk.js.LICENSE.txt": "./static/js/2.c37c5d2e.chunk.js.LICENSE.txt",
     "static/media/2021-2022.jpg": "./static/media/2021-2022.8872d2c8.jpg",
     "static/media/Navbar.scss": "./static/media/kumbh-sans-latin-ext-700-normal.a29f4f6e.woff2",
     "static/media/LogoCenterHome.png": "./static/media/LogoCenterHome.bf743246.png",
@@ -27,6 +27,7 @@
     "static/media/judy-liu.JPG": "./static/media/judy-liu.25c3c361.JPG",
     "static/media/lavanya-verma.jpg": "./static/media/lavanya-verma.db4f5ea6.jpg",
     "static/media/lily-steiner.JPG": "./static/media/lily-steiner.0e74bcd7.JPG",
+    "static/media/linda.jpg": "./static/media/linda.acb11db6.jpg",
     "static/media/lindsey-manzano.jpg": "./static/media/lindsey-manzano.2e22bc11.jpg",
     "static/media/navika.jpeg": "./static/media/navika.b7791903.jpeg",
     "static/media/nora-yinxuan-du.jpg": "./static/media/nora-yinxuan-du.a5f1e55d.jpg",
@@ -36,8 +37,8 @@
     "static/media/photo-six.JPG": "./static/media/photo-six.10408f03.JPG",
     "static/media/photo-ten.JPG": "./static/media/photo-ten.60592c6a.JPG",
     "static/media/photo-two.JPG": "./static/media/photo-two.17a62bc3.JPG",
+    "static/media/sarayu.jpeg": "./static/media/sarayu.1572a7d1.jpeg",
     "static/media/sravya-balasa.jpg": "./static/media/sravya-balasa.d3e65cf3.jpg",
-    "static/media/sydney-wong.jpg": "./static/media/sydney-wong.28fa7a9c.jpg",
     "static/media/sydney.jpg": "./static/media/sydney.dbc2e899.jpg",
     "static/media/tri-truong.jpg": "./static/media/tri-truong.29d2fa12.jpg",
     "static/media/vivian-dang.jpg": "./static/media/vivian-dang.321ea777.jpg",
@@ -47,8 +48,8 @@
   "entrypoints": [
     "static/js/runtime-main.c9b3e07e.js",
     "static/css/2.2a4ed98f.chunk.css",
-    "static/js/2.76a1fd3f.chunk.js",
-    "static/css/main.e7143ad5.chunk.css",
-    "static/js/main.fb94fe8d.chunk.js"
+    "static/js/2.c37c5d2e.chunk.js",
+    "static/css/main.75a7fa58.chunk.css",
+    "static/js/main.d7f7eaab.chunk.js"
   ]
 }
