@@ -21,24 +21,24 @@ export const all_members = [
     bio: "Hi, my name is Navika Budhraja! I’m a fourth year CS major in ERC. My summer highlights were visiting friends in LA and NYC, hanging out with my 9-month old niece (I swear I’m the cool aunt), and commuting to SF for my summer internship!"
   },
   {
-    picture: require("../static/board-members/sydney-wong.jpg"),
-    name: "Sydney Wong",
-    position: "Vice President Internal",
-    year: "Class of 2023",
-    linkedin: "https://www.linkedin.com/in/sydney-wong-269a83193",
-    instagram: "https://www.instagram.com/sydneywong8/",
-    github: "",
-    bio: "Hi all! My name is Sydney, and I am a third year computer science major in Sixth college. This summer I interned at Intuit and visited Madison, Wisconsin. In my spare time, I love to play tennis, read, spend time with my dog, and watch Law & Order! As this year’s Vice President Internal, I am super excited to continue growing the WIC community and empowering women in STEM. I can’t wait to meet you all during our WIC events!"
-  },
-  {
-    picture: require("../static/board-members/navika.jpeg"),
-    name: "Navika Budhraja",
+    picture: require("../static/board-members/sarayu.jpeg"),
+    name: "Sarayu Pai",
     position: "Vice President External",
     year: "Class of 2023",
     linkedin: "",
     instagram: "",
     github: "",
-    bio: "Hey y’all my name is Navika. I’m a third year computer science major in erc. For most of summer, I stayed in San Diego, where I spent a lot of time swimming and running at the beach, drinking coffee, and learning new things at my internship! I spent the latter half of summer in the Bay Area where I hung out with my family, played basketball, and went on a lot of hikes. Looking forward to meeting everyone this school year!!"
+    bio: "Hi everyone, I'm Sarayu Pai, a fourth year Bioinformatics and Computer Engineering double major in ERC, and I'm super excited to continue serving as one of WIC's Co-VP Externals! A highlight from my summer was spending time exploring Seattle and this year I'm looking forward to growing the WIC community and meeting new people :)"
+  },
+  {
+    picture: require("../static/board-members/linda.jpg"),
+    name: "Linda Long",
+    position: "Vice President External",
+    year: "Class of 2024",
+    linkedin: "",
+    instagram: "",
+    github: "",
+    bio: "Hey everyone! My name is Linda Long. I major in Applied Mathematics and I have a junior standing in ERC. This year, I am looking forward the most about growing our WIC community and meeting all of you during our WIC events!"
   },
   {
     picture: require("../static/board-members/default-img.jpg"),
