@@ -14,7 +14,7 @@ RedirectMatch 301 ^/intern https://docs.google.com/forms/d/e/1FAIpQLSfaBjUe7zbMh
 RedirectMatch 301 ^/sign-in  https://forms.gle/unVNFw1By9C14Y3YA 
 RedirectMatch 301 ^/resume-database https://airtable.com/shrfVnXweer0HRowp 
 RedirectMatch 301 ^/resume-drop https://airtable.com/shrWaHEgJZ4KQ8kJn 
-RedirectMatch 301 ^/mentor-mentee https://forms.gle/mqZjNG6VucbnSX5D8 
+RedirectMatch 301 ^/mentor-mentee https://forms.gle/PhTaWXLkz1Gue7iN9 
 RedirectMatch 301 ^/links https://linktr.ee/wicucsd 
 RedirectMatch 301 ^/book-club https://docs.google.com/forms/d/e/1FAIpQLSfnrq_s-NlPfEYSBG_3hYMEOtmQZ9zgh4z4gVTEJJ3XcCwsEg/viewform?usp=sf_link 
 RedirectMatch 301 ^/meeting-notes https://docs.google.com/spreadsheets/d/1f-CPMLXWP_DPcue0tscWNDUbLt1qhT0pSBR2pbU5ZPk/edit#gid=2003285780

@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0bca3c6b9289fa544a2d47c3791c4cf8",
+    "revision": "85758e1db350c4083f0428d55d4ded69",
     "url": "./index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/css/2.2a4ed98f.chunk.css"
   },
   {
-    "revision": "41b18ba8084f3fcf90a9",
+    "revision": "dae92b2ab236d6a81e16",
     "url": "./static/css/main.75a7fa58.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/js/2.c37c5d2e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "41b18ba8084f3fcf90a9",
-    "url": "./static/js/main.d7f7eaab.chunk.js"
+    "revision": "dae92b2ab236d6a81e16",
+    "url": "./static/js/main.a0b72414.chunk.js"
   },
   {
     "revision": "ebb8d834bada9d2a1e15",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8872d2c829f5c65898ed6cc85d364bb5",
     "url": "./static/media/2021-2022.8872d2c8.jpg"
+  },
+  {
+    "revision": "55278b545b5c18ccb9efb1e1f7542396",
+    "url": "./static/media/Aiko.55278b54.jpg"
   },
   {
     "revision": "14d42aa81db2d82356bba6480517a6cb",
@@ -80,6 +84,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/Kollektif.df321ebb.ttf"
   },
   {
+    "revision": "41d8f9d488dd57d2b3c7eeea0b0e101d",
+    "url": "./static/media/Lindsey.41d8f9d4.jpg"
+  },
+  {
     "revision": "bf743246a14101eb5813d914470bf8da",
     "url": "./static/media/LogoCenterHome.bf743246.png"
   },
@@ -92,8 +100,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/claudia-handoyo.c16b7b30.jpg"
   },
   {
-    "revision": "622c4ab42312a22069bf62fd692a6996",
-    "url": "./static/media/default-img.622c4ab4.jpg"
+    "revision": "c0b1b7d081f3cfe9ee024823e595d967",
+    "url": "./static/media/haitong.c0b1b7d0.jpg"
   },
   {
     "revision": "8a1e0897a5b9dc4835e6cbe23d7cd3e7",
@@ -108,12 +116,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "./static/media/jaida-day.86633e70.jpg"
   },
   {
-    "revision": "03fdef7866c68239d3d0c1502f490be1",
-    "url": "./static/media/jaz-gill.03fdef78.jpg"
-  },
-  {
-    "revision": "25c3c3618a163b07450eea197f107170",
-    "url": "./static/media/judy-liu.25c3c361.JPG"
+    "revision": "f5d71ff38c7b1e450185475117fc4f03",
+    "url": "./static/media/jezebel.f5d71ff3.jpg"
   },
   {
     "revision": "3e57ebfcf24918fc7d77a87b01643135",
@@ -150,10 +154,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "acb11db6ca4e1d8cadd5e6a5ada4e897",
     "url": "./static/media/linda.acb11db6.jpg"
-  },
-  {
-    "revision": "2e22bc1136ac2cb2144a0211193b0b61",
-    "url": "./static/media/lindsey-manzano.2e22bc11.jpg"
   },
   {
     "revision": "b77919033bbb55cf13726447be9d531e",
