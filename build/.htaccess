@@ -16,19 +16,15 @@ RedirectMatch 301 ^/resume-database https://airtable.com/shrfVnXweer0HRowp
 RedirectMatch 301 ^/resume-drop https://airtable.com/shrWaHEgJZ4KQ8kJn 
 RedirectMatch 301 ^/mentor-mentee https://forms.gle/PhTaWXLkz1Gue7iN9 
 RedirectMatch 301 ^/links https://linktr.ee/wicucsd 
-RedirectMatch 301 ^/book-club https://docs.google.com/forms/d/e/1FAIpQLSfnrq_s-NlPfEYSBG_3hYMEOtmQZ9zgh4z4gVTEJJ3XcCwsEg/viewform?usp=sf_link 
 RedirectMatch 301 ^/meeting-notes https://docs.google.com/spreadsheets/d/1f-CPMLXWP_DPcue0tscWNDUbLt1qhT0pSBR2pbU5ZPk/edit#gid=2003285780
 RedirectMatch 301 ^/board-event-form https://docs.google.com/forms/d/e/1FAIpQLScD11Ufyq0zB8sS3sxGqIo-FmkUHV8akbish6Ja5Si5jovEWg/viewform
 RedirectMatch 301 ^/public-resources https://drive.google.com/drive/folders/14HwRns73JSSrc8zmYYTKtLWUnqmowc-F?usp=sharing
-RedirectMatch 301 ^/pei-app https://ideacenter.typeform.com/to/qdmROrus
-RedirectMatch 301 ^/pei https://jacobsschool.ucsd.edu/node/400
 RedirectMatch 301 ^/csi-form https://docs.google.com/forms/d/e/1FAIpQLSdEKuxGC3lApTaszqj99z0oMvcb8P8G-TtNKJu-8rk33m_sFA/viewform 
 RedirectMatch 301 ^/rsvp https://docs.google.com/forms/d/e/1FAIpQLSd0Qeq49fm7g6zfEGF6nPrOgsQty1ngB0Ul2Q2h9O4aU6bRdw/viewform 
 RedirectMatch 301 ^/mock-interview https://docs.google.com/forms/d/e/1FAIpQLSfTTMQI4dwhA28jamS-LPdrK2rEb6v6yZB6ZxAt0uKjwkDI-Q/viewform
 RedirectMatch 301 ^/self-identify https://docs.google.com/forms/d/e/1FAIpQLSe1SpeODVyVVzs1xEa4d3mcTs_aq7S0OXpRCcYo1sVyGbbU0w/viewform?usp=sf_link 
 RedirectMatch 301 ^/girl-code https://open.spotify.com/show/2JSuMtKPl2UNXUsH9lknIu?si=36dUbb6tTrKYr2MmSbVkdQ
 RedirectMatch 301 ^/gc-ep1 https://open.spotify.com/episode/7bOI0Kim57OLFpTcZjE7g6 
-RedirectMatch 301 ^/intro-to-research https://docs.google.com/forms/d/e/1FAIpQLSfgMv0MD5Usy2YqfGhqqQY3o_j2XSjt4Gb1BVz8m_tjWl1xlw/viewform
 RedirectMatch 301 ^/gc-ep2 https://open.spotify.com/episode/0PcYAOSBH2F5Q4YqQNKKVF?si=0hzVgyhkT_-8jtGFg7GKuA&nd=1
 RedirectMatch 301 ^/track-active-member https://docs.google.com/spreadsheets/d/1ZqoRyDB459pVqytIGhXgM-saS9WKcLDKK3ykohqbKEg/edit?usp=sharing 
 RedirectMatch 301 ^/election-faq https://docs.google.com/document/d/1QAanHyQDbNntxAE26aXHPP406Gb-GpkmycZHbFXuwt4/edit?usp=sharing
@@ -40,9 +36,8 @@ RedirectMatch 301 ^/constitution https://docs.google.com/document/d/1mG7_LjVezbx
 RedirectMatch 301 ^/applications https://docs.google.com/document/d/1aRHyV-ybDclnZxLkhm1f7k1wOYRzi0w8MXRkX5YBNqk/edit?usp=sharing
 RedirectMatch 301 ^/vote https://forms.gle/KEmz5Xz4TBjFr6PF8
 RedirectMatch 301 ^/alumni https://docs.google.com/forms/d/e/1FAIpQLScQF2HGHuWIPGxX52pcWrzCh3CuZCin8NzwO5M6t4lu5Jz3wQ/viewform?usp=sf_link
-RedirectMatch 301 ^/class-plan-template https://docs.google.com/spreadsheets/d/1SOHySwF2qfROQC5e-0w8Y04A5jtSuNLCf3PuCh5hjDI/edit#gid=0
 RedirectMatch 301 ^/pr-publicity-apply https://forms.gle/Yn2qgMswq4XmqcvC8
-RedirectMatch 301 ^/banquetrsvp https://docs.google.com/forms/d/e/1FAIpQLScSIo0bcZcTEHLtDRKxtzVa01zRFO1F8LY5Fgzj53U8o0x8dA/viewform 
 RedirectMatch 301 ^/socialapp https://forms.gle/w4gdCSLq9zMMXUop7
 RedirectMatch 301 ^/ghc2022 https://docs.google.com/forms/d/e/1FAIpQLSemsThkSFyFhe8Ewf533rztxJmNIStDCF7gPZlfrNpyvdIaRA/viewform 
 RedirectMatch 301 ^/public-slides https://drive.google.com/drive/u/1/folders/102a-ckY-PsiDx_SnG3GBkQQLq87gwnK8 
+
