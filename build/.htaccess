@@ -11,7 +11,7 @@ RedirectMatch 301 ^/fall-project-team https://docs.google.com/forms/d/e/1FAIpQLS
 RedirectMatch 301 ^/edge-mentor-app https://docs.google.com/forms/d/1JfOSNog7EZYmtr1-249YCa4Y01EYnzmnANvyfa5Sq5A/viewform 
 RedirectMatch 301 ^/edge-committee-app https://docs.google.com/forms/d/1KkXsRgLVgph8byChh3oPCpUgJsTKI3RfPI3atKO2Hew/viewform 
 RedirectMatch 301 ^/intern https://docs.google.com/forms/d/e/1FAIpQLSfaBjUe7zbMhQEwW_HrYGoCaMk8PE3klJRtBS9KfpynlSsKdw/viewform
-RedirectMatch 301 ^/sign-in  https://forms.gle/unVNFw1By9C14Y3YA 
+RedirectMatch 301 ^/sign-in https://forms.gle/AEBFXP4H6QHd7Z988 
 RedirectMatch 301 ^/resume-database https://airtable.com/shrfVnXweer0HRowp 
 RedirectMatch 301 ^/resume-drop https://airtable.com/shrWaHEgJZ4KQ8kJn 
 RedirectMatch 301 ^/mentor-mentee https://forms.gle/PhTaWXLkz1Gue7iN9 
@@ -26,7 +26,7 @@ RedirectMatch 301 ^/self-identify https://docs.google.com/forms/d/e/1FAIpQLSe1Sp
 RedirectMatch 301 ^/girl-code https://open.spotify.com/show/2JSuMtKPl2UNXUsH9lknIu?si=36dUbb6tTrKYr2MmSbVkdQ
 RedirectMatch 301 ^/gc-ep1 https://open.spotify.com/episode/7bOI0Kim57OLFpTcZjE7g6 
 RedirectMatch 301 ^/gc-ep2 https://open.spotify.com/episode/0PcYAOSBH2F5Q4YqQNKKVF?si=0hzVgyhkT_-8jtGFg7GKuA&nd=1
-RedirectMatch 301 ^/track-active-member https://docs.google.com/spreadsheets/d/1ZqoRyDB459pVqytIGhXgM-saS9WKcLDKK3ykohqbKEg/edit?usp=sharing 
+RedirectMatch 301 ^/track-active-member https://docs.google.com/spreadsheets/d/1P3uxcN8xbjqoCXrJiXlgFWk2MHZZomonmWGYtdggne0/edit?usp=sharing
 RedirectMatch 301 ^/election-faq https://docs.google.com/document/d/1QAanHyQDbNntxAE26aXHPP406Gb-GpkmycZHbFXuwt4/edit?usp=sharing
 RedirectMatch 301 ^/wic-fams https://docs.google.com/forms/d/e/1FAIpQLSd2Idk9m_3YQaCW_aPTjh5l_fQN97C4lraUno2Gdl15SAOASQ/viewform 
 RedirectMatch 301 ^/election-app https://docs.google.com/forms/d/e/1FAIpQLScQ4dJ07bkmz10nkEm373zKUrTnXxgntuyySmhhDbDKHOkowA/viewform?usp=sf_link
@@ -38,4 +38,5 @@ RedirectMatch 301 ^/vote https://forms.gle/KEmz5Xz4TBjFr6PF8
 RedirectMatch 301 ^/alumni https://docs.google.com/forms/d/e/1FAIpQLScQF2HGHuWIPGxX52pcWrzCh3CuZCin8NzwO5M6t4lu5Jz3wQ/viewform?usp=sf_link
 RedirectMatch 301 ^/pr-publicity-apply https://forms.gle/Yn2qgMswq4XmqcvC8
 RedirectMatch 301 ^/socialapp https://forms.gle/w4gdCSLq9zMMXUop7
-RedirectMatch 301 ^/public-slides https://drive.google.com/drive/u/1/folders/102a-ckY-PsiDx_SnG3GBkQQLq87gwnK8
+RedirectMatch 301 ^/public-slides https://drive.google.com/drive/u/1/folders/102a-ckY-PsiDx_SnG3GBkQQLq87gwnK8 
+
