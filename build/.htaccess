@@ -3,8 +3,8 @@ RedirectMatch 301 ^/instagram https://www.instagram.com/wicucsd/
 RedirectMatch 301 ^/discord https://discord.gg/ZE62Zuh
 RedirectMatch 301 ^/medium https://medium.com/women-in-computing-ucsd
 RedirectMatch 301 ^/linkedin https://www.linkedin.com/company/wicucsd/about/
-RedirectMatch 301 ^/sponsorship https://drive.google.com/file/d/1nuMtyG3DIZsTHyIa19-hLOzgUnEWIHvN/view 
-RedirectMatch 301 ^/sponsor-us https://docs.google.com/forms/d/e/1FAIpQLSejVFhp4Fm8fsrZqwKnKlapxIWiBjyFgB0DM_xHIEzaenp_zA/viewform
+RedirectMatch 301 ^/sponsorship https://drive.google.com/file/d/1nuMtyG3DIZsTHyIa19-hLOzgUnEWIHvN/view?usp=share_link 
+RedirectMatch 301 ^/sponsor-us https://docs.google.com/forms/d/e/1FAIpQLSdbzXPgOPNS8DYAYMxEEgzivRWd02_ojDv-9agyhM-8rr1wSQ/viewform
 RedirectMatch 301 ^/active-member https://docs.google.com/forms/d/e/1FAIpQLScsf3G_eeySKZ_8dhYSUFtQmUNnFwa__rVOOBnrvium5lIAjQ/viewform 
 RedirectMatch 301 ^/mailing-list https://docs.google.com/forms/d/e/1FAIpQLScV5bxCkSR5kxkREJZsrmAw5ldz_a5X2WNMyKIDUzsszKuDNA/viewform 
 RedirectMatch 301 ^/fall-project-team https://docs.google.com/forms/d/e/1FAIpQLSezf5jTZXOD8INtQA28t4m3OsSnVtvSaqPBiH23uj2m4JYMAw/viewform
