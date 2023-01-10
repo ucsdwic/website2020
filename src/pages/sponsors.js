@@ -18,6 +18,7 @@ import servicenow from "../static/sponsors/servicenow.png";
 import twilio from "../static/sponsors/twilio.png";
 import ucsdcse from "../static/sponsors/ucsdcse.png"; 
 import janestreet from "../static/sponsors/janestreet.png"; 
+import visa from "../static/sponsors/visa.png"; 
 import "../styles/App.scss";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -110,13 +111,18 @@ class Sponsors extends React.Component {
                 <LazyLoadImage src={ucsdcse} alt="ucsd cse computer science and engineering"/>
               </div>
             </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
+                <LazyLoadImage src={visa} alt="visa"/>
+              </div>
+            </Col>
           </Row>
           <Row id="sponsorsSpacing">
             <Col className="sponsors-learn-more" sm={4}>
               <Button
                 type="primary"
                 text="Learn More"
-                toLink="https://drive.google.com/file/d/1nuMtyG3DIZsTHyIa19-hLOzgUnEWIHvN/view?usp=sharing"
+                toLink="https://drive.google.com/file/d/1xmvwlSVEuwmDheIDJdmArwhg_qUUoW_u/view?usp=sharing"
               />
             </Col>
             <Col className="sponsors-resume-database"sm={4}>
@@ -130,7 +136,7 @@ class Sponsors extends React.Component {
               <Button
                 type="primary"
                 text="Sponsor Us"
-                toLink="https://docs.google.com/forms/d/e/1FAIpQLSejVFhp4Fm8fsrZqwKnKlapxIWiBjyFgB0DM_xHIEzaenp_zA/viewform"
+                toLink="https://docs.google.com/forms/d/e/1FAIpQLSdbzXPgOPNS8DYAYMxEEgzivRWd02_ojDv-9agyhM-8rr1wSQ/viewform"
               />
             </Col>
           </Row>

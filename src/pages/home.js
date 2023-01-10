@@ -22,7 +22,7 @@ class Home extends React.Component {
               <Button
                 type="home"
                 text="Join Us"
-                toLink="https://docs.google.com/forms/d/e/1FAIpQLScsf3G_eeySKZ_8dhYSUFtQmUNnFwa__rVOOBnrvium5lIAjQ/viewform?usp=sf_link"
+                toLink="https://docs.google.com/forms/d/e/1FAIpQLSfzqTAru_O_k0FsoACSbLR6RJvoKMaGqjdcgKjx57aLZD8iaQ/viewform"
               />
             </Col>
           </Row>

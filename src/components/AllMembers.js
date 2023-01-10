@@ -115,7 +115,7 @@ export const all_members = [
     name: "Nitya Agarwal",
     position: "Social Co-Chair",
     year: "Class of 2024",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/nitya-agarwal1/",
     instagram: "",
     github: "",
     bio: "Hello, I’m Nitya— 3rd year Computer Engineering major at Warren! I love meeting new people and look for new avenues towards self-improvement. I do like to stay in and just watch shows for a couple of hours with a bag of hot cheeto puffs too. A highlight from my summer is hiking at national parks, specifically Yosemite!"

@@ -1,12 +1,12 @@
 import React from 'react'
 import AliceCarousel from 'react-alice-carousel'
 import 'react-alice-carousel/lib/alice-carousel.css'
-import image1 from "../static/photo-one.JPG"
-import image2 from "../static/photo-two.JPG"
-import image4 from "../static/photo-four.JPG"
-import image6 from "../static/photo-six.JPG"
-import image9 from "../static/photo-nine.JPG"
-import image10 from "../static/photo-ten.JPG"
+import image1 from "../static/photo-one.jpg"
+import image2 from "../static/photo-two.jpg"
+import image4 from "../static/photo-three.JPG"
+import image6 from "../static/photo-four.jpg"
+import image9 from "../static/photo-five.jpg"
+import image10 from "../static/photo-six.jpg"
 import "../styles/App.scss"; 
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
