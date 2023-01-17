@@ -200,4 +200,34 @@ export const all_members = [
     github: "",
     bio: "Hi I’m Lina! I'm one of the co-outreach chairs for this upcoming school year! I'm a sophomore in Warren College, majoring in Data Science. One of my summer highlights is a mini trip I took to Palm Dessert with friends. Very excited to meet new people through WIC!! :)"
   },
+  {
+    picture: require("../static/board-members/advika.jpg"),
+    name: "Advika Sonti",
+    position: "Intern",
+    year: "Class of 2025",
+    linkedin: "",
+    instagram: "",
+    github: "",
+    bio: "Year: Second\nMajor: Cognitive Science\nCollege: Marshall\nWinter break highlight: Seeing my home friends!"
+  },
+  {
+    picture: require("../static/board-members/danielle.jpg"),
+    name: "Danielle Dang",
+    position: "Intern",
+    year: "Class of 2026",
+    linkedin: "",
+    instagram: "",
+    github: "",
+    bio: "Hi! I’m a first year student majoring in computer science from sixth college. A highlight of my winter break was being able to spend time with my family and eat lots of good food!"
+  },
+  {
+    picture: require("../static/board-members/trinity.jpg"),
+    name: "Trinity Oritz",
+    position: "Intern",
+    year: "Class of 2025",
+    linkedin: "",
+    instagram: "",
+    github: "",
+    bio: "Year: 2nd\nMajor: Business Economics\nCollege: Warren\nWinter break highlight: The highlight of my winter break was playing white elephant for the first time with my family for Christmas.\nLooking forward: I’m looking forward to spending more time on campus studying with my friends.\nFavorite WIC memory: My favorite WIC memory was last year during the paint and sip event where I painted Pepe the frog."
+  },
 ];
