@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "./static/css/main.7a1a1326.chunk.css",
-    "main.js": "./static/js/main.4a6d3de4.chunk.js",
-    "main.js.map": "./static/js/main.4a6d3de4.chunk.js.map",
+    "main.css": "./static/css/main.f77a8f7d.chunk.css",
+    "main.js": "./static/js/main.5b15ad4b.chunk.js",
+    "main.js.map": "./static/js/main.5b15ad4b.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.c9b3e07e.js",
     "runtime-main.js.map": "./static/js/runtime-main.c9b3e07e.js.map",
     "static/css/2.2a4ed98f.chunk.css": "./static/css/2.2a4ed98f.chunk.css",
-    "static/js/2.987b4005.chunk.js": "./static/js/2.987b4005.chunk.js",
-    "static/js/2.987b4005.chunk.js.map": "./static/js/2.987b4005.chunk.js.map",
+    "static/js/2.a155610a.chunk.js": "./static/js/2.a155610a.chunk.js",
+    "static/js/2.a155610a.chunk.js.map": "./static/js/2.a155610a.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.c4cfed4ecb2fcd0f1c2a0602ccc8c12e.js": "./precache-manifest.c4cfed4ecb2fcd0f1c2a0602ccc8c12e.js",
+    "precache-manifest.dd5f782baa18a97c747192509ee25730.js": "./precache-manifest.dd5f782baa18a97c747192509ee25730.js",
     "service-worker.js": "./service-worker.js",
     "static/css/2.2a4ed98f.chunk.css.map": "./static/css/2.2a4ed98f.chunk.css.map",
-    "static/css/main.7a1a1326.chunk.css.map": "./static/css/main.7a1a1326.chunk.css.map",
-    "static/js/2.987b4005.chunk.js.LICENSE.txt": "./static/js/2.987b4005.chunk.js.LICENSE.txt",
+    "static/css/main.f77a8f7d.chunk.css.map": "./static/css/main.f77a8f7d.chunk.css.map",
+    "static/js/2.a155610a.chunk.js.LICENSE.txt": "./static/js/2.a155610a.chunk.js.LICENSE.txt",
     "static/media/Aiko.jpg": "./static/media/Aiko.55278b54.jpg",
     "static/media/GingerS.jpg": "./static/media/GingerS.ab6145bb.jpg",
     "static/media/Helena.jpg": "./static/media/Helena.f4b9a050.jpg",
@@ -25,6 +25,8 @@
     "static/media/Shreya.jpeg": "./static/media/Shreya.dcadebce.jpeg",
     "static/media/VivianD.jpg": "./static/media/VivianD.ace5da9f.jpg",
     "static/media/VivianW.jpg": "./static/media/VivianW.4983e284.jpg",
+    "static/media/advika.jpg": "./static/media/advika.2bef3b7b.jpg",
+    "static/media/danielle.jpg": "./static/media/danielle.44fbbcbd.jpg",
     "static/media/haitong.jpg": "./static/media/haitong.c0b1b7d0.jpg",
     "static/media/homeOverlay.png": "./static/media/homeOverlay.23377bf7.png",
     "static/media/jezebel.jpg": "./static/media/jezebel.f5d71ff3.jpg",
@@ -43,13 +45,14 @@
     "static/media/photo-two.jpg": "./static/media/photo-two.e8a4daf3.jpg",
     "static/media/sarayu.jpeg": "./static/media/sarayu.1572a7d1.jpeg",
     "static/media/sydney.jpg": "./static/media/sydney.dbc2e899.jpg",
+    "static/media/trinity.jpg": "./static/media/trinity.f1c5d0d4.jpg",
     "static/media/wic_logo_purple.png": "./static/media/wic_logo_purple.bf743246.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c9b3e07e.js",
     "static/css/2.2a4ed98f.chunk.css",
-    "static/js/2.987b4005.chunk.js",
-    "static/css/main.7a1a1326.chunk.css",
-    "static/js/main.4a6d3de4.chunk.js"
+    "static/js/2.a155610a.chunk.js",
+    "static/css/main.f77a8f7d.chunk.css",
+    "static/js/main.5b15ad4b.chunk.js"
   ]
 }
