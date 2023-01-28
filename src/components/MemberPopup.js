@@ -1,7 +1,7 @@
 import React from "react";
 import { all_members } from "./AllMembers";
 import { Row, Col } from "react-grid-system";
-import { FaLinkedinIn, FaGithub, FaInstagram } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub, FaInstagram, FaEnvelope } from "react-icons/fa";
 import "../styles/MeetTheTeam.scss";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
@@ -51,6 +51,11 @@ class MemberPopup extends React.Component {
               </Row>
               <Row>
                 <Col className="member-popup-socials">
+                {all_members[index].email && 
+                  <a href={all_members[index].email} target="_blank">
+                    <FaEnvelope />
+                  </a>
+                }
                 { all_members[index].github && 
                   <a href={all_members[index].github} target="_blank">
                     <FaGithub />

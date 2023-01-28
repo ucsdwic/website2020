@@ -4,7 +4,7 @@ import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import { MdMailOutline } from "react-icons/md";
 import { RiFacebookFill } from "react-icons/ri";
 import { AiOutlineMedium } from "react-icons/ai";
-import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
+import { FaInstagram, FaLinkedinIn, FaEnvelope } from "react-icons/fa";
 
 class ContactUs extends React.Component {
   render() {

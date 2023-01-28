@@ -92,6 +92,13 @@ class JoinUs extends React.Component{
                                 toLink="https://airtable.com/shrWaHEgJZ4KQ8kJn"
                             />
                         </Col>
+                        <Col className="join-us-support" xs={12} xl={4}>
+                            <Button
+                                type="secondary"
+                                text="Support form"
+                                toLink="https://forms.gle/LcoyyquJgm614JgY8"
+                            />
+                        </Col>
                     </Row>
                 </Container>
             </div>
