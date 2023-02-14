@@ -20,7 +20,6 @@ RedirectMatch 301 ^/meeting-notes https://docs.google.com/spreadsheets/d/1f-CPML
 RedirectMatch 301 ^/board-event-form https://docs.google.com/forms/d/e/1FAIpQLScD11Ufyq0zB8sS3sxGqIo-FmkUHV8akbish6Ja5Si5jovEWg/viewform
 RedirectMatch 301 ^/public-resources https://drive.google.com/drive/folders/14HwRns73JSSrc8zmYYTKtLWUnqmowc-F?usp=sharing
 RedirectMatch 301 ^/csi-form https://docs.google.com/forms/d/e/1FAIpQLSdEKuxGC3lApTaszqj99z0oMvcb8P8G-TtNKJu-8rk33m_sFA/viewform 
-RedirectMatch 301 ^/rsvp https://docs.google.com/forms/d/e/1FAIpQLSd0Qeq49fm7g6zfEGF6nPrOgsQty1ngB0Ul2Q2h9O4aU6bRdw/viewform 
 RedirectMatch 301 ^/mock-interview https://docs.google.com/forms/d/e/1FAIpQLSfTTMQI4dwhA28jamS-LPdrK2rEb6v6yZB6ZxAt0uKjwkDI-Q/viewform
 RedirectMatch 301 ^/self-identify https://docs.google.com/forms/d/e/1FAIpQLSe1SpeODVyVVzs1xEa4d3mcTs_aq7S0OXpRCcYo1sVyGbbU0w/viewform?usp=sf_link 
 RedirectMatch 301 ^/girl-code https://open.spotify.com/show/2JSuMtKPl2UNXUsH9lknIu?si=36dUbb6tTrKYr2MmSbVkdQ
@@ -40,3 +39,4 @@ RedirectMatch 301 ^/pr-publicity-apply https://forms.gle/Yn2qgMswq4XmqcvC8
 RedirectMatch 301 ^/socialapp https://forms.gle/w4gdCSLq9zMMXUop7
 RedirectMatch 301 ^/public-slides https://drive.google.com/drive/u/1/folders/102a-ckY-PsiDx_SnG3GBkQQLq87gwnK8 
 RedirectMatch 301 ^/calendar https://calendar.google.com/calendar/u/6?cid=Y18wNmhkZDN1dXJqbjJ2cmRscW52a3RrbzA3Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t 
+
