@@ -245,7 +245,7 @@ export const all_members = [
   {
     picture: require("../static/board-members/trinity.jpg"),
     name: "Trinity Oritz",
-    position: "DEI Lead",
+    position: "DEI Chair",
     year: "Class of 2025",
     email: "mailto:t3oritz@ucsd.edu",
     linkedin: "",
