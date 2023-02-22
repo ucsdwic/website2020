@@ -3,6 +3,13 @@ import ReactDOM from "react-dom";
 import GetInvolvedText from "./getInvolvedText.js";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import "../styles/GetInvolved.scss";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
+import "../styles/App.scss";
+import { LazyLoadImage } from 'react-lazy-load-image-component';
+
+import servicenow from "../static/sponsors/servicenow.png";
+import sp22 from "../static/board-members/bpc_sp22.png";
 
 class GetInvolved extends React.Component {
   render() {
@@ -79,8 +86,62 @@ class GetInvolved extends React.Component {
               md={12}
             ></Col>
           </Row>
+          
         </Container>
+
+
+        <div className = "mid-background-section">
+        <p id = "BPCMargin">For 4+ years, Women in Computing has been hosting quarterly programming competitions, Beginner's Programming Competition, 
+            for 200+ undergraduate students who have not taken upper-division Computer Science or Data Science courses. 
+            The students solve 10 questions similar to those used in programming interviews in 3 hours. 
+            The competition format is similar to ACM ICPC, where participants brainstorm and pair-program to have fun and win prizes.</p>
+        
+          <div className="bpc-section">
+          <Container>
+          <Tabs>
+            <TabList>
+              <Tab>
+                <h6>Previous BPC</h6>
+              </Tab>
+              <Tab>
+                <h6>Upcoming BPC</h6>
+              </Tab>
+              <Tab>
+                <h6>Sponsors</h6>
+              </Tab>
+            </TabList>
+
+            <TabPanel>
+              <p>
+                <b>Spring 2022:</b>
+              </p>
+              <Col xs={10} md={4}>
+                  <LazyLoadImage src={sp22} alt={"Spring 2022"}/>
+              </Col>
+
+
+            </TabPanel>
+            <TabPanel>
+
+            </TabPanel>
+            <TabPanel>
+              <Row>
+                <Col id="logoMargin" xs={6} md={3}>
+                  <div>
+                    <LazyLoadImage src={servicenow} alt="service now"/>
+                  </div>
+                </Col>
+              </Row>
+            </TabPanel>
+          </Tabs>
+
+          </Container>
+          </div>
+        
+        </div>
       </div>
+
+      
     );
   }
 }

@@ -289,6 +289,34 @@ img {
   }
 }
 
+.bpc-section {
+  padding: $spacer-four 0;
+  color: $color-purple-mid;
+
+  h1 {
+    margin-bottom: $spacer-three;
+    color: $color-purple-lightest;
+  }
+
+  h6 {
+    margin: $spacer-base 0;
+    text-align: center;
+  }
+
+  p {
+    margin-top: $spacer-one;
+  }
+
+  a {
+    color: $color-purple-mid;
+
+    &:hover {
+      opacity: 0.4;
+    }
+  }
+}
+
+
 .react-tabs__tab {
   border: none;
   background: $color-purple-darkest;
@@ -349,4 +377,12 @@ img {
 
     transition: 0.4s all;
   }
+}
+
+#BPCMargin {
+  margin-top: $spacer-four;
+  margin-left: $spacer-three;
+  margin-bottom: $spacer-four;
+  margin-right: $spacer-three;
+
 }
