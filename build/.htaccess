@@ -39,4 +39,6 @@ RedirectMatch 301 ^/pr-publicity-apply https://forms.gle/Yn2qgMswq4XmqcvC8
 RedirectMatch 301 ^/socialapp https://forms.gle/w4gdCSLq9zMMXUop7
 RedirectMatch 301 ^/public-slides https://drive.google.com/drive/u/1/folders/102a-ckY-PsiDx_SnG3GBkQQLq87gwnK8 
 RedirectMatch 301 ^/calendar https://calendar.google.com/calendar/u/6?cid=Y18wNmhkZDN1dXJqbjJ2cmRscW52a3RrbzA3Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t 
+RedirectMatch 301 ^/senior-spotlight https://forms.gle/CiGXj1qsB477buAK6 
+RedirectMatch 301 ^/board-oh https://docs.google.com/spreadsheets/d/1aWBELVCIxC-t5DGmF0HdyGcQrUe-O0bA6jJYLH9CRRw/edit?usp=sharing 
 
