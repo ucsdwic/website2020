@@ -9,7 +9,11 @@ import "../styles/App.scss";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import servicenow from "../static/sponsors/servicenow.png";
-import sp22 from "../static/board-members/bpc_sp22.png";
+import sp22 from "../static/bpc_sp22.png";
+import w23 from "../static/bpc_w23.png";
+import w232 from "../static/bpc2_w23.png";
+import janestreet from "../static/sponsors/janestreet.png"; 
+import ucsdcse from "../static/sponsors/ucsdcse.png"; 
 
 class GetInvolved extends React.Component {
   render() {
@@ -112,25 +116,69 @@ class GetInvolved extends React.Component {
             </TabList>
 
             <TabPanel>
-              <p>
-                <b>Spring 2022:</b>
-              </p>
-              <Col xs={10} md={4}>
+              <h3>Previous BPC Events</h3>
+              
+              <Row>
+              <Col xs={8} md={4}>
                   <LazyLoadImage src={sp22} alt={"Spring 2022"}/>
+                  <p><b>Spring 2022:</b></p>
+                  <p><a href="https://drive.google.com/file/d/1ZWuodlcxrvyb1hcjEgBF-qMiyOGK99pL/view?usp=share_link" target="_blank">Final Problemset</a></p>
+                  <p><a href="https://drive.google.com/file/d/1AKAfr9vy1VIpPxVmaI0gsUivVXSpHvdE/view?usp=share_link" target="_blank">Solution</a></p>
               </Col>
 
+              <Col xs={8} md={4}>
+                  <LazyLoadImage src={w23} alt={"Winter 2023"}/>
+                  <p><b>Winter 2023:</b></p>
+                  <p><a href="https://drive.google.com/file/d/1HA73LQljn9p6NoiPnYZFL82alUFfKv7_/view?usp=share_link" target="_blank">Final Problemset</a></p>
+                  <p><a href="https://drive.google.com/file/d/1kAt9I3YNbVpsOORkN5Z0Bcr9nkBWulOT/view?usp=share_link" target="_blank">Solution</a></p>
+              </Col>
+
+              </Row>
+
 
             </TabPanel>
             <TabPanel>
+              <h3>WIC WI23 Beginner's Programming Competition (Round 2)</h3>
+
+              <Row>
+              <Col xs={8} md={4}>
+              </Col>
+              <Col xs={8} md={4}>
+                  <LazyLoadImage src={w232} alt={"Winter 2023 2"}/>
+              </Col>
+              <Col xs={8} md={4}>
+              </Col>
+
+              </Row>
+
+
+              <p>
+              Gear up and get ready to code your way to the top! Join us on March 11th for the second BPC in Winter. 
+              Click <b><a href="https://tinyurl.com/bpc-wi23" target="_blank">here</a></b> to sign up and <b><a href="https://tinyurl.com/wi23-volunteer" target="_blank">here</a></b> to volunteer!
+              </p>
 
             </TabPanel>
             <TabPanel>
+              <h3>Past Sponsors</h3>
+              <p>A big thank you to our amazing sponsors who made our past events a huge success!</p>
               <Row>
                 <Col id="logoMargin" xs={6} md={3}>
                   <div>
                     <LazyLoadImage src={servicenow} alt="service now"/>
                   </div>
                 </Col>
+
+                <Col id="logoMargin" xs={6} md={3}>
+                  <div>
+                    <LazyLoadImage src={janestreet} alt="jane street"/>
+                  </div>
+                </Col>
+
+                <Col id="logoMargin" xs={6} md={3}>
+              <div>
+                <LazyLoadImage src={ucsdcse} alt="ucsd cse computer science and engineering"/>
+              </div>
+            </Col>
               </Row>
             </TabPanel>
           </Tabs>
