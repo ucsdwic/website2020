@@ -133,12 +133,19 @@ class GetInvolved extends React.Component {
                   <p><a href="https://drive.google.com/file/d/1kAt9I3YNbVpsOORkN5Z0Bcr9nkBWulOT/view?usp=share_link" target="_blank">Solution</a></p>
               </Col>
 
+              <Col xs={8} md={4}>
+                  <LazyLoadImage src={w232} alt={"Winter 2023 Part 2"}/>
+                  <p><b>Winter 2023 Part2:</b></p>
+                  <p><a href="https://drive.google.com/file/d/1sxD0jBMoVOaUdKeXTwwMAOb7YFdEhXNZ/view?usp=sharing" target="_blank">Final Problemset</a></p>
+                  <p><a href="https://drive.google.com/file/d/11y7qvm9-Ea-TucEsv_11ufPnP5Xjk4xV/view?usp=sharing" target="_blank">Solution</a></p>
+              </Col>
+
               </Row>
 
 
             </TabPanel>
             <TabPanel>
-              <h3>WIC WI23 Beginner's Programming Competition (Round 2)</h3>
+              {/* <h3>WIC WI23 Beginner's Programming Competition (Round 2)</h3>
 
               <Row>
               <Col xs={8} md={4}>
@@ -149,13 +156,14 @@ class GetInvolved extends React.Component {
               <Col xs={8} md={4}>
               </Col>
 
-              </Row>
+              </Row> */}
 
+              <p>Get ready to compete like never before! Stay tuned for our next thrilling BPC coming up in Spring 2023. Follow us on Instagram to be the first to know all the exciting details.</p>
 
-              <p>
+              {/* <p>
               Gear up and get ready to code your way to the top! Join us on March 11th for the second BPC in Winter. 
               Click <b><a href="https://tinyurl.com/bpc-wi23" target="_blank">here</a></b> to sign up and <b><a href="https://tinyurl.com/wi23-volunteer" target="_blank">here</a></b> to volunteer!
-              </p>
+              </p> */}
 
             </TabPanel>
             <TabPanel>
