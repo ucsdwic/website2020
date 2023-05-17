@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import Alumni from './Alumni';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(

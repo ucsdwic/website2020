@@ -12,6 +12,7 @@ import servicenow from "../static/sponsors/servicenow.png";
 import sp22 from "../static/bpc_sp22.png";
 import w23 from "../static/bpc_w23.png";
 import w232 from "../static/bpc2_w23.png";
+import sp23 from "../static/bpc_sp23.png";
 import janestreet from "../static/sponsors/janestreet.png"; 
 import ucsdcse from "../static/sponsors/ucsdcse.png"; 
 
@@ -145,25 +146,25 @@ class GetInvolved extends React.Component {
 
             </TabPanel>
             <TabPanel>
-              {/* <h3>WIC WI23 Beginner's Programming Competition (Round 2)</h3>
+              <h3>WIC SP23 Beginner's Programming Competition</h3>
 
               <Row>
               <Col xs={8} md={4}>
               </Col>
               <Col xs={8} md={4}>
-                  <LazyLoadImage src={w232} alt={"Winter 2023 2"}/>
+                  <LazyLoadImage src={sp23} alt={"Spring 2023"}/>
               </Col>
               <Col xs={8} md={4}>
               </Col>
 
-              </Row> */}
+              </Row>
 
-              <p>Get ready to compete like never before! Stay tuned for our next thrilling BPC coming up in Spring 2023. Follow us on Instagram to be the first to know all the exciting details.</p>
+              {/* <p>Get ready to compete like never before! Stay tuned for our next thrilling BPC coming up in Spring 2023. Follow us on Instagram to be the first to know all the exciting details.</p> */}
 
-              {/* <p>
-              Gear up and get ready to code your way to the top! Join us on March 11th for the second BPC in Winter. 
-              Click <b><a href="https://tinyurl.com/bpc-wi23" target="_blank">here</a></b> to sign up and <b><a href="https://tinyurl.com/wi23-volunteer" target="_blank">here</a></b> to volunteer!
-              </p> */}
+              <p>
+              Gear up and get ready to code your way to the top! Join us on June 3 for WIC's Beginners Programming Competition. 
+              Click <b><a href="https://tinyurl.com/bpcspring23" target="_blank">here</a></b> to sign up and <b><a href="https://tinyurl.com/springbpcv" target="_blank">here</a></b> to volunteer!
+              </p>
 
             </TabPanel>
             <TabPanel>
