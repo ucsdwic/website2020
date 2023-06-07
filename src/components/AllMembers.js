@@ -81,7 +81,7 @@ export const all_members = [
     picture: require("../static/board-members/Aiko.jpg"),
     name: "Aiko Coanaya",
     position: "Web Development Chair",
-    year: "Class of 2024",
+    year: "Class of 2023",
     email: "mailto:acoanaya@ucsd.edu",
     linkedin: "https://www.linkedin.com/in/aikocoanaya/",
     instagram: "",
