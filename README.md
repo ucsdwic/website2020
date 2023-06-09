@@ -17,9 +17,10 @@ We are continuously making changes to the site so be on the lookout for updates!
     git add .<br />
     git commit -m "commit message"<br />
     git push<br />
-5. Ssh into the server (wic@acsweb.ucsd.edu)
-6. Pull from the repo on the server (cd website 2020; git pull)
-7. Copy current public_html to temp (cd ..; rm -rf temp; mv public_html temp)
+5. Manually move the build folder from local to server (scp -r /path/to/website2020/build wic@acsweb.ucsd.edu:/u/acsweb/60/960/wic/website2020)
+6. Ssh into the server (ssh wic@acsweb.ucsd.edu)
+6. ~~Pull from the repo on the server (cd website2020; git pull)~~ [no longer works]
+7. Copy current public_html to temp (rm -rf temp; mv public_html temp)
 8. Copy build from the website2020 to public_html (cp -r website2020/build public_html)
 9. Check the website at wic.ucsd.edu to ensure all changes were made and uploaded successfully!
 
