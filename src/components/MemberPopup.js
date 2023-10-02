@@ -45,7 +45,10 @@ class MemberPopup extends React.Component {
                     <h2>{all_members[index].name}</h2>
                     <h3>{all_members[index].position}</h3>
                     <p>{all_members[index].year}</p>
-                    <p>{all_members[index].bio}</p>
+                    <p>favorite language: {all_members[index].language}</p>
+                    <p>favorite spot: {all_members[index].spot}</p>
+                    <p>best part about wic? {all_members[index].wiclove}</p>
+                    <p>fun fact: {all_members[index].bio}</p>
                   </div>
                 </Col>
               </Row>

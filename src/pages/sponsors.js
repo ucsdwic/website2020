@@ -6,6 +6,8 @@ import arista from "../static/sponsors/aristanetworks.png";
 import bloomberg from "../static/sponsors/bloomberg.png";
 import boeing from "../static/sponsors/boeing.png";
 import braincorp from "../static/sponsors/braincorp.png";
+import collins from "../static/sponsors/collins.png";
+import costar from "../static/sponsors/costar.png";
 import ga from "../static/sponsors/generalatomics.png";
 import idea from "../static/sponsors/idea.png";
 import intuit from "../static/sponsors/intuit.png";
@@ -13,6 +15,7 @@ import lockheed from "../static/sponsors/lockheedmartin.png";
 import northrop from "../static/sponsors/northropgrumman.png";
 import nutanix from "../static/sponsors/nutanix.png";
 import onevigor from "../static/sponsors/onevigor.png";
+import roblox from "../static/sponsors/roblox.png";
 import salesforce from "../static/sponsors/salesforce.png";
 import servicenow from "../static/sponsors/servicenow.png";
 import twilio from "../static/sponsors/twilio.png";
@@ -53,6 +56,16 @@ class Sponsors extends React.Component {
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
+                <LazyLoadImage src={collins} alt="brain corporation"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
+                <LazyLoadImage src={costar} alt="brain corporation"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
                 <LazyLoadImage src={ga} alt="general atomics"/>
               </div>
             </Col>
@@ -89,6 +102,11 @@ class Sponsors extends React.Component {
             <Col id="logoMargin" xs={6} md={3}>
               <div>
                 <LazyLoadImage src={onevigor} alt="one vigor"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
+                <LazyLoadImage src={roblox} alt="one vigor"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
