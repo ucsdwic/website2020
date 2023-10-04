@@ -14,19 +14,18 @@ export const all_members = [
     bio: "i played 8+ sports growing up but tennis continues to be my favorite!"
   },
   {
-    // finish all
     picture: require("../static/board-members/Lindsey.jpg"),
     name: "Lindsey Manzano",
     position: "Co-President",
-    year: "Class of 2024",
-    language: "",
-    spot: "",
-    wiclove: "",
+    year: "Marshall College, Class of 2024",
+    language: "Java (sue me :0)",
+    spot: "Gilman Parking Structure (really great to dance in!)",
+    wiclove: "The community! Getting to share a safe space and actively grow with people of similar and different lived experiences",
     email: "mailto:lmanzano@ucsd.edu",
     linkedin: "https://www.linkedin.com/in/lindsey-manzano-886a7316",
     instagram: "https://www.instagram.com/lindseymanzano/",
     github: "https://github.com/lindseymanzano",
-    bio: ""
+    bio: "I broke my collarbone at Disneyland lol"
   },
   {
     picture: require("../static/board-members/lina.jpg"),
@@ -71,19 +70,18 @@ export const all_members = [
     bio: "N/A"
   },
   {
-    // finish all
     picture: require("../static/board-members/jezebel.jpg"),
     name: "Jezebel Yangari",
-    position: "Vice President Finance",
-    year: "Class of 2025",
-    language: "",
-    spot: "",
-    wiclove: "",
+    position: "Vice President of Finance",
+    year: "Muir College, Class of 2025",
+    language: "N/A",
+    spot: "CSE Building",
+    wiclove: "I love that WIC offers a community for women technologists on campus.",
     email: "mailto:jyangari@ucsd.edu",
-    linkedin: "",
+    linkedin: "https://www.linkedin.com/in/jezebelyangari/",
     instagram: "",
     github: "",
-    bio: "Hello! I’m Jezebel, the new VP of Finance. My major is computer science. I’m a rising second year in Muir College. This year I am excited to meet some of the new students on campus and go to more events."
+    bio: "I am a computer science major. I like to play tennis and go to yoga classes."
   },
   {
     picture: require("../static/board-members/angela.jpg"),
@@ -114,19 +112,18 @@ export const all_members = [
     bio: "I used to take ice skating lessons when I was younger!"
   },
   {
-    // finish all
     picture: require("../static/board-members/valli.jpg"),
     name: "Valli Nachiappan",
     position: "Technical Development Co-Chair",
-    year: "Class of 2026",
-    language: "",
-    spot: "",
-    wiclove: "",
-    email: "mailto:",
-    linkedin: "",
+    year: "Warren College, Class of 2024",
+    language: "Python",
+    spot: "Price Center study rooms!",
+    wiclove: "the people, and how welcoming and helpful everyone is!",
+    email: "mailto:vnachiap@ucsd.edu",
+    linkedin: "https://www.linkedin.com/in/valli-nachiappan/",
     instagram: "",
-    github: "",
-    bio: ""  },
+    github: "https://github.com/vnucsd",
+    bio: "I've accidentally killed every succulent I've owned :(( "  },
   {
     picture: require("../static/board-members/melody.jpg"),
     name: "Melody Gill",
@@ -156,19 +153,18 @@ export const all_members = [
     bio: "Have a black cat"
   },
   {
-    // finish all
     picture: require("../static/board-members/advika.jpg"),
     name: "Advika Sonti",
     position: "Social Co-Chair",
-    year: "Class of 2025",
-    language: "",
-    spot: "",
-    wiclove: "",
+    year: "Marshall College, Class of 2025",
+    language: "Java",
+    spot: "marshall upper apartments 🥲",
+    wiclove: "the community and the variety of events",
     email: "mailto:asonti@ucsd.edu",
-    linkedin: "",
+    linkedin: "www.linkedin.com/in/advikasonti",
     instagram: "",
     github: "",
-    bio: "Year: Second\nMajor: Cognitive Science\nCollege: Marshall\nWinter break highlight: Seeing my home friends!"
+    bio: "I like to dance!"
   },
   {
     picture: require("../static/board-members/vanessa.jpg"),
@@ -283,18 +279,17 @@ export const all_members = [
     bio: "I’m a 2nd degree black belt in taekwondo."
   },
   {
-    // finish all
     picture: require("../static/board-members/aavani.jpg"),
     name: "Aavani Raj",
     position: "First Year Chair",
-    year: "Class of 2025",
-    language: "",
-    spot: "",
-    wiclove: "",
-    email: "mailto:t3oritz@ucsd.edu",
-    linkedin: "",
+    year: "Seventh College, Class of 2025",
+    language: "Python",
+    spot: "Mom’s",
+    wiclove: "I love the community and how willing everyone is to help each other out!",
+    email: "mailto:asraj@ucsd.edu",
+    linkedin: "www.linkedin.com/in/aavani-raj-25913b19a",
     instagram: "",
-    github: "",
-    bio: ""
+    github: "https://github.com/aavanir",
+    bio: "I have been a foster parent for dogs for the past eight years, I am a thrifting enthusiast, always on the lookout for hidden gems, and I have a deep love for boba!"
   }
 ];
