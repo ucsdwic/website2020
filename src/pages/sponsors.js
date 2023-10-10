@@ -12,6 +12,7 @@ import ga from "../static/sponsors/generalatomics.png";
 import idea from "../static/sponsors/idea.png";
 import intuit from "../static/sponsors/intuit.png";
 import lockheed from "../static/sponsors/lockheedmartin.png";
+import meta from "../static/sponsors/meta.png";
 import northrop from "../static/sponsors/northropgrumman.png";
 import nutanix from "../static/sponsors/nutanix.png";
 import onevigor from "../static/sponsors/onevigor.png";
@@ -87,6 +88,11 @@ class Sponsors extends React.Component {
             <Col id="logoMargin" xs={6} md={3}>
               <div>
                 <LazyLoadImage src={lockheed} alt="lockheed martin"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
+                <LazyLoadImage src={meta} alt="meta"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
