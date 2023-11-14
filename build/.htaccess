@@ -37,7 +37,7 @@ RedirectMatch 301 ^/vote https://forms.gle/KEmz5Xz4TBjFr6PF8
 RedirectMatch 301 ^/alumni https://docs.google.com/forms/d/e/1FAIpQLScQF2HGHuWIPGxX52pcWrzCh3CuZCin8NzwO5M6t4lu5Jz3wQ/viewform?usp=sf_link
 RedirectMatch 301 ^/pr-publicity-apply https://forms.gle/Yn2qgMswq4XmqcvC8
 RedirectMatch 301 ^/socialapp https://forms.gle/w4gdCSLq9zMMXUop7
-RedirectMatch 301 ^/public-slides https://drive.google.com/drive/u/1/folders/102a-ckY-PsiDx_SnG3GBkQQLq87gwnK8 
+RedirectMatch 301 ^/public-slides https://drive.google.com/drive/u/2/folders/1I7LOl5ZPQgW1beYmzLhjOWnvaAM1ShwD
 RedirectMatch 301 ^/calendar https://calendar.google.com/calendar/u/6?cid=Y18wNmhkZDN1dXJqbjJ2cmRscW52a3RrbzA3Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t 
 RedirectMatch 301 ^/senior-spotlight https://forms.gle/CiGXj1qsB477buAK6 
 RedirectMatch 301 ^/banquet-rsvp https://forms.gle/pXkZLGTB25UvZp288 
