@@ -14,7 +14,8 @@ import w23 from "../static/bpc_w23.png";
 import w232 from "../static/bpc2_w23.png";
 import sp23 from "../static/bpc_sp23.png";
 import janestreet from "../static/sponsors/janestreet.png"; 
-import ucsdcse from "../static/sponsors/ucsdcse.png"; 
+import ucsdcse from "../static/sponsors/ucsdcse.png";
+import intuit from  "../static/sponsors/intuit.png" 
 
 class GetInvolved extends React.Component {
   render() {
@@ -184,10 +185,15 @@ class GetInvolved extends React.Component {
                 </Col>
 
                 <Col id="logoMargin" xs={6} md={3}>
-              <div>
-                <LazyLoadImage src={ucsdcse} alt="ucsd cse computer science and engineering"/>
-              </div>
-            </Col>
+                  <div>
+                    <LazyLoadImage src={ucsdcse} alt="ucsd cse computer science and engineering"/>
+                  </div>
+                </Col>
+                <Col id="logoMargin" xs={6} md={3}>
+                  <div>
+                    <LazyLoadImage src={intuit} alt="intuit"/>
+                  </div>
+                </Col>
               </Row>
             </TabPanel>
           </Tabs>

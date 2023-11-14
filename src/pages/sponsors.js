@@ -2,6 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import { setConfiguration, Row, Col, Container } from "react-grid-system";
 import Button from "../components/Button";
+import amazon from "../static/sponsors/amazon.png";
 import arista from "../static/sponsors/aristanetworks.png";
 import bloomberg from "../static/sponsors/bloomberg.png";
 import boeing from "../static/sponsors/boeing.png";
@@ -37,6 +38,11 @@ class Sponsors extends React.Component {
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
+                <LazyLoadImage src={amazon} alt="amazon"/>
+              </div>
+            </Col>
+            <Col id="logoMargin" xs={6} md={3}>
+              <div>
                 <LazyLoadImage src={arista} alt="arista networks"/>
               </div>
             </Col>
@@ -57,12 +63,12 @@ class Sponsors extends React.Component {
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <LazyLoadImage src={collins} alt="brain corporation"/>
+                <LazyLoadImage src={collins} alt="collins"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>
               <div>
-                <LazyLoadImage src={costar} alt="brain corporation"/>
+                <LazyLoadImage src={costar} alt="costar"/>
               </div>
             </Col>
             <Col id="logoMargin" xs={6} md={3}>

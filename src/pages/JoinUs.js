@@ -73,7 +73,7 @@ class JoinUs extends React.Component{
                             <Button
                                 type="secondary"
                                 text="Join our mailing list"
-                                toLink="https://docs.google.com/forms/d/e/1FAIpQLScV5bxCkSR5kxkREJZsrmAw5ldz_a5X2WNMyKIDUzsszKuDNA/viewform"
+                                toLink="https://docs.google.com/forms/d/e/1FAIpQLSdgc_EDr7_Us0PWE1Yw2NdpCEfimsXe6ldvaZ3-qSA4r9CyuA/viewform"
                             />
                         </Col>
                         <Col className="join-us-discord" xs={12} xl={4}>
