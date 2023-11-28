@@ -18,14 +18,14 @@ class AboutUs extends React.Component {
              <div className="au-video">
                <div className="au-video-wrapper">
                  <div className="au-video-background"></div>
-                   <iframe className="about-us-video" src="https://drive.google.com/file/d/1dJOC_UI3vuF4JTg3G2or_Z56O2h4Wdae/preview"></iframe>
+                   <iframe className="about-us-video" src="https://drive.google.com/file/d/1QUH0pwODg0rO6mJ63s97URJLrSI4Kam9/preview"></iframe>
                </div>
              </div>
              <p id="about-us-blurb">
                We're coders and engineers - of all genders - who support
                the female presence in computing. We run events, from tech talks
                to socials, and provide opportunities for female engineers to
-               connect and succeed. Check out the above video from our 2020-2021 president!
+               connect and succeed. Check out the above video from our 2023-2024 presidents!
              </p>
            </Col>
          </Row>
