@@ -66,7 +66,7 @@ class JoinUs extends React.Component{
                             <Button
                                 type="secondary"
                                 text="Track your membership"
-                                toLink="https://docs.google.com/spreadsheets/d/1P3uxcN8xbjqoCXrJiXlgFWk2MHZZomonmWGYtdggne0/edit?usp=sharing"
+                                toLink="https://docs.google.com/spreadsheets/d/1pf-gP8YrCsXC5cvfbrwTWt_-BKNqrLwy7JWXca89eIE/edit#gid=1576561705"
                             />
                         </Col>
                         <Col className="join-us-mailing-list" xs={12} xl={4}>

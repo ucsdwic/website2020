@@ -25,7 +25,7 @@ RedirectMatch 301 ^/self-identify https://docs.google.com/forms/d/e/1FAIpQLSe1Sp
 RedirectMatch 301 ^/girl-code https://open.spotify.com/show/2JSuMtKPl2UNXUsH9lknIu?si=36dUbb6tTrKYr2MmSbVkdQ
 RedirectMatch 301 ^/gc-ep1 https://open.spotify.com/episode/7bOI0Kim57OLFpTcZjE7g6 
 RedirectMatch 301 ^/gc-ep2 https://open.spotify.com/episode/0PcYAOSBH2F5Q4YqQNKKVF?si=0hzVgyhkT_-8jtGFg7GKuA&nd=1
-RedirectMatch 301 ^/track-active-member https://docs.google.com/spreadsheets/d/1P3uxcN8xbjqoCXrJiXlgFWk2MHZZomonmWGYtdggne0/edit?usp=sharing
+RedirectMatch 301 ^/track-active-member https://docs.google.com/spreadsheets/d/1pf-gP8YrCsXC5cvfbrwTWt_-BKNqrLwy7JWXca89eIE/edit#gid=1576561705
 RedirectMatch 301 ^/election-faq https://docs.google.com/document/d/1WR32M4k86g8ydOSc5R6ADWV2XtKh7WCuDH6BqUezv7U/edit
 RedirectMatch 301 ^/wic-fams https://docs.google.com/forms/d/e/1FAIpQLSd2Idk9m_3YQaCW_aPTjh5l_fQN97C4lraUno2Gdl15SAOASQ/viewform 
 RedirectMatch 301 ^/election-app https://docs.google.com/forms/d/e/1FAIpQLScQ4dJ07bkmz10nkEm373zKUrTnXxgntuyySmhhDbDKHOkowA/viewform?usp=sf_link
