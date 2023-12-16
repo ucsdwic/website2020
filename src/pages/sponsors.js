@@ -152,7 +152,7 @@ class Sponsors extends React.Component {
               <Button
                 type="primary"
                 text="Learn More"
-                toLink="https://drive.google.com/file/d/1xmvwlSVEuwmDheIDJdmArwhg_qUUoW_u/view?usp=sharing"
+                toLink="https://drive.google.com/file/d/1Df_nTWSOrTfvs1Xaa9Hzts0yWHYRqBQV/view?usp=sharing"
               />
             </Col>
             <Col className="sponsors-resume-database"sm={4}>
@@ -166,7 +166,7 @@ class Sponsors extends React.Component {
               <Button
                 type="primary"
                 text="Sponsor Us"
-                toLink="https://docs.google.com/forms/d/e/1FAIpQLSdbzXPgOPNS8DYAYMxEEgzivRWd02_ojDv-9agyhM-8rr1wSQ/viewform"
+                toLink="https://forms.gle/FfYAez2fsax2iGdH7"
               />
             </Col>
           </Row>

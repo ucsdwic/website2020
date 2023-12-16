@@ -9,7 +9,7 @@ import "../styles/App.scss";
 import { LazyLoadImage } from 'react-lazy-load-image-component';
 
 import servicenow from "../static/sponsors/servicenow.png";
-import sp22 from "../static/bpc_sp22.png";
+import fa23 from "../static/bpc_fa23.png";
 import w23 from "../static/bpc_w23.png";
 import w232 from "../static/bpc2_w23.png";
 import sp23 from "../static/bpc_sp23.png";
@@ -121,12 +121,6 @@ class GetInvolved extends React.Component {
               <h3>Previous BPC Events</h3>
               
               <Row>
-              <Col xs={8} md={4}>
-                  <LazyLoadImage src={sp22} alt={"Spring 2022"}/>
-                  <p><b>Spring 2022:</b></p>
-                  <p><a href="https://drive.google.com/file/d/1ZWuodlcxrvyb1hcjEgBF-qMiyOGK99pL/view?usp=share_link" target="_blank">Final Problemset</a></p>
-                  <p><a href="https://drive.google.com/file/d/1AKAfr9vy1VIpPxVmaI0gsUivVXSpHvdE/view?usp=share_link" target="_blank">Solution</a></p>
-              </Col>
 
               <Col xs={8} md={4}>
                   <LazyLoadImage src={w23} alt={"Winter 2023"}/>
@@ -142,14 +136,21 @@ class GetInvolved extends React.Component {
                   <p><a href="https://drive.google.com/file/d/11y7qvm9-Ea-TucEsv_11ufPnP5Xjk4xV/view?usp=sharing" target="_blank">Solution</a></p>
               </Col>
 
+              <Col xs={8} md={4}>
+                  <LazyLoadImage src={fa23} alt={"Fall 2023"}/>
+                  <p><b>Fall 2023:</b></p>
+                  <p><a href="https://docs.google.com/document/d/1d73ZOb400IiKG9-A2xOXiM0tYuy3bQLtPryI2F3xHK8/edit?usp=drive_link" target="_blank">Final Problemset</a></p>
+                  <p><a href="https://drive.google.com/drive/folders/19z8mfowquGIYjH-XU9YfCW5_2q04zzmG?usp=drive_link" target="_blank">Solution</a></p>
+              </Col>
+
               </Row>
 
 
             </TabPanel>
             <TabPanel>
-              <h3>WIC SP23 Beginner's Programming Competition</h3>
+              <h3>WIC WI24 Beginner's Programming Competition</h3>
 
-              <Row>
+              {/* <Row>
               <Col xs={8} md={4}>
               </Col>
               <Col xs={8} md={4}>
@@ -158,14 +159,20 @@ class GetInvolved extends React.Component {
               <Col xs={8} md={4}>
               </Col>
 
-              </Row>
+              </Row> */}
 
               {/* <p>Get ready to compete like never before! Stay tuned for our next thrilling BPC coming up in Spring 2023. Follow us on Instagram to be the first to know all the exciting details.</p> */}
 
-              <p>
+              {/* <p>
               Gear up and get ready to code your way to the top! Join us on June 3 for WIC's Beginners Programming Competition. 
               Click <b><a href="https://tinyurl.com/bpcspring23" target="_blank">here</a></b> to sign up and <b><a href="https://tinyurl.com/springbpcv" target="_blank">here</a></b> to volunteer!
-              </p>
+              </p> */}
+
+              {
+                <p>
+                  More details regarding WIC's Beginners Programming Competition for winter quarter coming soon!
+                </p>
+              }
 
             </TabPanel>
             <TabPanel>
