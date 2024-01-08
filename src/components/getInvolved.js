@@ -6,30 +6,44 @@ import "../styles/GetInvolved.scss";
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import "react-tabs/style/react-tabs.css";
 import "../styles/App.scss";
-import { LazyLoadImage } from 'react-lazy-load-image-component';
+import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import servicenow from "../static/sponsors/servicenow.png";
 import fa23 from "../static/bpc_fa23.png";
 import w23 from "../static/bpc_w23.png";
 import w232 from "../static/bpc2_w23.png";
 import sp23 from "../static/bpc_sp23.png";
-import janestreet from "../static/sponsors/janestreet.png"; 
+import janestreet from "../static/sponsors/janestreet.png";
 import ucsdcse from "../static/sponsors/ucsdcse.png";
-import intuit from  "../static/sponsors/intuit.png" 
+import intuit from "../static/sponsors/intuit.png";
 
 class GetInvolved extends React.Component {
   render() {
-    const mentorTitle = <a href='https://forms.gle/mqZjNG6VucbnSX5D8' target="_blank"> MENTOR-MENTEE </a> ;
-    const mentorDescrip = "Our mentorship program is meant to offer a support system for junior women in computing. It is a great way to find inspiration, network with other women in CS, and find your niche in WIC’s community.";
+    const mentorTitle = (
+      <a href="https://forms.gle/mqZjNG6VucbnSX5D8" target="_blank">
+        {" "}
+        MENTOR-MENTEE{" "}
+      </a>
+    );
+    const mentorDescrip =
+      "Our mentorship program is meant to offer a support system for junior women in computing. It is a great way to find inspiration, network with other women in CS, and find your niche in WIC’s community.";
     const mentorNum = "1";
     const bpcTitle = "BPC";
-    const bpcDescrip = "Beginner's Programming Competition is an algorithmic problem solving competition open only to students who have yet to take upper division classes. Held every quarter, BPC is a fun way to prep for your next hackathon.";
+    const bpcDescrip =
+      "Beginner's Programming Competition is an algorithmic problem solving competition open only to students who have yet to take upper division classes. Held every quarter, BPC is a fun way to prep for your next hackathon.";
     const bpcNum = "2";
-    const edgeTitle = <a href='https://tinyurl.com/edgement2021' target="_blank"> EDGE </a> ;
-    const edgeDescrip = "WIC partners with Society of Women Engineers to offer EDGE, a program for high school students. Participants are paired with an undergraduate mentor and attend various engineering workshops!" ;
+    const edgeTitle = (
+      <a href="https://tinyurl.com/edgement2021" target="_blank">
+        {" "}
+        EDGE{" "}
+      </a>
+    );
+    const edgeDescrip =
+      "WIC partners with Society of Women Engineers to offer EDGE, a program for high school students. Participants are paired with an undergraduate mentor and attend various engineering workshops!";
     const edgeNum = "3";
     const socialTitle = "EVENTS";
-    const socialDescrip = "WIC hosts a variety of events. From tech talks that offer an opportunity to network with companies, to fun interactive socials, to workshops helping refine technical skills, there's something for everyone!";
+    const socialDescrip =
+      "WIC hosts a variety of events. From tech talks that offer an opportunity to network with companies, to fun interactive socials, to workshops helping refine technical skills, there's something for everyone!";
     const socialNum = "4";
     return (
       <div className="mid-background-section" id="involvement-page">
@@ -40,7 +54,9 @@ class GetInvolved extends React.Component {
               className="mid-background-section"
               md={12}
             >
-              <h1 className="mid-background-section" id="get-involved-title">Get Involved</h1>
+              <h1 className="mid-background-section" id="get-involved-title">
+                Get Involved
+              </h1>
             </Col>
             <Col
               id="GetInvolvedMentorBPC"
@@ -71,7 +87,7 @@ class GetInvolved extends React.Component {
             >
               <GetInvolvedText
                 title={edgeTitle}
-                description= {edgeDescrip}
+                description={edgeDescrip}
                 number={edgeNum}
               />
             </Col>
@@ -92,65 +108,111 @@ class GetInvolved extends React.Component {
               md={12}
             ></Col>
           </Row>
-          
         </Container>
 
+        <div className="mid-background-section">
+          <p id="BPCMargin">
+            For 4+ years, Women in Computing has been hosting quarterly
+            programming competitions, Beginner's Programming Competition, for
+            200+ undergraduate students who have not taken upper-division
+            Computer Science or Data Science courses. The students solve 10
+            questions similar to those used in programming interviews in 3
+            hours. The competition format is similar to ACM ICPC, where
+            participants brainstorm and pair-program to have fun and win prizes.
+          </p>
 
-        <div className = "mid-background-section">
-        <p id = "BPCMargin">For 4+ years, Women in Computing has been hosting quarterly programming competitions, Beginner's Programming Competition, 
-            for 200+ undergraduate students who have not taken upper-division Computer Science or Data Science courses. 
-            The students solve 10 questions similar to those used in programming interviews in 3 hours. 
-            The competition format is similar to ACM ICPC, where participants brainstorm and pair-program to have fun and win prizes.</p>
-        
           <div className="bpc-section">
-          <Container>
-          <Tabs>
-            <TabList>
-              <Tab>
-                <h6>Previous BPC</h6>
-              </Tab>
-              <Tab>
-                <h6>Upcoming BPC</h6>
-              </Tab>
-              <Tab>
-                <h6>Sponsors</h6>
-              </Tab>
-            </TabList>
+            <Container>
+              <Tabs>
+                <TabList>
+                  <Tab>
+                    <h6>Previous BPC</h6>
+                  </Tab>
+                  <Tab>
+                    <h6>Upcoming BPC</h6>
+                  </Tab>
+                  <Tab>
+                    <h6>Sponsors</h6>
+                  </Tab>
+                </TabList>
 
-            <TabPanel>
-              <h3>Previous BPC Events</h3>
-              
-              <Row>
+                <TabPanel>
+                  <h3>Previous BPC Events</h3>
 
-              <Col xs={8} md={4}>
-                  <LazyLoadImage src={w23} alt={"Winter 2023"}/>
-                  <p><b>Winter 2023:</b></p>
-                  <p><a href="https://drive.google.com/file/d/1HA73LQljn9p6NoiPnYZFL82alUFfKv7_/view?usp=share_link" target="_blank">Final Problemset</a></p>
-                  <p><a href="https://drive.google.com/file/d/1kAt9I3YNbVpsOORkN5Z0Bcr9nkBWulOT/view?usp=share_link" target="_blank">Solution</a></p>
-              </Col>
+                  <Row>
+                    <Col xs={8} md={4}>
+                      <LazyLoadImage src={fa23} alt={"Fall 2023"} />
+                      <p>
+                        <b>Fall 2023:</b>
+                      </p>
+                      <p>
+                        <a
+                          href="https://docs.google.com/document/d/1d73ZOb400IiKG9-A2xOXiM0tYuy3bQLtPryI2F3xHK8/edit?usp=drive_link"
+                          target="_blank"
+                        >
+                          Final Problemset
+                        </a>
+                      </p>
+                      <p>
+                        <a
+                          href="https://drive.google.com/drive/folders/19z8mfowquGIYjH-XU9YfCW5_2q04zzmG?usp=drive_link"
+                          target="_blank"
+                        >
+                          Solution
+                        </a>
+                      </p>
+                    </Col>
+                    <Col xs={8} md={4}>
+                      <LazyLoadImage src={w23} alt={"Winter 2023"} />
+                      <p>
+                        <b>Winter 2023:</b>
+                      </p>
+                      <p>
+                        <a
+                          href="https://drive.google.com/file/d/1HA73LQljn9p6NoiPnYZFL82alUFfKv7_/view?usp=share_link"
+                          target="_blank"
+                        >
+                          Final Problemset
+                        </a>
+                      </p>
+                      <p>
+                        <a
+                          href="https://drive.google.com/file/d/1kAt9I3YNbVpsOORkN5Z0Bcr9nkBWulOT/view?usp=share_link"
+                          target="_blank"
+                        >
+                          Solution
+                        </a>
+                      </p>
+                    </Col>
 
-              <Col xs={8} md={4}>
-                  <LazyLoadImage src={w232} alt={"Winter 2023 Part 2"}/>
-                  <p><b>Winter 2023 Part2:</b></p>
-                  <p><a href="https://drive.google.com/file/d/1sxD0jBMoVOaUdKeXTwwMAOb7YFdEhXNZ/view?usp=sharing" target="_blank">Final Problemset</a></p>
-                  <p><a href="https://drive.google.com/file/d/11y7qvm9-Ea-TucEsv_11ufPnP5Xjk4xV/view?usp=sharing" target="_blank">Solution</a></p>
-              </Col>
+                    <Col xs={8} md={4}>
+                      <LazyLoadImage src={w232} alt={"Winter 2023 Part 2"} />
+                      <p>
+                        <b>Winter 2023 Part2:</b>
+                      </p>
+                      <p>
+                        <a
+                          href="https://drive.google.com/file/d/1sxD0jBMoVOaUdKeXTwwMAOb7YFdEhXNZ/view?usp=sharing"
+                          target="_blank"
+                        >
+                          Final Problemset
+                        </a>
+                      </p>
+                      <p>
+                        <a
+                          href="https://drive.google.com/file/d/11y7qvm9-Ea-TucEsv_11ufPnP5Xjk4xV/view?usp=sharing"
+                          target="_blank"
+                        >
+                          Solution
+                        </a>
+                      </p>
+                    </Col>
+                  </Row>
+                </TabPanel>
+                <TabPanel>
+                  <h3>WIC WI24 Beginner's Programming Competition</h3>
 
-              <Col xs={8} md={4}>
-                  <LazyLoadImage src={fa23} alt={"Fall 2023"}/>
-                  <p><b>Fall 2023:</b></p>
-                  <p><a href="https://docs.google.com/document/d/1d73ZOb400IiKG9-A2xOXiM0tYuy3bQLtPryI2F3xHK8/edit?usp=drive_link" target="_blank">Final Problemset</a></p>
-                  <p><a href="https://drive.google.com/drive/folders/19z8mfowquGIYjH-XU9YfCW5_2q04zzmG?usp=drive_link" target="_blank">Solution</a></p>
-              </Col>
-
-              </Row>
-
-
-            </TabPanel>
-            <TabPanel>
-              <h3>WIC WI24 Beginner's Programming Competition</h3>
-
-              {/* <Row>
+                  {/* <Row>
               <Col xs={8} md={4}>
               </Col>
               <Col xs={8} md={4}>
@@ -161,57 +223,59 @@ class GetInvolved extends React.Component {
 
               </Row> */}
 
-              {/* <p>Get ready to compete like never before! Stay tuned for our next thrilling BPC coming up in Spring 2023. Follow us on Instagram to be the first to know all the exciting details.</p> */}
+                  {/* <p>Get ready to compete like never before! Stay tuned for our next thrilling BPC coming up in Spring 2023. Follow us on Instagram to be the first to know all the exciting details.</p> */}
 
-              {/* <p>
+                  {/* <p>
               Gear up and get ready to code your way to the top! Join us on June 3 for WIC's Beginners Programming Competition. 
               Click <b><a href="https://tinyurl.com/bpcspring23" target="_blank">here</a></b> to sign up and <b><a href="https://tinyurl.com/springbpcv" target="_blank">here</a></b> to volunteer!
               </p> */}
 
-              {
-                <p>
-                  More details regarding WIC's Beginners Programming Competition for winter quarter coming soon!
-                </p>
-              }
+                  {
+                    <p>
+                      More details regarding WIC's Beginners Programming
+                      Competition for winter quarter coming soon!
+                    </p>
+                  }
+                </TabPanel>
+                <TabPanel>
+                  <h3>Past Sponsors</h3>
+                  <p>
+                    A big thank you to our amazing sponsors who made our past
+                    events a huge success!
+                  </p>
+                  <Row>
+                    <Col id="logoMargin" xs={6} md={3}>
+                      <div>
+                        <LazyLoadImage src={servicenow} alt="service now" />
+                      </div>
+                    </Col>
 
-            </TabPanel>
-            <TabPanel>
-              <h3>Past Sponsors</h3>
-              <p>A big thank you to our amazing sponsors who made our past events a huge success!</p>
-              <Row>
-                <Col id="logoMargin" xs={6} md={3}>
-                  <div>
-                    <LazyLoadImage src={servicenow} alt="service now"/>
-                  </div>
-                </Col>
+                    <Col id="logoMargin" xs={6} md={3}>
+                      <div>
+                        <LazyLoadImage src={janestreet} alt="jane street" />
+                      </div>
+                    </Col>
 
-                <Col id="logoMargin" xs={6} md={3}>
-                  <div>
-                    <LazyLoadImage src={janestreet} alt="jane street"/>
-                  </div>
-                </Col>
-
-                <Col id="logoMargin" xs={6} md={3}>
-                  <div>
-                    <LazyLoadImage src={ucsdcse} alt="ucsd cse computer science and engineering"/>
-                  </div>
-                </Col>
-                <Col id="logoMargin" xs={6} md={3}>
-                  <div>
-                    <LazyLoadImage src={intuit} alt="intuit"/>
-                  </div>
-                </Col>
-              </Row>
-            </TabPanel>
-          </Tabs>
-
-          </Container>
+                    <Col id="logoMargin" xs={6} md={3}>
+                      <div>
+                        <LazyLoadImage
+                          src={ucsdcse}
+                          alt="ucsd cse computer science and engineering"
+                        />
+                      </div>
+                    </Col>
+                    <Col id="logoMargin" xs={6} md={3}>
+                      <div>
+                        <LazyLoadImage src={intuit} alt="intuit" />
+                      </div>
+                    </Col>
+                  </Row>
+                </TabPanel>
+              </Tabs>
+            </Container>
           </div>
-        
         </div>
       </div>
-
-      
     );
   }
 }
