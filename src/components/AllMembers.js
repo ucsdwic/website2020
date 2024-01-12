@@ -6,12 +6,13 @@ export const all_members = [
     year: "Warren College, Class of 2024",
     language: "C/C++",
     spot: "bearl picnic tables on a bright sunny day",
-    wiclove: "the community during your college career and the relationships that last even after graduation <3",
+    wiclove:
+      "the community during your college career and the relationships that last even after graduation <3",
     email: "mailto:n3agarwa@ucsd.edu",
     linkedin: "https://www.linkedin.com/in/nitya-agarwal1/",
     instagram: "",
     github: "",
-    bio: "i played 8+ sports growing up but tennis continues to be my favorite!"
+    bio: "i played 8+ sports growing up but tennis continues to be my favorite!",
   },
   {
     picture: require("../static/board-members/Lindsey.jpg"),
@@ -20,12 +21,13 @@ export const all_members = [
     year: "Marshall College, Class of 2024",
     language: "Java (sue me :0)",
     spot: "Gilman Parking Structure (really great to dance in!)",
-    wiclove: "The community! Getting to share a safe space and actively grow with people of similar and different lived experiences",
+    wiclove:
+      "The community! Getting to share a safe space and actively grow with people of similar and different lived experiences",
     email: "mailto:lmanzano@ucsd.edu",
     linkedin: "https://www.linkedin.com/in/lindsey-manzano-886a7316",
     instagram: "https://www.instagram.com/lindseymanzano/",
     github: "https://github.com/lindseymanzano",
-    bio: "I broke my collarbone at Disneyland lol"
+    bio: "I broke my collarbone at Disneyland lol",
   },
   {
     picture: require("../static/board-members/lina.jpg"),
@@ -39,7 +41,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/lina-battikha",
     instagram: "",
     github: "",
-    bio: "love pickles! also, San Diego local :) "
+    bio: "love pickles! also, San Diego local :) ",
   },
   {
     picture: require("../static/board-members/Helena.jpg"),
@@ -53,7 +55,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/helena-hundhausen/",
     instagram: "",
     github: "",
-    bio: "1) I am originally from O'ahu, Hawaii. 2) I have a husky. 3) I am a big fan of iced lattes and chocolate croissants."
+    bio: "1) I am originally from O'ahu, Hawaii. 2) I have a husky. 3) I am a big fan of iced lattes and chocolate croissants.",
   },
   {
     picture: require("../static/board-members/Shreya.jpeg"),
@@ -67,7 +69,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/shreyavelagala",
     instagram: "",
     github: "https://github.com/ShreyaVelagala",
-    bio: "N/A"
+    bio: "N/A",
   },
   {
     picture: require("../static/board-members/jezebel.jpg"),
@@ -76,12 +78,13 @@ export const all_members = [
     year: "Muir College, Class of 2025",
     language: "N/A",
     spot: "CSE Building",
-    wiclove: "I love that WIC offers a community for women technologists on campus.",
+    wiclove:
+      "I love that WIC offers a community for women technologists on campus.",
     email: "mailto:jyangari@ucsd.edu",
     linkedin: "https://www.linkedin.com/in/jezebelyangari/",
     instagram: "",
     github: "",
-    bio: "I am a computer science major. I like to play tennis and go to yoga classes."
+    bio: "I am a computer science major. I like to play tennis and go to yoga classes.",
   },
   {
     picture: require("../static/board-members/angela.jpg"),
@@ -95,7 +98,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/angela-tsai-756150215",
     instagram: "",
     github: "https://www.github.com/angelatsai1214",
-    bio: "I'm left handed but I do sports with my right hand :D"
+    bio: "I'm left handed but I do sports with my right hand :D",
   },
   {
     picture: require("../static/board-members/danielle.jpg"),
@@ -104,12 +107,13 @@ export const all_members = [
     year: "Sixth College, Class of 2026",
     language: "Python <3 ",
     spot: "I love mom's cafe! The drinks are great and they have tables to hang out or do some studying.",
-    wiclove: "The community! Everyone in WIC is so welcoming which makes it really easy to talk to others and feel comfortable.",
+    wiclove:
+      "The community! Everyone in WIC is so welcoming which makes it really easy to talk to others and feel comfortable.",
     email: "mailto:d4dang@ucsd.edu",
     linkedin: "",
     instagram: "",
     github: "",
-    bio: "I used to take ice skating lessons when I was younger!"
+    bio: "I used to take ice skating lessons when I was younger!",
   },
   {
     picture: require("../static/board-members/valli.jpg"),
@@ -123,7 +127,8 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/valli-nachiappan/",
     instagram: "",
     github: "https://github.com/vnucsd",
-    bio: "I've accidentally killed every succulent I've owned :(( "  },
+    bio: "I've accidentally killed every succulent I've owned :(( ",
+  },
   {
     picture: require("../static/board-members/melody.jpg"),
     name: "Melody Gill",
@@ -136,7 +141,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/melody-gill/",
     instagram: "",
     github: "https://github.com/melodygill",
-    bio: "I like to crochet!"
+    bio: "I like to crochet!",
   },
   {
     picture: require("../static/board-members/vivian.jpg"),
@@ -150,7 +155,7 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: "Have a black cat"
+    bio: "Have a black cat",
   },
   {
     picture: require("../static/board-members/advika.jpg"),
@@ -164,7 +169,7 @@ export const all_members = [
     linkedin: "www.linkedin.com/in/advikasonti",
     instagram: "",
     github: "",
-    bio: "I like to dance!"
+    bio: "I like to dance!",
   },
   {
     picture: require("../static/board-members/vanessa.jpg"),
@@ -178,21 +183,21 @@ export const all_members = [
     linkedin: "",
     instagram: "",
     github: "",
-    bio: "I love bread"
+    bio: "I love bread",
   },
   {
-    picture: require("../static/board-members/kathy.jpg"), 
+    picture: require("../static/board-members/kathy.jpg"),
     name: "Kathy Chen",
     position: "Web Development Chair",
     year: "Sixth College, Class of 2025",
     language: "C++",
     spot: "Middle of Muir (M.O.M.)",
     wiclove: "the empowerment and endless love from everyone!",
-    email: "mailto:ktchen@ucsd.edu", 
+    email: "mailto:ktchen@ucsd.edu",
     linkedin: "www.linkedin.com/in/kathytchen",
     instagram: "https://www.instagram.com/kathychenn/",
     github: "https://github.com/kathyychenn?tab=repositories",
-    bio: "I don't know how to ride a bike or a spin scooter!"
+    bio: "I don't know how to ride a bike or a spin scooter!",
   },
   {
     picture: require("../static/board-members/arushi.jpg"),
@@ -201,12 +206,13 @@ export const all_members = [
     year: "ERC, Class of 2026",
     language: "Python",
     spot: "6th terrace",
-    wiclove: "I love how kind and welcoming the atmosphere is in WIC. Everyone wants to see each other grow!",
+    wiclove:
+      "I love how kind and welcoming the atmosphere is in WIC. Everyone wants to see each other grow!",
     email: "mailto:amunjal@ucsd.edu",
     linkedin: "https://www.linkedin.com/in/arushi-munjal-9242621b8/",
     instagram: "",
     github: "",
-    bio: "I love yoga/pilates and photography!"
+    bio: "I love yoga/pilates and photography!",
   },
   {
     picture: require("../static/board-members/pallavi.jpg"),
@@ -215,12 +221,13 @@ export const all_members = [
     year: "Marshall College, Class of 2025",
     language: "Python (pandas)",
     spot: "Dirty Birds",
-    wiclove: "The community and support everyone gives each other as they strive for success and launch their careers. ",
+    wiclove:
+      "The community and support everyone gives each other as they strive for success and launch their careers. ",
     email: "mailto:pgaikwad@ucsd.edu",
     linkedin: "https://www.linkedin.com/in/pallavigkwd",
     instagram: "https://www.instagram.com/pallavigkwd/",
     github: "",
-    bio: "I love to play tennis, go skiing, travel, go to concerts, and cook/barbecue. "
+    bio: "I love to play tennis, go skiing, travel, go to concerts, and cook/barbecue. ",
   },
   {
     picture: require("../static/board-members/GingerS.jpg"),
@@ -234,7 +241,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/ginger-smith-gs",
     instagram: "",
     github: "",
-    bio: "I'm currently studying abroad in Nantes, France!"
+    bio: "I'm currently studying abroad in Nantes, France!",
   },
   {
     picture: require("../static/board-members/kalea.jpg"),
@@ -243,12 +250,14 @@ export const all_members = [
     year: "Seventh College, Class of 2026",
     language: "Python (I’m a simple girlie what can I say)",
     spot: "Outdoor seating in Muir outside of Moms and Roots (it’s so cute there)",
-    wiclove: "I love all the great events and programs we have! There are so many good resources and connections to make in WIC. :)",
+    wiclove:
+      "I love all the great events and programs we have! There are so many good resources and connections to make in WIC. :)",
     email: "mailto:klporter@ucsd.edu",
-    linkedin: "https://www.linkedin.com/in/kalea-porter-b0990928a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+    linkedin:
+      "https://www.linkedin.com/in/kalea-porter-b0990928a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
     instagram: "",
     github: "",
-    bio: "I was a Sun God model LOLL. I also did the Jazz in Paris Global Seminar and it was amazing! If you ever want to talk about traveling or study abroad let me know."
+    bio: "I was a Sun God model LOLL. I also did the Jazz in Paris Global Seminar and it was amazing! If you ever want to talk about traveling or study abroad let me know.",
   },
   {
     picture: require("../static/board-members/shravi.jpg"),
@@ -262,7 +271,7 @@ export const all_members = [
     linkedin: "https://www.linkedin.com/in/shravi-jain-aa9395238",
     instagram: "",
     github: "",
-    bio: "I love to read mystery-thrillers! I love rewatching my comfort shows like Friends, Gilmore girls, Modern Family and B99."
+    bio: "I love to read mystery-thrillers! I love rewatching my comfort shows like Friends, Gilmore girls, Modern Family and B99.",
   },
   {
     picture: require("../static/board-members/trinity.jpg"),
@@ -271,12 +280,13 @@ export const all_members = [
     year: "Warren College, Class of 2025",
     language: "Java just because I have coded with it so much.",
     spot: "Rady because the classrooms are so spacious.",
-    wiclove: "I love the welcoming community and getting to learn about people’s stories. ",
+    wiclove:
+      "I love the welcoming community and getting to learn about people’s stories. ",
     email: "mailto:t3oritz@ucsd.edu",
     linkedin: "https://www.linkedin.com/in/trinity-ortiz",
     instagram: "",
     github: "",
-    bio: "I’m a 2nd degree black belt in taekwondo."
+    bio: "I’m a 2nd degree black belt in taekwondo.",
   },
   {
     picture: require("../static/board-members/aavani.jpg"),
@@ -285,11 +295,70 @@ export const all_members = [
     year: "Seventh College, Class of 2025",
     language: "Python",
     spot: "Mom’s",
-    wiclove: "I love the community and how willing everyone is to help each other out!",
+    wiclove:
+      "I love the community and how willing everyone is to help each other out!",
     email: "mailto:asraj@ucsd.edu",
     linkedin: "www.linkedin.com/in/aavani-raj-25913b19a",
     instagram: "",
     github: "https://github.com/aavanir",
-    bio: "I have been a foster parent for dogs for the past eight years, I am a thrifting enthusiast, always on the lookout for hidden gems, and I have a deep love for boba!"
-  }
+    bio: "I have been a foster parent for dogs for the past eight years, I am a thrifting enthusiast, always on the lookout for hidden gems, and I have a deep love for boba!",
+  },
+  {
+    picture: require("../static/board-members/sierra.png"),
+    name: "Sierra Lira",
+    position: "DEI Intern",
+    year: "Muir College, Class of 2026",
+    language: "Java",
+    spot: "CSE Building ",
+    wiclove:
+      "The thing I love most about WIC is the diversity and amount of events. ",
+    email: "mailto:srlira@ucsd.edu",
+    linkedin: "",
+    instagram: "",
+    github: "",
+    bio: "An extra fun fact about me is that I am a Computer Engineering(CSE) major.",
+  },
+  {
+    picture: require("../static/board-members/anshi.png"),
+    name: "Anshi Singh",
+    position: "Tech Dev Intern",
+    year: "Seventh College, Class of 2025",
+    language: "Python",
+    spot: "Geisel",
+    wiclove: "I love how welcoming, helpful, and supportive everyone is!",
+    email: "mailto:ans071@ucsd.edu",
+    linkedin: "https://www.linkedin.com/in/anshisingh/",
+    instagram: "",
+    github: "https://github.com/anshisinghh",
+    bio: "I have a twin!",
+  },
+  {
+    picture: require("../static/board-members/zhamilya.png"),
+    name: "Zhamilya Shakirova",
+    position: "Tech Dev Intern",
+    year: "Warren College, Class of 2026",
+    language: "Python",
+    spot: "OVT (Ocean View Terrace)",
+    wiclove: "Events and all the people I meet!",
+    email: "mailto:zshakirova@ucsd.edu",
+    linkedin: "https://www.linkedin.com/in/zhamilyashakirova/",
+    instagram: "",
+    github: "",
+    bio: "i'm international student from Kazakhstan, love dancing, skiing, swimming",
+  },
+  {
+    picture: require("../static/board-members/arpita.png"),
+    name: "Arpita Pandey",
+    position: "First Year Chair Intern",
+    year: "Sixth College, Class of 2027",
+    language: "Java",
+    spot: "Oceanview",
+    wiclove:
+      "Loving and supportive community determined to excel in the world of computing :)",
+    email: "mailto:a4pandey@ucsd.edu",
+    linkedin: "www.linkedin.com/in/arpitapandey13",
+    instagram: "",
+    github: "https://github.com/arpita-pandey",
+    bio: "i play volleyball ",
+  },
 ];

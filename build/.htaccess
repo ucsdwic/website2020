@@ -11,7 +11,7 @@ RedirectMatch 301 ^/fall-project-team https://docs.google.com/forms/d/e/1FAIpQLS
 RedirectMatch 301 ^/edge-mentor-app https://docs.google.com/forms/d/e/1FAIpQLSdK24qhi48lK_WvIjFHObwYUwRPqecxYFS3cqQouTMzvFTjlQ/viewform
 RedirectMatch 301 ^/edge-committee-app https://docs.google.com/forms/d/1KkXsRgLVgph8byChh3oPCpUgJsTKI3RfPI3atKO2Hew/viewform 
 RedirectMatch 301 ^/intern https://forms.gle/febicxHaAaanqweG7
-RedirectMatch 301 ^/sign-in https://forms.gle/m9PpwjhZjtM2h2Hg8   
+RedirectMatch 301 ^/sign-in https://docs.google.com/forms/d/e/1FAIpQLSdVQ76DHtRtSmifCZQCSu_4SfTFGqK5wbjZdWS-O7HdgC54kQ/viewform
 RedirectMatch 301 ^/resume-database https://airtable.com/shrfVnXweer0HRowp 
 RedirectMatch 301 ^/resume-drop https://airtable.com/shrWaHEgJZ4KQ8kJn 
 RedirectMatch 301 ^/mentor-mentee https://forms.gle/f21t8dJV3cGdwQ8x5
