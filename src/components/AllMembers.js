@@ -275,7 +275,7 @@ export const all_members = [
   },
   {
     picture: require("../static/board-members/trinity.jpg"),
-    name: "Trinity Oritz",
+    name: "Trinity Ortiz",
     position: "DEI Chair",
     year: "Warren College, Class of 2025",
     language: "Java just because I have coded with it so much.",
