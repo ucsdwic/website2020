@@ -41,6 +41,7 @@ RedirectMatch 301 ^/public-slides https://drive.google.com/drive/u/2/folders/1I7
 RedirectMatch 301 ^/calendar https://calendar.google.com/calendar/u/6?cid=Y18wNmhkZDN1dXJqbjJ2cmRscW52a3RrbzA3Z0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t 
 RedirectMatch 301 ^/senior-spotlight https://forms.gle/CiGXj1qsB477buAK6 
 RedirectMatch 301 ^/banquet-rsvp https://forms.gle/pXkZLGTB25UvZp288 
-RedirectMatch 301 ^/deic-apply https://forms.gle/ttRZYKgrQyYTzfjp7
 RedirectMatch 301 ^/wic-election-apply https://forms.gle/YyVG1HdD9kx7QaDH9
 RedirectMatch 301 ^/wic-election-faqs https://docs.google.com/document/d/1mi1lwmJk2rB7veQ9MloiNnMbz4JZBhQHNMV5A7rl53I/edit?usp=sharing
+RedirectMatch 301 ^/braindate-interest https://docs.google.com/forms/d/e/1FAIpQLSegLojfs92If6eKVGE2n2e5fV5vJ_BTcFARE0X-TKDBtZOkDw/viewform
+RedirectMatch 301 ^/deic-apply https://forms.gle/XkQmmGv23YdAxgaz8
